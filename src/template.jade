@@ -1,0 +1,96 @@
+doctype html
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		title Всероссийский театральный фестиваль имени Александра Володина
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lora:400,700")
+		link(rel="stylesheet", href="css/normalize.css")
+		link(rel="stylesheet", href="style.css")
+		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+		script(src="//vk.com/js/api/openapi.js?144")
+		script(src="js/rus-och.js")
+	body
+		.main-content
+			header
+				.header-info
+					.header-info-social
+						a(href="").header-social-item.header-social-item--fb
+						a(href="").header-social-item.header-social-item--tw
+						a(href="").header-social-item.header-social-item--vk
+						a(href="").header-social-item.header-social-item--tg
+						a(href="").header-social-item.header-social-item--yt
+					.header-lang-search
+						.header-lang
+							a(href="").header-lang-item.active Ру
+							a(href="").header-lang-item Fr
+						.header-search
+							form(action="")
+								// input(type="text", name="")
+								input(type="submit", value="")
+					// .header-lang-search
+					h1 Русский очевидец
+						span.fr L’Observateur russe
+						span.ru Французская газета на русском языке
+				// .header-info
+				.menu
+					ul
+						li.active
+							a(href="index.html") Главная
+						li
+							a(href="news.html") Новости
+						li
+							a(href="") Наши встречи
+						li
+							a(href="") Зарубежная Россия
+						li
+							a(href="") Мнения
+						li
+							a(href="") Жизнь
+						li
+							a(href="") Мультимедиа
+						li
+							a(href="") Спецпроекты
+				// .menu
+			// header
+			main
+				block content
+			// main
+		// /.main-content
+		footer
+			.wrapper
+				h3 Мы в соцсетях
+				.footer-social
+					a(href="").footer-social-item.footer-social-item--fb Facebook
+					a(href="").footer-social-item.footer-social-item--tw Twitter
+					a(href="").footer-social-item.footer-social-item--vk Вконтакте
+					a(href="").footer-social-item.footer-social-item--tg Telegram
+					a(href="").footer-social-item.footer-social-item--yt Youtube
+			//.wrapper
+			.footer-menu
+				.wrapper
+					ul
+						li
+							a(href="") Архив
+						li
+							a(href="") Plan du site
+						li
+							a(href="") Mention légal
+						li
+							a(href="") О нас
+						li
+							a(href="") RSS
+						li
+							a(href="") Контакты
+						li
+							a(href="") Партнеры
+				// .wrapper
+			// .footer-menu
+			.copyright
+				.wrapper
+					.copyright-info
+						p &copy; 2009-2017 L’Observateur Russe  ISSN 2110-5707
+						p Создание сайта и поддержка 
+							a(href="http://shweb.pro/" target="_blank") Studio Shweb
+				// .wrapper
+			// .copyright
+		// footer
