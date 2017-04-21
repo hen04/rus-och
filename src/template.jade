@@ -33,7 +33,7 @@ html(lang="ru")
 						span.ru Французская газета на русском языке
 				// .header-info
 				.menu
-					ul
+					ul.menu-1level
 						li.active
 							a(href="index.html") Главная
 						li
@@ -44,8 +44,20 @@ html(lang="ru")
 							a(href="") Зарубежная Россия
 						li
 							a(href="") Мнения
-						li
-							a(href="") Жизнь
+						li.sub-menu
+							a(href="").active Жизнь
+							ul.menu-2level
+								li
+									a(href="") Литература
+								li.sub-menu
+									a(href="") Живопись
+									ul.menu-3level
+										li
+											a(href="") Маньеризм
+										li
+											a(href="") Ренессанс
+								li
+									a(href="") Социальная напряженность
 						li
 							a(href="") Мультимедиа
 						li
