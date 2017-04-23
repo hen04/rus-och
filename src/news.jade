@@ -2,13 +2,267 @@ extends template.jade
 
 block content
 	.wrapper
+		.breadcrumbs 
+			a(href="index.html") Главная
+			span Новости
 		.ro-content
-			.breadcrumbs Главная  »  Новости
-			.ro-content-left
-				h1 Как профессия французского полицейского перестала быть «благородной»
-			// .ro-content-left
-			.ro-content-right
-				include incl-sidebar.jade
-			// .ro-content-right
+			.ro-content-mobile
+				.ro-content-right
+					include incl-news-sidebar.jade
+				// .ro-content-right
+				.ro-content-inner-left
+					h1 Как профессия французского полицейского перестала быть «благородной»
+					.news-dop-info
+						a(href="").author Надежда Дрямина
+						a(href="").date 22:18, 12 февраля 2017
+						span.rubrika Общество
+						a(href="javascript:window.print()").print Распечатать
+					.news-short
+						p
+							strong Четверо французских полицейских обвиняются в избиении и изнасиловании молодого человека при его задержании. Действовали ли они умышленно, случайно или в целях самозащиты — установит следствие.
+						p 
+							strong Ясно одно: стражи порядка переступили грань и, увы, не впервые. <br>
+								| Что стало с образом добропорядочной французской полиции?
+					.news-slider
+						.news-slider-big
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-6.jpg", alt="")
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-1.jpg", alt="")
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-8.jpg", alt="")
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-9.jpg", alt="")
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-7.jpg", alt="")
+							.news-slider-big-item
+								.descr
+									p Photo: wikipedia
+								img(src="img/news-sm-1.jpg", alt="")
+						.news-slider-small
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+							.news-slider-small-item
+								img(src="img/slider-sm-1.jpg", alt="")
+					.news-descr
+						p Франция насчитывает 100 тыс. жандармов и более 160 тыс. полицейских. Их служба, как в песне поется, «и опасна, и трудна». Их миссия — защищать мир и покой граждан. Оттого драма в Ольне-су-Буа вызвала у французов бурное негодование, которое не утихает вот уже несколько дней. Похоже, на репутации стражей порядка появилось жирное пятно.
+						.news-quote
+							p «Их было пятеро. Жандармы из Тулузы. А я один. С микрофоном. И собака дала понять, что от меня пахнет взрывчаткой. Они очень боялись подходить ко мне. Хорошо, хоть на месте не взорвали», — сообщил журналист.
+						h3 Полиция патрулирует кварталы в рамках операции по борьбе с наркотрафиком
+						p Вечер 2 февраля. Северный пригород 
+							a(href="") Парижа Ольне-су-Буа. 
+							| Обычная проверка документов перерастает в схватку с 22-летним местным жителем по имени Тео. Согласно следствию, при задержании он получает множественные удары, в основном по голове и ногам со стороны трех полицейских. Четвертый вонзает телескопическую дубинку в анальное отверстие юноши. И это — на глазах десятков свидетелей и под камерами наблюдения.
+						p Позже истекающий кровью Тео будет доставлен в больницу в тяжелом состоянии, врачи констатируют “10-ти сантиметровую ректальную рану “, ему проведут операцию. Трем полицейским предъявят обвинение в применении насилия в сговоре, четвертому — в изнасиловании. Никто из них вину не признает, уверяя что действовали из соображений самозащиты и называя тяжелейшую травму Тео «случайной». Ольне-су-Буа взорвется протестами с поджогами машин и столкновениями с представителями правопорядка.
+						h3 Общественность на стороне Тео
+						p История повергла в шок не только жителей маленького городка. В соцсетях посыпались тысячи гневных сообщений, сопровожденных хэштегом   («правосудие для Тео»). То, что система дала серьезный сбой, признали и политики  — от депутатов, до самого президента страны. Последний лично навестил Тео в местной больнице.
+						p В своем заявлении министр внутренних дел 
+							a(href="") Бруно Ле Ру 
+							| пожелал, чтобы «был пролит свет на дело с крайне тяжкими обвинениями в адрес представителей правопорядка» и пообещал, что виновные будут наказаны, если «окажется, что этические нормы не были ими соблюдены».
+							blockquote(class="twitter-tweet" data-lang="ru")
+								p(lang="ru" dir="ltr")
+									| На свадьбу друзья решили поздравить креативно. 
+									a(href="https://t.co/ILBWJxS3Vm") 
+										| pic.twitter.com/ILBWJxS3Vm &mdash; Dmitry Monakhov (@dmtrmon) 
+										a(href="https://twitter.com/dmtrmon/status/855774336757661696") 22 апреля 2017 г.
+							script(async src="//platform.twitter.com/widgets.js" charset="utf-8")
+						p Мэр города Ольне-су-Буа Бруно Бесшиза (кстати, бывший полицейский) выразил поддержку пострадавшему и его семье, назвав случившееся «страшным и нестерпимым». Он призвал «провести расследование как можно быстрее и в условиях полной прозрачности».
+						p Глава департамента Сен-Сен-Дэни Стефан Труссель дал следующий комментарий: «Есть тысячи полицейских, которые добросовестно выполняют свою работу. Однако слишком много задержаний оборачивается кошмаром для молодежи», и добавил, — «Образу Республики был нанесен вред. Нужно срочно возвращать подорванное доверие».
+						h3 За семью замками
+						p История с Тео уникальна тем, что она оказалась в выпусках новостей, на первых полосах газет. Стала бы она достоянием общественности, если бы не многочисленные свидетели и не видео-доказательства? Маловероятно. Подобные случаи стараются умалчивать.
+						p К примеру, данные о пострадавших или погибших при исполнении полицейских публикуются регулярно, а где найти статистику неправомерных действий по отношению к гражданам?
+						p По мнению экспертов, эти данные существуют, их сбор инициирует само правительство, но МВД их тщательно скрывает. Так берегут имидж блюстителей порядка, — считают правозащитники. Эта стратегия и правда неплохо работала. Согласно опросу института Ifop, проведенному год назад, 8 из 10 французов были хорошего мнения о полицейских.
+						h3 Правозащитники бьют тревогу
+						p За неимением официальных данных, французские НКО вынуждены вести свой учет. Как, например, ассоциация «Действия христиан за отмену пыток» (l’Action des chrétiens pour l’abolition de la torture, Acat).
+						p Ею были изучены 89 случаев применения насилия полицейскими с 2010 по 2015 гг. Из них 26 случаев — со смертельным исходом, 29 — с полной потерей дееспособности и 22 — с причинением менее тяжких увечий. Все они имели место при задержании, транспортировке, нахождении под стражей или во время манифестаций. По мнению ассоциации, это лишь вершина айсберга.
+						p Еще один вывод исследования: работники полиции зачастую наносят удары задержанным уже после фиксирования наручников. Последние, кстати, используются «намного чаще, чем позволяет закон»: наручники надеваются «без малейшей угрозы со стороны задержанного и без риска его побега».
+						p Опрошенные жалуются на невежливое обращение полицейских «на ты», «унижения», а также «гомофобные, сексистские высказывания, оскорбления относительно их религиозной или расовой принадлежности», — говорится в отчете.
+						p Лишь в 7 случаях (из 89) дело дошло до обвинительного приговора, и только в 1 — до реального тюремного срока для виновного полицейского.
+						p К этим печальным цифрам наверняка прибавится и вердикт по делу о юноше из Ольне-су-Буа. Правозащитники и французская общественность надеются, что решение судей в преддверии Международного дня борьбы с жестоким обращением полицейских (15 марта) будет справедливым.
+					.tags
+						strong Теги: 
+						a(href="") Париж
+						| , 
+						a(href="") французские НКО
+					.share
+						script(src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js")
+						script(src="//yastatic.net/share2/share.js")
+						.ya-share2(data-services="facebook,vkontakte,twitter,telegram" data-counter="")
+					.comments
+						h2 Комментарии
+						ol.commentlist
+							li.comment.even.thread-even.depth-1#comment-8194
+								cite
+									span.author 
+										strong КС
+										| , 
+										span.date 26 сентября 2015 в 6:35
+								.respond
+									p Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? 
+									.flag-comment 
+									a(href="http://rusoch.fr/lang/ru/rus/russkij-arxiv-v-sent-zhenevev-de-bua.html?_wpnonce=d1c929a7bf&amp;flagged-comment=1&amp;flagged-comment-id=8194#comment-8194" title="Сообщить редации о незаконном содержании отзыва / Signaler un abus") Пожаловаться<br>Signaler un abus
+							li.comment.even.thread-even.depth-1#comment-8195
+								cite
+									span.author 
+										strong КС
+										| , 
+										span.date 26 сентября 2015 в 6:35
+								.respond
+									p Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? Поздравляю! А что с архивами Земгора? 
+									.flag-comment 
+									a(href="http://rusoch.fr/lang/ru/rus/russkij-arxiv-v-sent-zhenevev-de-bua.html?_wpnonce=d1c929a7bf&amp;flagged-comment=1&amp;flagged-comment-id=8194#comment-8194" title="Сообщить редации о незаконном содержании отзыва / Signaler un abus") Пожаловаться<br>Signaler un abus
+						.comments-btn 
+							span.js-comments-btn Комментировать
+						.form-block.form-block--send-message.js-comments
+							form(enctype="multipart/form-data" action="http://rusoch.fr/wp-admin/admin-ajax.php" method="post" class="cform contact-ru" id="cformsform")
+								fieldset.cf-fs1
+								legend
+								ol.cf-ol
+									li#li--2
+										label(for="cauthor")
+											span Ваше имя
+										input(type="text" name="cauthor" id="cauthor" class="single fldrequired" value="" title="" placeholder="Введите имя")
+										span.reqtxt (required)
+									li#li--3
+										label(for="email")
+											span Ваша электронная почта (не публикуется, указывать не обязательно)
+										input(type="text" name="email" id="email" class="single" value="" title="" placeholder="username@example.com")
+									li#li--4
+										label(for="comment")
+											span Ваш отзыв
+										textarea(cols="30" rows="8" name="comment" id="comment" class="area fldrequired" title="" placeholder="Введите ваше сообщение")
+									span.reqtxt (required)
+									li#li--5.textonly 
+										strong Введите цифры 
+										| (защита от спама)
+									li#li--6
+										label(for="cf_field_6" class="secq")
+										span Dix moins cinq vaut / Десять минус пять равно
+										input(type="text" name="cforms2_question_and_answer" id="cf_field_6" class="secinput fldrequired " title="")
+										input(type="hidden" name="cforms2_question_and_answer/hint" value="2")
+								fieldset.cf_hidden
+									input(type="hidden" name="comment_parent" id="comment_parent" value="0")
+									input(type="hidden" name="comment_post_ID" id="comment_post_ID" value="209697")
+									input(type="hidden" name="cforms_pl" id="cforms_pl" value="http://rusoch.fr/lang/ru/mond/utro-posle-terakta-na-elisejskix-polyaxattaque-sur-les-champs-elysees-le-matin-21-avril-2017.html")
+									input(type="hidden" name="cf_working" id="cf_working" value="<span>One%20moment%20please...</span>")
+									input(type="hidden" name="cf_failure" id="cf_failure" value="<span>Please%20fill%20in%20all%20the%20required%20fields.</span>")
+									input(type="hidden" name="cf_customerr" id="cf_customerr" value="yyycomment%24%23%24%D0%92%D1%8B%20%D0%BD%D0%B8%D1%87%D0%B5%D0%B3%D0%BE%20%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%7Ccf_field_5%24%23%24%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D1%8C%D1%82%D0%B5%2C%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%20%D0%BB%D0%B8%20%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%8B%20%D1%86%D0%B8%D1%84%D1%80%D1%8B%7C")
+								p(style="clear: both;" class="subscribe-to-comments")
+									input(type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;")
+									label(for="subscribe") Оповещать о новых комментариях по почте|Suivre les commentaires de cet article par Email
+								p.cf-sb
+									input(type="submit" name="sendbutton" id="sendbutton" class="sendbutton" value="Отправить сообщение")
+									input(type="hidden" name="cforms_id" value="")
+									input(type="hidden" name="action" value="submitcomment_direct")
+									input(type="hidden" name="_wpnonce" value="c407d6b9fd")
+								input(type="hidden" name="refJS" value="http%3A//rusoch.fr/")
+								p(style="display: none;")
+									input(type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="14aa5736e7")
+						.fix-mistake.js-mistake-btn
+							span Исправьте ошибку
+						.form-block.form-block--fix-mistake.js-mistake
+							form(enctype="multipart/form-data" action="http://rusoch.fr/wp-admin/admin-ajax.php" method="post" class="cform contact-ru" id="cformsform")
+								fieldset.cf-fs1
+								legend
+								ol.cf-ol
+									li#li--2
+										label(for="cauthor")
+											span Ваше имя
+										input(type="text" name="cauthor" id="cauthor" class="single fldrequired" value="" title="" placeholder="Введите имя")
+										span.reqtxt(required)
+									li#li--3
+										label(for="email")
+											span Ваша электронная почта (не публикуется, указывать не обязательно)
+										input(type="text" name="email" id="email" class="single" value="" title="" placeholder="username@example.com")
+									li#li--4
+										label(for="comment")
+											span Ваш отзыв
+										textarea(cols="30" rows="8" name="comment" id="comment" class="area fldrequired" title="" placeholder="Введите ваше сообщение")
+									span.reqtxt (required)
+									li#li--5.textonly 
+										| Введите <b>цифры</b> (защита от спама)
+									li#li--6
+										label(for="cf_field_6" class="secq")
+										span Dix moins cinq vaut / Десять минус пять равно
+										input(type="text" name="cforms2_question_and_answer" id="cf_field_6" class="secinput fldrequired " title="")
+										input(type="hidden" name="cforms2_question_and_answer/hint" value="2")
+								fieldset.cf_hidden
+								input(type="hidden" name="comment_parent" id="comment_parent" value="0")
+								input(type="hidden" name="comment_post_ID" id="comment_post_ID" value="209697")
+								input(type="hidden" name="cforms_pl" id="cforms_pl" value="http://rusoch.fr/lang/ru/mond/utro-posle-terakta-na-elisejskix-polyaxattaque-sur-les-champs-elysees-le-matin-21-avril-2017.html")
+								input(type="hidden" name="cf_working" id="cf_working" value="<span>One%20moment%20please...</span>")
+								input(type="hidden" name="cf_failure" id="cf_failure" value="<span>Please%20fill%20in%20all%20the%20required%20fields.</span>")
+								input(type="hidden" name="cf_customerr" id="cf_customerr" value="yyycomment%24%23%24%D0%92%D1%8B%20%D0%BD%D0%B8%D1%87%D0%B5%D0%B3%D0%BE%20%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%7Ccf_field_5%24%23%24%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D1%8C%D1%82%D0%B5%2C%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%20%D0%BB%D0%B8%20%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%8B%20%D1%86%D0%B8%D1%84%D1%80%D1%8B%7C")
+								p(style="clear: both;" class="subscribe-to-comments")
+									input(type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;")
+									label(for="subscribe") Оповещать о новых комментариях по почте|Suivre les commentaires de cet article par Email
+								p.cf-sb
+									input(type="submit" name="sendbutton" id="sendbutton" class="sendbutton" value="Исправить ошибку")
+									input(type="hidden" name="cforms_id" value="")
+									input(type="hidden" name="action" value="submitcomment_direct")
+									input(type="hidden" name="_wpnonce" value="c407d6b9fd")
+								input(type="hidden" name="refJS" value="http%3A//rusoch.fr/")
+								p(style="display: none;")
+									input(type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="14aa5736e7")
+					.thema
+						h2 По теме
+						.thema__list
+							a(href="").thema__item
+								img(src="img/photo-1.jpg", alt="")
+								.thema__info
+									h5 Общество
+									p Как профессия французского полицейского перестала быть «благородной»
+									span.date 15 февраля 2017
+							a(href="").thema__item
+								img(src="img/photo-2.jpg", alt="")
+								.thema__info
+									h5 По Франции
+									p Эйфелеву башню посадят в бункер
+									span.date 15 февраля 2017
+							a(href="").thema__item
+								img(src="img/photo-3.jpg", alt="")
+								.thema__info
+									h5 Общество
+									p Долой зависимость от телефона
+									span.date 15 февраля 2017
+							a(href="").thema__item
+								img(src="img/photo-2.jpg", alt="")
+								.thema__info
+									h5 По Франции
+									p Эйфелеву башню посадят в бункер
+									span.date 15 февраля 2017
+							a(href="").thema__item
+								img(src="img/photo-3.jpg", alt="")
+								.thema__info
+									h5 Общество
+									p Долой зависимость от телефона
+									span.date 15 февраля 2017
+				// .ro-content-inner-left
+			// .ro-content-mobile
 		// .ro-content
 	// .wrapper

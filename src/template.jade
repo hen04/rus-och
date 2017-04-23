@@ -2,12 +2,17 @@ doctype html
 html(lang="ru")
 	head
 		meta(charset="UTF-8")
-		title Всероссийский театральный фестиваль имени Александра Володина
-		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lora:400,700")
-		link(rel="stylesheet", href="css/normalize.css")
-		link(rel="stylesheet", href="style.css")
+		title Русский очевидец - L’Observateur russe - Французская газета на русском языке
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700")
+		link(rel="stylesheet" href="css/normalize.css")
+		link(rel="stylesheet" href="css/slick.css")
+		link(rel="stylesheet" href="css/slick-theme.css")
+		link(rel="stylesheet" href="print.css" media="print")
+		link(rel="stylesheet" href="style.css")
 		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
 		script(src="//vk.com/js/api/openapi.js?144")
+		script(src="js/slick.min.js")
 		script(src="js/rus-och.js")
 	body
 		.main-content
@@ -23,11 +28,13 @@ html(lang="ru")
 						.header-lang
 							a(href="").header-lang-item.active Ру
 							a(href="").header-lang-item Fr
-						.header-search
-							form(action="")
-								// input(type="text", name="")
-								input(type="submit", value="")
+						span.js-search-btn
 					// .header-lang-search
+					.header-search.js-search
+						form(action="#")
+							input(type="search" name="" placeholder="Search")
+							input(type="submit" value="")
+					// .header-search
 					h1 Русский очевидец
 						span.fr L’Observateur russe
 						span.ru Французская газета на русском языке
@@ -72,11 +79,16 @@ html(lang="ru")
 			.wrapper
 				h3 Мы в соцсетях
 				.footer-social
-					a(href="").footer-social-item.footer-social-item--fb Facebook
-					a(href="").footer-social-item.footer-social-item--tw Twitter
-					a(href="").footer-social-item.footer-social-item--vk Вконтакте
-					a(href="").footer-social-item.footer-social-item--tg Telegram
-					a(href="").footer-social-item.footer-social-item--yt Youtube
+					a(href="").footer-social-item.footer-social-item--fb 
+						span Facebook
+					a(href="").footer-social-item.footer-social-item--tw 
+						span Twitter
+					a(href="").footer-social-item.footer-social-item--vk 
+						span Вконтакте
+					a(href="").footer-social-item.footer-social-item--tg 
+						span Telegram
+					a(href="").footer-social-item.footer-social-item--yt 
+						span Youtube
 			//.wrapper
 			.footer-menu
 				.wrapper

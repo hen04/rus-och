@@ -2,12 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Всероссийский театральный фестиваль имени Александра Володина</title>
+    <title>Русский очевидец - L’Observateur russe - Французская газета на русском языке</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="print.css" media="print">
     <link rel="stylesheet" href="style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="//vk.com/js/api/openapi.js?144"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/rus-och.js"></script>
   </head>
   <body>
@@ -16,15 +21,16 @@
         <div class="header-info">
           <div class="header-info-social"><a href="" class="header-social-item header-social-item--fb"></a><a href="" class="header-social-item header-social-item--tw"></a><a href="" class="header-social-item header-social-item--vk"></a><a href="" class="header-social-item header-social-item--tg"></a><a href="" class="header-social-item header-social-item--yt"></a></div>
           <div class="header-lang-search">
-            <div class="header-lang"><a href="" class="header-lang-item active">Ру</a><a href="" class="header-lang-item">Fr</a></div>
-            <div class="header-search">
-              <form action="">
-                <!-- input(type="text", name="")-->
-                <input type="submit" value="">
-              </form>
-            </div>
+            <div class="header-lang"><a href="" class="header-lang-item active">Ру</a><a href="" class="header-lang-item">Fr</a></div><span class="js-search-btn"></span>
           </div>
           <!-- .header-lang-search-->
+          <div class="header-search js-search">
+            <form action="#">
+              <input type="search" name="" placeholder="Search">
+              <input type="submit" value="">
+            </form>
+          </div>
+          <!-- .header-search-->
           <h1>Русский очевидец<span class="fr">L’Observateur russe</span><span class="ru">Французская газета на русском языке</span></h1>
         </div>
         <!-- .header-info-->
@@ -62,7 +68,7 @@
     <footer>
       <div class="wrapper">
         <h3>Мы в соцсетях</h3>
-        <div class="footer-social"><a href="" class="footer-social-item footer-social-item--fb">Facebook</a><a href="" class="footer-social-item footer-social-item--tw">Twitter</a><a href="" class="footer-social-item footer-social-item--vk">Вконтакте</a><a href="" class="footer-social-item footer-social-item--tg">Telegram</a><a href="" class="footer-social-item footer-social-item--yt">Youtube</a></div>
+        <div class="footer-social"><a href="" class="footer-social-item footer-social-item--fb"> <span>Facebook</span></a><a href="" class="footer-social-item footer-social-item--tw"> <span>Twitter</span></a><a href="" class="footer-social-item footer-social-item--vk"> <span>Вконтакте</span></a><a href="" class="footer-social-item footer-social-item--tg"> <span>Telegram</span></a><a href="" class="footer-social-item footer-social-item--yt"> <span>Youtube</span></a></div>
       </div>
       <!--.wrapper-->
       <div class="footer-menu">
