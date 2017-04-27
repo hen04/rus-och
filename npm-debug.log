@@ -1,0 +1,3081 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json ateatr@1.0.0 No description
+6 warn package.json ateatr@1.0.0 No repository field.
+7 warn package.json ateatr@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'd:\\rab-stol\\info\\rus-och',
+9 verbose install   [ 'browser-sync',
+9 verbose install     'gulp',
+9 verbose install     'gulp-autoprefixer',
+9 verbose install     'gulp-jade',
+9 verbose install     'gulp-sass',
+9 verbose install     'gulp-sourcemaps' ] ]
+10 info preinstall ateatr@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'browser-sync@^2.17.6', null ]
+13 verbose cache add name=undefined spec="browser-sync@^2.17.6" args=["browser-sync@^2.17.6",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'browser-sync@^2.17.6',
+14 verbose parsed url   path: 'browser-sync@^2.17.6',
+14 verbose parsed url   href: 'browser-sync@^2.17.6' }
+15 verbose cache add name="browser-sync" spec="^2.17.6" args=["browser-sync","^2.17.6"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '^2.17.6',
+16 verbose parsed url   path: '^2.17.6',
+16 verbose parsed url   href: '^2.17.6' }
+17 verbose addNamed [ 'browser-sync', '^2.17.6' ]
+18 verbose addNamed [ null, '>=2.17.6-0 <3.0.0-0' ]
+19 verbose cache add [ 'gulp@^3.9.1', null ]
+20 verbose cache add name=undefined spec="gulp@^3.9.1" args=["gulp@^3.9.1",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'gulp@^3.9.1',
+21 verbose parsed url   path: 'gulp@^3.9.1',
+21 verbose parsed url   href: 'gulp@^3.9.1' }
+22 verbose cache add name="gulp" spec="^3.9.1" args=["gulp","^3.9.1"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '^3.9.1',
+23 verbose parsed url   path: '^3.9.1',
+23 verbose parsed url   href: '^3.9.1' }
+24 verbose addNamed [ 'gulp', '^3.9.1' ]
+25 verbose addNamed [ null, '>=3.9.1-0 <4.0.0-0' ]
+26 verbose cache add [ 'gulp-autoprefixer@^3.1.1', null ]
+27 verbose cache add name=undefined spec="gulp-autoprefixer@^3.1.1" args=["gulp-autoprefixer@^3.1.1",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'gulp-autoprefixer@^3.1.1',
+28 verbose parsed url   path: 'gulp-autoprefixer@^3.1.1',
+28 verbose parsed url   href: 'gulp-autoprefixer@^3.1.1' }
+29 verbose cache add name="gulp-autoprefixer" spec="^3.1.1" args=["gulp-autoprefixer","^3.1.1"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^3.1.1',
+30 verbose parsed url   path: '^3.1.1',
+30 verbose parsed url   href: '^3.1.1' }
+31 verbose addNamed [ 'gulp-autoprefixer', '^3.1.1' ]
+32 verbose addNamed [ null, '>=3.1.1-0 <4.0.0-0' ]
+33 verbose cache add [ 'gulp-jade@^1.1.0', null ]
+34 verbose cache add name=undefined spec="gulp-jade@^1.1.0" args=["gulp-jade@^1.1.0",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'gulp-jade@^1.1.0',
+35 verbose parsed url   path: 'gulp-jade@^1.1.0',
+35 verbose parsed url   href: 'gulp-jade@^1.1.0' }
+36 verbose cache add name="gulp-jade" spec="^1.1.0" args=["gulp-jade","^1.1.0"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '^1.1.0',
+37 verbose parsed url   path: '^1.1.0',
+37 verbose parsed url   href: '^1.1.0' }
+38 verbose addNamed [ 'gulp-jade', '^1.1.0' ]
+39 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+40 verbose cache add [ 'gulp-sass@^2.3.2', null ]
+41 verbose cache add name=undefined spec="gulp-sass@^2.3.2" args=["gulp-sass@^2.3.2",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'gulp-sass@^2.3.2',
+42 verbose parsed url   path: 'gulp-sass@^2.3.2',
+42 verbose parsed url   href: 'gulp-sass@^2.3.2' }
+43 verbose cache add name="gulp-sass" spec="^2.3.2" args=["gulp-sass","^2.3.2"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '^2.3.2',
+44 verbose parsed url   path: '^2.3.2',
+44 verbose parsed url   href: '^2.3.2' }
+45 verbose addNamed [ 'gulp-sass', '^2.3.2' ]
+46 verbose addNamed [ null, '>=2.3.2-0 <3.0.0-0' ]
+47 verbose cache add [ 'gulp-sourcemaps@^2.2.0', null ]
+48 verbose cache add name=undefined spec="gulp-sourcemaps@^2.2.0" args=["gulp-sourcemaps@^2.2.0",null]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: 'gulp-sourcemaps@^2.2.0',
+49 verbose parsed url   path: 'gulp-sourcemaps@^2.2.0',
+49 verbose parsed url   href: 'gulp-sourcemaps@^2.2.0' }
+50 verbose cache add name="gulp-sourcemaps" spec="^2.2.0" args=["gulp-sourcemaps","^2.2.0"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '^2.2.0',
+51 verbose parsed url   path: '^2.2.0',
+51 verbose parsed url   href: '^2.2.0' }
+52 verbose addNamed [ 'gulp-sourcemaps', '^2.2.0' ]
+53 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+54 silly lockFile 73315448-browser-sync-2-17-6 browser-sync@^2.17.6
+55 verbose lock browser-sync@^2.17.6 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\73315448-browser-sync-2-17-6.lock
+56 silly lockFile e5c114fc-gulp-3-9-1 gulp@^3.9.1
+57 verbose lock gulp@^3.9.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\e5c114fc-gulp-3-9-1.lock
+58 silly lockFile 7874e697-gulp-autoprefixer-3-1-1 gulp-autoprefixer@^3.1.1
+59 verbose lock gulp-autoprefixer@^3.1.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\7874e697-gulp-autoprefixer-3-1-1.lock
+60 silly lockFile 8f27dacf-gulp-jade-1-1-0 gulp-jade@^1.1.0
+61 verbose lock gulp-jade@^1.1.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8f27dacf-gulp-jade-1-1-0.lock
+62 silly lockFile cc862138-gulp-sass-2-3-2 gulp-sass@^2.3.2
+63 verbose lock gulp-sass@^2.3.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\cc862138-gulp-sass-2-3-2.lock
+64 silly lockFile e0bbdbf4-gulp-sourcemaps-2-2-0 gulp-sourcemaps@^2.2.0
+65 verbose lock gulp-sourcemaps@^2.2.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\e0bbdbf4-gulp-sourcemaps-2-2-0.lock
+66 silly addNameRange { name: 'browser-sync',
+66 silly addNameRange   range: '>=2.17.6-0 <3.0.0-0',
+66 silly addNameRange   hasData: false }
+67 silly addNameRange { name: 'gulp-jade',
+67 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+67 silly addNameRange   hasData: false }
+68 silly addNameRange { name: 'gulp-sourcemaps',
+68 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+68 silly addNameRange   hasData: false }
+69 silly addNameRange { name: 'gulp', range: '>=3.9.1-0 <4.0.0-0', hasData: false }
+70 silly addNameRange { name: 'gulp-sass',
+70 silly addNameRange   range: '>=2.3.2-0 <3.0.0-0',
+70 silly addNameRange   hasData: false }
+71 silly addNameRange { name: 'gulp-autoprefixer',
+71 silly addNameRange   range: '>=3.1.1-0 <4.0.0-0',
+71 silly addNameRange   hasData: false }
+72 verbose url raw gulp-jade
+73 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jade' ]
+74 verbose url resolved https://registry.npmjs.org/gulp-jade
+75 info trying registry request attempt 1 at 13:59:26
+76 verbose etag "588b52d1-6e06"
+77 http GET https://registry.npmjs.org/gulp-jade
+78 verbose url raw gulp-sourcemaps
+79 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sourcemaps' ]
+80 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps
+81 info trying registry request attempt 1 at 13:59:26
+82 verbose etag "589c82e6-1ae22"
+83 http GET https://registry.npmjs.org/gulp-sourcemaps
+84 verbose url raw browser-sync
+85 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+86 verbose url resolved https://registry.npmjs.org/browser-sync
+87 info trying registry request attempt 1 at 13:59:26
+88 verbose etag "58a21362-82100"
+89 http GET https://registry.npmjs.org/browser-sync
+90 verbose url raw gulp
+91 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+92 verbose url resolved https://registry.npmjs.org/gulp
+93 info trying registry request attempt 1 at 13:59:26
+94 verbose etag "58a1daf6-1cdca"
+95 http GET https://registry.npmjs.org/gulp
+96 verbose url raw gulp-sass
+97 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+98 verbose url resolved https://registry.npmjs.org/gulp-sass
+99 info trying registry request attempt 1 at 13:59:26
+100 verbose etag "58a036f9-e650"
+101 http GET https://registry.npmjs.org/gulp-sass
+102 verbose url raw gulp-autoprefixer
+103 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+104 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+105 info trying registry request attempt 1 at 13:59:26
+106 verbose etag "58997223-8a2b"
+107 http GET https://registry.npmjs.org/gulp-autoprefixer
+108 http 200 https://registry.npmjs.org/gulp-jade
+109 silly registry.get cb [ 200,
+109 silly registry.get   { server: 'nginx/1.10.1',
+109 silly registry.get     'content-type': 'application/json',
+109 silly registry.get     'last-modified': 'Fri, 10 Mar 2017 13:25:44 GMT',
+109 silly registry.get     etag: '"58c2a958-6e14"',
+109 silly registry.get     'cache-control': 'max-age=300',
+109 silly registry.get     'content-length': '28180',
+109 silly registry.get     'accept-ranges': 'bytes',
+109 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:26 GMT',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     age: '0',
+109 silly registry.get     connection: 'keep-alive',
+109 silly registry.get     'x-served-by': 'cache-bos8223-BOS',
+109 silly registry.get     'x-cache': 'MISS',
+109 silly registry.get     'x-cache-hits': '0',
+109 silly registry.get     'x-timer': 'S1493290767.686468,VS0,VE64',
+109 silly registry.get     vary: 'Accept-Encoding' } ]
+110 silly addNameRange number 2 { name: 'gulp-jade', range: '>=1.1.0-0 <2.0.0-0', hasData: true }
+111 silly addNameRange versions [ 'gulp-jade',
+111 silly addNameRange   [ '0.0.1',
+111 silly addNameRange     '0.0.2',
+111 silly addNameRange     '0.0.3',
+111 silly addNameRange     '0.1.0',
+111 silly addNameRange     '0.2.0',
+111 silly addNameRange     '0.3.0',
+111 silly addNameRange     '0.4.0',
+111 silly addNameRange     '0.4.1',
+111 silly addNameRange     '0.4.2',
+111 silly addNameRange     '0.5.0',
+111 silly addNameRange     '0.6.0',
+111 silly addNameRange     '0.6.1',
+111 silly addNameRange     '0.7.0',
+111 silly addNameRange     '0.8.0',
+111 silly addNameRange     '0.9.0',
+111 silly addNameRange     '0.10.0',
+111 silly addNameRange     '0.11.0',
+111 silly addNameRange     '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.1.0' ] ]
+112 verbose addNamed [ 'gulp-jade', '1.1.0' ]
+113 verbose addNamed [ '1.1.0', '1.1.0' ]
+114 silly lockFile 17d19521-gulp-jade-1-1-0 gulp-jade@1.1.0
+115 verbose lock gulp-jade@1.1.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\17d19521-gulp-jade-1-1-0.lock
+116 silly lockFile 17d19521-gulp-jade-1-1-0 gulp-jade@1.1.0
+117 silly lockFile 17d19521-gulp-jade-1-1-0 gulp-jade@1.1.0
+118 silly lockFile 8f27dacf-gulp-jade-1-1-0 gulp-jade@^1.1.0
+119 silly lockFile 8f27dacf-gulp-jade-1-1-0 gulp-jade@^1.1.0
+120 http 200 https://registry.npmjs.org/gulp-sass
+121 silly registry.get cb [ 200,
+121 silly registry.get   { server: 'nginx/1.10.1',
+121 silly registry.get     'content-type': 'application/json',
+121 silly registry.get     'last-modified': 'Wed, 26 Apr 2017 20:02:49 GMT',
+121 silly registry.get     etag: '"5900fce9-e7d4"',
+121 silly registry.get     'cache-control': 'max-age=300',
+121 silly registry.get     'content-length': '59348',
+121 silly registry.get     'accept-ranges': 'bytes',
+121 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:26 GMT',
+121 silly registry.get     via: '1.1 varnish',
+121 silly registry.get     age: '0',
+121 silly registry.get     connection: 'keep-alive',
+121 silly registry.get     'x-served-by': 'cache-bos8226-BOS',
+121 silly registry.get     'x-cache': 'MISS',
+121 silly registry.get     'x-cache-hits': '0',
+121 silly registry.get     'x-timer': 'S1493290767.677960,VS0,VE122',
+121 silly registry.get     vary: 'Accept-Encoding' } ]
+122 silly addNameRange number 2 { name: 'gulp-sass', range: '>=2.3.2-0 <3.0.0-0', hasData: true }
+123 silly addNameRange versions [ 'gulp-sass',
+123 silly addNameRange   [ '0.1.0',
+123 silly addNameRange     '0.2.1',
+123 silly addNameRange     '0.2.2',
+123 silly addNameRange     '0.2.3',
+123 silly addNameRange     '0.3.0',
+123 silly addNameRange     '0.4.0',
+123 silly addNameRange     '0.4.1',
+123 silly addNameRange     '0.5.0',
+123 silly addNameRange     '0.5.1',
+123 silly addNameRange     '0.5.2',
+123 silly addNameRange     '0.6.0',
+123 silly addNameRange     '0.7.0',
+123 silly addNameRange     '0.7.1',
+123 silly addNameRange     '0.7.2',
+123 silly addNameRange     '0.7.3',
+123 silly addNameRange     '1.0.0',
+123 silly addNameRange     '1.1.0',
+123 silly addNameRange     '1.2.0',
+123 silly addNameRange     '1.2.1',
+123 silly addNameRange     '1.2.2',
+123 silly addNameRange     '1.2.3',
+123 silly addNameRange     '1.2.4',
+123 silly addNameRange     '1.3.0',
+123 silly addNameRange     '1.3.1',
+123 silly addNameRange     '1.3.2',
+123 silly addNameRange     '1.3.3',
+123 silly addNameRange     '2.0.0-alpha.1',
+123 silly addNameRange     '2.0.0',
+123 silly addNameRange     '2.0.2',
+123 silly addNameRange     '2.0.3',
+123 silly addNameRange     '2.0.4',
+123 silly addNameRange     '2.1.0-beta',
+123 silly addNameRange     '2.1.0',
+123 silly addNameRange     '2.1.1',
+123 silly addNameRange     '2.2.0',
+123 silly addNameRange     '2.3.0-beta.1',
+123 silly addNameRange     '2.3.0',
+123 silly addNameRange     '2.3.1',
+123 silly addNameRange     '2.3.2',
+123 silly addNameRange     '3.0.0',
+123 silly addNameRange     '3.1.0' ] ]
+124 verbose addNamed [ 'gulp-sass', '2.3.2' ]
+125 verbose addNamed [ '2.3.2', '2.3.2' ]
+126 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+127 verbose lock gulp-sass@2.3.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\0aa5b949-gulp-sass-2-3-2.lock
+128 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+129 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+130 silly lockFile cc862138-gulp-sass-2-3-2 gulp-sass@^2.3.2
+131 silly lockFile cc862138-gulp-sass-2-3-2 gulp-sass@^2.3.2
+132 http 200 https://registry.npmjs.org/gulp-sourcemaps
+133 silly registry.get cb [ 200,
+133 silly registry.get   { server: 'nginx/1.10.1',
+133 silly registry.get     'content-type': 'application/json',
+133 silly registry.get     'last-modified': 'Wed, 26 Apr 2017 20:19:31 GMT',
+133 silly registry.get     etag: '"590100d3-1deb6"',
+133 silly registry.get     'cache-control': 'max-age=300',
+133 silly registry.get     'content-length': '122550',
+133 silly registry.get     'accept-ranges': 'bytes',
+133 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:26 GMT',
+133 silly registry.get     via: '1.1 varnish',
+133 silly registry.get     age: '0',
+133 silly registry.get     connection: 'keep-alive',
+133 silly registry.get     'x-served-by': 'cache-bos8232-BOS',
+133 silly registry.get     'x-cache': 'MISS',
+133 silly registry.get     'x-cache-hits': '0',
+133 silly registry.get     'x-timer': 'S1493290767.688235,VS0,VE86',
+133 silly registry.get     vary: 'Accept-Encoding' } ]
+134 silly addNameRange number 2 { name: 'gulp-sourcemaps',
+134 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+134 silly addNameRange   hasData: true }
+135 silly addNameRange versions [ 'gulp-sourcemaps',
+135 silly addNameRange   [ '0.2.0',
+135 silly addNameRange     '0.2.1',
+135 silly addNameRange     '0.3.0',
+135 silly addNameRange     '0.3.1',
+135 silly addNameRange     '0.4.0',
+135 silly addNameRange     '0.4.1',
+135 silly addNameRange     '0.4.2',
+135 silly addNameRange     '0.4.3',
+135 silly addNameRange     '0.4.4',
+135 silly addNameRange     '0.4.5',
+135 silly addNameRange     '0.4.6',
+135 silly addNameRange     '1.0.0',
+135 silly addNameRange     '1.1.0',
+135 silly addNameRange     '1.1.1',
+135 silly addNameRange     '1.1.2',
+135 silly addNameRange     '1.1.3',
+135 silly addNameRange     '1.1.4',
+135 silly addNameRange     '1.1.5',
+135 silly addNameRange     '1.2.0',
+135 silly addNameRange     '1.2.1',
+135 silly addNameRange     '1.2.2',
+135 silly addNameRange     '1.2.3',
+135 silly addNameRange     '1.2.4',
+135 silly addNameRange     '1.2.5',
+135 silly addNameRange     '1.2.6',
+135 silly addNameRange     '1.2.7',
+135 silly addNameRange     '1.2.8',
+135 silly addNameRange     '1.3.0',
+135 silly addNameRange     '1.4.0',
+135 silly addNameRange     '1.5.0',
+135 silly addNameRange     '1.5.1',
+135 silly addNameRange     '1.5.2',
+135 silly addNameRange     '1.6.0',
+135 silly addNameRange     '2.0.0-alpha',
+135 silly addNameRange     '1.7.1',
+135 silly addNameRange     '2.0.0',
+135 silly addNameRange     '2.0.1',
+135 silly addNameRange     '1.7.3',
+135 silly addNameRange     '1.8.1',
+135 silly addNameRange     '2.1.1',
+135 silly addNameRange     '1.9.0',
+135 silly addNameRange     '2.2.0',
+135 silly addNameRange     '1.9.2',
+135 silly addNameRange     '2.2.2',
+135 silly addNameRange     '1.9.3',
+135 silly addNameRange     '2.2.3',
+135 silly addNameRange     '1.10.0',
+135 silly addNameRange     '2.3.0',
+135 silly addNameRange     '1.9.1',
+135 silly addNameRange     '2.2.1',
+135 silly addNameRange     '1.10.1',
+135 silly addNameRange     '2.3.1',
+135 silly addNameRange     '1.11.0',
+135 silly addNameRange     '2.4.0',
+135 silly addNameRange     '1.11.1',
+135 silly addNameRange     '2.4.1',
+135 silly addNameRange     '1.12.0',
+135 silly addNameRange     '2.5.0',
+135 silly addNameRange     '2.5.1',
+135 silly addNameRange     '2.5.2',
+135 silly addNameRange     '2.6.0' ] ]
+136 verbose addNamed [ 'gulp-sourcemaps', '2.6.0' ]
+137 verbose addNamed [ '2.6.0', '2.6.0' ]
+138 silly lockFile 90a455ca-gulp-sourcemaps-2-6-0 gulp-sourcemaps@2.6.0
+139 verbose lock gulp-sourcemaps@2.6.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\90a455ca-gulp-sourcemaps-2-6-0.lock
+140 silly lockFile f077b5fe-cemaps-gulp-sourcemaps-2-6-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz
+141 verbose lock https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\f077b5fe-cemaps-gulp-sourcemaps-2-6-0-tgz.lock
+142 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz',
+142 verbose addRemoteTarball   '7ccce899a8a3bfca1593a3348d0fbf41dd3f51e5' ]
+143 info retry fetch attempt 1 at 13:59:27
+144 verbose fetch to= C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz
+145 http GET https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz
+146 http 200 https://registry.npmjs.org/gulp
+147 silly registry.get cb [ 200,
+147 silly registry.get   { server: 'nginx/1.10.1',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'last-modified': 'Wed, 26 Apr 2017 14:24:15 GMT',
+147 silly registry.get     etag: '"5900ad8f-1d280"',
+147 silly registry.get     'cache-control': 'max-age=300',
+147 silly registry.get     'content-length': '119424',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:26 GMT',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '0',
+147 silly registry.get     connection: 'keep-alive',
+147 silly registry.get     'x-served-by': 'cache-bos8225-BOS',
+147 silly registry.get     'x-cache': 'MISS',
+147 silly registry.get     'x-cache-hits': '0',
+147 silly registry.get     'x-timer': 'S1493290767.686117,VS0,VE121',
+147 silly registry.get     vary: 'Accept-Encoding' } ]
+148 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1-0 <4.0.0-0', hasData: true }
+149 silly addNameRange versions [ 'gulp',
+149 silly addNameRange   [ '0.0.1',
+149 silly addNameRange     '0.0.2',
+149 silly addNameRange     '0.0.3',
+149 silly addNameRange     '0.0.4',
+149 silly addNameRange     '0.0.5',
+149 silly addNameRange     '0.0.7',
+149 silly addNameRange     '0.0.8',
+149 silly addNameRange     '0.0.9',
+149 silly addNameRange     '0.1.0',
+149 silly addNameRange     '0.2.0',
+149 silly addNameRange     '1.0.0',
+149 silly addNameRange     '1.1.0',
+149 silly addNameRange     '1.2.0',
+149 silly addNameRange     '1.2.1',
+149 silly addNameRange     '2.0.0',
+149 silly addNameRange     '2.0.1',
+149 silly addNameRange     '2.1.0',
+149 silly addNameRange     '2.2.0',
+149 silly addNameRange     '2.3.0',
+149 silly addNameRange     '2.4.0',
+149 silly addNameRange     '2.4.1',
+149 silly addNameRange     '2.6.0',
+149 silly addNameRange     '2.6.1',
+149 silly addNameRange     '2.7.0',
+149 silly addNameRange     '3.0.0',
+149 silly addNameRange     '3.1.1',
+149 silly addNameRange     '3.1.2',
+149 silly addNameRange     '3.1.3',
+149 silly addNameRange     '3.1.4',
+149 silly addNameRange     '3.2.0',
+149 silly addNameRange     '3.2.1',
+149 silly addNameRange     '3.2.2',
+149 silly addNameRange     '3.2.3',
+149 silly addNameRange     '3.2.4',
+149 silly addNameRange     '3.2.5',
+149 silly addNameRange     '3.3.0',
+149 silly addNameRange     '3.3.1',
+149 silly addNameRange     '3.3.2',
+149 silly addNameRange     '3.3.4',
+149 silly addNameRange     '3.4.0',
+149 silly addNameRange     '3.5.0',
+149 silly addNameRange     '3.5.1',
+149 silly addNameRange     '3.5.2',
+149 silly addNameRange     '3.5.5',
+149 silly addNameRange     '3.5.6',
+149 silly addNameRange     '3.6.0',
+149 silly addNameRange     '3.6.1',
+149 silly addNameRange     '3.6.2',
+149 silly addNameRange     '3.7.0',
+149 silly addNameRange     '3.8.0',
+149 silly addNameRange     '3.8.1',
+149 silly addNameRange     '3.8.2',
+149 silly addNameRange     '3.8.3',
+149 silly addNameRange     '3.8.4',
+149 silly addNameRange     '3.8.5',
+149 silly addNameRange     '3.8.6',
+149 silly addNameRange     '3.8.7',
+149 silly addNameRange     '3.8.8',
+149 silly addNameRange     '3.8.9',
+149 silly addNameRange     '3.8.10',
+149 silly addNameRange     '3.8.11',
+149 silly addNameRange     '3.9.0',
+149 silly addNameRange     '3.9.1' ] ]
+150 verbose addNamed [ 'gulp', '3.9.1' ]
+151 verbose addNamed [ '3.9.1', '3.9.1' ]
+152 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+153 verbose lock gulp@3.9.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\d9f1ef79-gulp-3-9-1.lock
+154 http 200 https://registry.npmjs.org/gulp-autoprefixer
+155 silly registry.get cb [ 200,
+155 silly registry.get   { server: 'nginx/1.10.1',
+155 silly registry.get     'content-type': 'application/json',
+155 silly registry.get     'last-modified': 'Wed, 26 Apr 2017 09:37:37 GMT',
+155 silly registry.get     etag: '"59006a61-8afc"',
+155 silly registry.get     'cache-control': 'max-age=300',
+155 silly registry.get     'content-length': '35580',
+155 silly registry.get     'accept-ranges': 'bytes',
+155 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:27 GMT',
+155 silly registry.get     via: '1.1 varnish',
+155 silly registry.get     age: '0',
+155 silly registry.get     connection: 'keep-alive',
+155 silly registry.get     'x-served-by': 'cache-bos8223-BOS',
+155 silly registry.get     'x-cache': 'MISS',
+155 silly registry.get     'x-cache-hits': '0',
+155 silly registry.get     'x-timer': 'S1493290767.009390,VS0,VE100',
+155 silly registry.get     vary: 'Accept-Encoding' } ]
+156 silly addNameRange number 2 { name: 'gulp-autoprefixer',
+156 silly addNameRange   range: '>=3.1.1-0 <4.0.0-0',
+156 silly addNameRange   hasData: true }
+157 silly addNameRange versions [ 'gulp-autoprefixer',
+157 silly addNameRange   [ '0.0.1',
+157 silly addNameRange     '0.0.2',
+157 silly addNameRange     '0.0.3',
+157 silly addNameRange     '0.0.4',
+157 silly addNameRange     '0.0.5',
+157 silly addNameRange     '0.0.6',
+157 silly addNameRange     '0.0.7',
+157 silly addNameRange     '0.0.8',
+157 silly addNameRange     '0.0.9',
+157 silly addNameRange     '0.0.10',
+157 silly addNameRange     '1.0.0',
+157 silly addNameRange     '1.0.1',
+157 silly addNameRange     '2.0.0',
+157 silly addNameRange     '2.1.0',
+157 silly addNameRange     '2.2.0',
+157 silly addNameRange     '2.3.0',
+157 silly addNameRange     '2.3.1',
+157 silly addNameRange     '3.0.0',
+157 silly addNameRange     '3.0.1',
+157 silly addNameRange     '3.0.2',
+157 silly addNameRange     '3.1.0',
+157 silly addNameRange     '3.1.1' ] ]
+158 verbose addNamed [ 'gulp-autoprefixer', '3.1.1' ]
+159 verbose addNamed [ '3.1.1', '3.1.1' ]
+160 silly lockFile 8936eaf7-gulp-autoprefixer-3-1-1 gulp-autoprefixer@3.1.1
+161 verbose lock gulp-autoprefixer@3.1.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8936eaf7-gulp-autoprefixer-3-1-1.lock
+162 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+163 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+164 silly lockFile e5c114fc-gulp-3-9-1 gulp@^3.9.1
+165 silly lockFile e5c114fc-gulp-3-9-1 gulp@^3.9.1
+166 silly lockFile 8936eaf7-gulp-autoprefixer-3-1-1 gulp-autoprefixer@3.1.1
+167 silly lockFile 8936eaf7-gulp-autoprefixer-3-1-1 gulp-autoprefixer@3.1.1
+168 silly lockFile 7874e697-gulp-autoprefixer-3-1-1 gulp-autoprefixer@^3.1.1
+169 silly lockFile 7874e697-gulp-autoprefixer-3-1-1 gulp-autoprefixer@^3.1.1
+170 http 200 https://registry.npmjs.org/browser-sync
+171 silly registry.get cb [ 200,
+171 silly registry.get   { server: 'nginx/1.10.1',
+171 silly registry.get     'content-type': 'application/json',
+171 silly registry.get     'last-modified': 'Sun, 23 Apr 2017 13:05:57 GMT',
+171 silly registry.get     etag: '"58fca6b5-822ad"',
+171 silly registry.get     'cache-control': 'max-age=300',
+171 silly registry.get     'content-length': '533165',
+171 silly registry.get     'accept-ranges': 'bytes',
+171 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:26 GMT',
+171 silly registry.get     via: '1.1 varnish',
+171 silly registry.get     age: '0',
+171 silly registry.get     connection: 'keep-alive',
+171 silly registry.get     'x-served-by': 'cache-bos8224-BOS',
+171 silly registry.get     'x-cache': 'MISS',
+171 silly registry.get     'x-cache-hits': '0',
+171 silly registry.get     'x-timer': 'S1493290767.697152,VS0,VE153',
+171 silly registry.get     vary: 'Accept-Encoding' } ]
+172 silly addNameRange number 2 { name: 'browser-sync',
+172 silly addNameRange   range: '>=2.17.6-0 <3.0.0-0',
+172 silly addNameRange   hasData: true }
+173 silly addNameRange versions [ 'browser-sync',
+173 silly addNameRange   [ '0.1.0',
+173 silly addNameRange     '0.1.1',
+173 silly addNameRange     '0.1.3',
+173 silly addNameRange     '0.1.5',
+173 silly addNameRange     '0.1.6',
+173 silly addNameRange     '0.1.7',
+173 silly addNameRange     '0.1.8',
+173 silly addNameRange     '0.1.9',
+173 silly addNameRange     '0.1.10',
+173 silly addNameRange     '0.2.0',
+173 silly addNameRange     '0.2.1',
+173 silly addNameRange     '0.3.0',
+173 silly addNameRange     '0.3.1',
+173 silly addNameRange     '0.3.2',
+173 silly addNameRange     '0.3.3',
+173 silly addNameRange     '0.3.4',
+173 silly addNameRange     '0.3.5',
+173 silly addNameRange     '0.3.6',
+173 silly addNameRange     '0.3.7',
+173 silly addNameRange     '0.3.8',
+173 silly addNameRange     '0.3.10',
+173 silly addNameRange     '0.4.0',
+173 silly addNameRange     '0.4.1',
+173 silly addNameRange     '0.4.2',
+173 silly addNameRange     '0.4.21',
+173 silly addNameRange     '0.4.3',
+173 silly addNameRange     '0.4.4',
+173 silly addNameRange     '0.4.5',
+173 silly addNameRange     '0.4.6',
+173 silly addNameRange     '0.4.7',
+173 silly addNameRange     '0.4.8',
+173 silly addNameRange     '0.4.9',
+173 silly addNameRange     '0.4.10',
+173 silly addNameRange     '0.4.11',
+173 silly addNameRange     '0.4.12',
+173 silly addNameRange     '0.5.0',
+173 silly addNameRange     '0.5.1',
+173 silly addNameRange     '0.5.2',
+173 silly addNameRange     '0.5.3',
+173 silly addNameRange     '0.5.4',
+173 silly addNameRange     '0.5.5',
+173 silly addNameRange     '0.5.6',
+173 silly addNameRange     '0.5.7',
+173 silly addNameRange     '0.5.8',
+173 silly addNameRange     '0.5.9',
+173 silly addNameRange     '0.6.0',
+173 silly addNameRange     '0.6.1',
+173 silly addNameRange     '0.6.2',
+173 silly addNameRange     '0.7.0',
+173 silly addNameRange     '0.7.1',
+173 silly addNameRange     '0.7.2',
+173 silly addNameRange     '0.7.3',
+173 silly addNameRange     '0.7.4',
+173 silly addNameRange     '0.7.5',
+173 silly addNameRange     '0.7.7',
+173 silly addNameRange     '0.8.0',
+173 silly addNameRange     '0.8.1',
+173 silly addNameRange     '0.8.2',
+173 silly addNameRange     '0.9.0',
+173 silly addNameRange     '0.9.1',
+173 silly addNameRange     '1.0.0',
+173 silly addNameRange     '1.1.0',
+173 silly addNameRange     '1.1.1',
+173 silly addNameRange     '1.1.2',
+173 silly addNameRange     '1.2.0',
+173 silly addNameRange     '1.2.1',
+173 silly addNameRange     '1.3.0',
+173 silly addNameRange     '1.3.2',
+173 silly addNameRange     '1.3.3',
+173 silly addNameRange     '1.3.4',
+173 silly addNameRange     '1.3.5',
+173 silly addNameRange     '1.3.6',
+173 silly addNameRange     '1.3.7',
+173 silly addNameRange     '1.5.0',
+173 silly addNameRange     '1.5.1',
+173 silly addNameRange     '1.5.2',
+173 silly addNameRange     '1.5.3',
+173 silly addNameRange     '1.5.4',
+173 silly addNameRange     '1.5.5',
+173 silly addNameRange     '1.5.6',
+173 silly addNameRange     '1.5.7',
+173 silly addNameRange     '1.5.8',
+173 silly addNameRange     '1.5.9',
+173 silly addNameRange     '1.6.0',
+173 silly addNameRange     '1.6.1',
+173 silly addNameRange     '1.6.2',
+173 silly addNameRange     '1.6.3',
+173 silly addNameRange     '1.6.4',
+173 silly addNameRange     '1.6.5',
+173 silly addNameRange     '1.7.0',
+173 silly addNameRange     '1.7.1',
+173 silly addNameRange     '1.7.2',
+173 silly addNameRange     '1.7.3',
+173 silly addNameRange     '1.8.0',
+173 silly addNameRange     '1.8.1',
+173 silly addNameRange     '1.8.2',
+173 silly addNameRange     '1.8.3',
+173 silly addNameRange     '1.9.0',
+173 silly addNameRange     '1.9.1',
+173 silly addNameRange     '2.0.0-rc1',
+173 silly addNameRange     '2.0.0-rc2',
+173 silly addNameRange     '2.0.0-rc3',
+173 silly addNameRange     '2.0.0-rc4',
+173 silly addNameRange     '2.0.0-rc5',
+173 silly addNameRange     '2.0.0-rc6',
+173 silly addNameRange     '2.0.0-rc7',
+173 silly addNameRange     '2.0.0-rc8',
+173 silly addNameRange     '2.0.0-rc9',
+173 silly addNameRange     '2.0.0-rc10',
+173 silly addNameRange     '2.0.0',
+173 silly addNameRange     '2.0.1',
+173 silly addNameRange     '2.1.0',
+173 silly addNameRange     '2.1.1',
+173 silly addNameRange     '2.1.2',
+173 silly addNameRange     '2.1.3',
+173 silly addNameRange     '2.1.4',
+173 silly addNameRange     '2.1.6',
+173 silly addNameRange     '2.2.0',
+173 silly addNameRange     '2.2.1',
+173 silly addNameRange     '2.2.2',
+173 silly addNameRange     '2.2.3',
+173 silly addNameRange     '2.2.4',
+173 silly addNameRange     '2.2.5',
+173 silly addNameRange     '2.3.0',
+173 silly addNameRange     '2.3.1',
+173 silly addNameRange     '2.3.2',
+173 silly addNameRange     '2.4.0',
+173 silly addNameRange     '2.4.1',
+173 silly addNameRange     '2.5.0',
+173 silly addNameRange     '2.5.1',
+173 silly addNameRange     '2.5.2',
+173 silly addNameRange     '2.5.3',
+173 silly addNameRange     '2.6.0',
+173 silly addNameRange     '2.6.1',
+173 silly addNameRange     '2.6.2',
+173 silly addNameRange     '2.6.3',
+173 silly addNameRange     '2.6.4',
+173 silly addNameRange     '2.6.5',
+173 silly addNameRange     '2.6.6',
+173 silly addNameRange     '1.9.2',
+173 silly addNameRange     '2.6.7',
+173 silly addNameRange     '2.6.8',
+173 silly addNameRange     '2.6.9',
+173 silly addNameRange     '2.6.10',
+173 silly addNameRange     '2.6.11',
+173 silly addNameRange     '2.7.0',
+173 silly addNameRange     '2.7.1',
+173 silly addNameRange     '2.7.2',
+173 silly addNameRange     '2.7.3',
+173 silly addNameRange     '2.7.4',
+173 silly addNameRange     '2.7.5',
+173 silly addNameRange     '2.7.6',
+173 silly addNameRange     '2.7.7',
+173 silly addNameRange     '2.7.8',
+173 silly addNameRange     '2.7.9',
+173 silly addNameRange     '2.7.10',
+173 silly addNameRange     '2.7.11',
+173 silly addNameRange     '2.7.12',
+173 silly addNameRange     '2.7.13',
+173 silly addNameRange     '2.8.0',
+173 silly addNameRange     '2.8.1',
+173 silly addNameRange     '2.8.2',
+173 silly addNameRange     '2.8.3',
+173 silly addNameRange     '2.9.0',
+173 silly addNameRange     '2.9.1',
+173 silly addNameRange     '2.9.2',
+173 silly addNameRange     '2.9.3',
+173 silly addNameRange     '2.9.4',
+173 silly addNameRange     '2.9.5',
+173 silly addNameRange     '2.9.6',
+173 silly addNameRange     '2.9.7',
+173 silly addNameRange     '2.9.8',
+173 silly addNameRange     '2.9.9',
+173 silly addNameRange     '2.9.10',
+173 silly addNameRange     '2.9.11',
+173 silly addNameRange     '2.9.12',
+173 silly addNameRange     '2.10.0',
+173 silly addNameRange     '2.10.1',
+173 silly addNameRange     '2.11.0',
+173 silly addNameRange     '2.11.1',
+173 silly addNameRange     '2.11.2',
+173 silly addNameRange     '2.12.1',
+173 silly addNameRange     '2.12.2',
+173 silly addNameRange     '2.12.3',
+173 silly addNameRange     '2.12.4',
+173 silly addNameRange     '2.12.5',
+173 silly addNameRange     '2.12.6',
+173 silly addNameRange     '2.12.7',
+173 silly addNameRange     '2.12.8',
+173 silly addNameRange     '2.12.9',
+173 silly addNameRange     '2.12.10',
+173 silly addNameRange     '2.12.11',
+173 silly addNameRange     '2.12.12',
+173 silly addNameRange     '2.13.0',
+173 silly addNameRange     '2.14.0',
+173 silly addNameRange     '2.14.1',
+173 silly addNameRange     '2.14.2',
+173 silly addNameRange     '2.14.3',
+173 silly addNameRange     '2.15.0',
+173 silly addNameRange     '2.16.0',
+173 silly addNameRange     '2.16.1',
+173 silly addNameRange     '2.17.0',
+173 silly addNameRange     '2.17.1',
+173 silly addNameRange     '2.17.2',
+173 silly addNameRange     '2.17.3',
+173 silly addNameRange     '2.17.4',
+173 silly addNameRange     '2.17.5',
+173 silly addNameRange     '2.17.6',
+173 silly addNameRange     '2.18.0',
+173 silly addNameRange     '2.18.1',
+173 silly addNameRange     '2.18.2',
+173 silly addNameRange     '2.18.3',
+173 silly addNameRange     '2.18.4',
+173 silly addNameRange     '2.18.5',
+173 silly addNameRange     '2.18.6',
+173 silly addNameRange     '2.18.7',
+173 silly addNameRange     '2.18.8' ] ]
+174 verbose addNamed [ 'browser-sync', '2.18.8' ]
+175 verbose addNamed [ '2.18.8', '2.18.8' ]
+176 silly lockFile a3cd803a-browser-sync-2-18-8 browser-sync@2.18.8
+177 verbose lock browser-sync@2.18.8 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\a3cd803a-browser-sync-2-18-8.lock
+178 silly lockFile a3cd803a-browser-sync-2-18-8 browser-sync@2.18.8
+179 silly lockFile a3cd803a-browser-sync-2-18-8 browser-sync@2.18.8
+180 silly lockFile 73315448-browser-sync-2-17-6 browser-sync@^2.17.6
+181 silly lockFile 73315448-browser-sync-2-17-6 browser-sync@^2.17.6
+182 http 200 https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz
+183 verbose tar unpack C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz
+184 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+185 verbose lock tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\e9ed42aa-67240-0-5930883828550577-package.lock
+186 silly lockFile d4ba769d-67240-0-5930883828550577-tmp-tgz tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz
+187 verbose lock tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\d4ba769d-67240-0-5930883828550577-tmp-tgz.lock
+188 silly gunzTarPerm modes [ '755', '644' ]
+189 silly gunzTarPerm extractEntry package.json
+190 silly gunzTarPerm extractEntry README.md
+191 silly gunzTarPerm extractEntry index.js
+192 silly gunzTarPerm extractEntry LICENSE.md
+193 silly gunzTarPerm extractEntry src/debug.js
+194 silly gunzTarPerm extractEntry src/utils.js
+195 silly gunzTarPerm extractEntry src/init/index.internals.js
+196 silly gunzTarPerm extractEntry src/init/index.js
+197 silly gunzTarPerm extractEntry src/write/index.internals.js
+198 silly gunzTarPerm extractEntry src/write/index.js
+199 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+200 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+201 silly lockFile d4ba769d-67240-0-5930883828550577-tmp-tgz tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz
+202 silly lockFile d4ba769d-67240-0-5930883828550577-tmp-tgz tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\tmp.tgz
+203 verbose tar pack [ 'C:\\Users\\ndegtyareva\\AppData\\Roaming\\npm-cache\\gulp-sourcemaps\\2.6.0\\package.tgz',
+203 verbose tar pack   'C:\\Users\\NDEGTY~1\\AppData\\Local\\Temp\\npm-5288-MIJqcG-U\\1493290767240-0.5930883828550577\\package' ]
+204 verbose tarball C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+205 verbose folder C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+206 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+207 verbose lock tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\e9ed42aa-67240-0-5930883828550577-package.lock
+208 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+209 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2c9c8954-ulp-sourcemaps-2-6-0-package-tgz.lock
+210 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+211 silly lockFile e9ed42aa-67240-0-5930883828550577-package tar://C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290767240-0.5930883828550577\package
+212 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+213 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+214 silly lockFile 4d4e1b30-he-gulp-sourcemaps-2-6-0-package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+215 verbose lock C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\4d4e1b30-he-gulp-sourcemaps-2-6-0-package.lock
+216 silly lockFile 4d4e1b30-he-gulp-sourcemaps-2-6-0-package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+217 silly lockFile 4d4e1b30-he-gulp-sourcemaps-2-6-0-package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+218 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+219 silly lockFile 3a68b77b-he-gulp-sourcemaps-2-6-0-package tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+220 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package C:\Users\ndegtyareva\AppData\Roaming\npm-cache\3a68b77b-he-gulp-sourcemaps-2-6-0-package.lock
+221 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+222 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2c9c8954-ulp-sourcemaps-2-6-0-package-tgz.lock
+223 silly gunzTarPerm modes [ '755', '644' ]
+224 silly gunzTarPerm extractEntry package.json
+225 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+226 silly gunzTarPerm extractEntry README.md
+227 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+228 silly gunzTarPerm extractEntry index.js
+229 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry src/debug.js
+231 silly gunzTarPerm modified mode [ 'src/debug.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry src/utils.js
+233 silly gunzTarPerm modified mode [ 'src/utils.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry src/init/index.internals.js
+235 silly gunzTarPerm modified mode [ 'src/init/index.internals.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry src/init/index.js
+237 silly gunzTarPerm modified mode [ 'src/init/index.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry src/write/index.internals.js
+239 silly gunzTarPerm modified mode [ 'src/write/index.internals.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry src/write/index.js
+241 silly gunzTarPerm modified mode [ 'src/write/index.js', 438, 420 ]
+242 silly lockFile 3a68b77b-he-gulp-sourcemaps-2-6-0-package tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+243 silly lockFile 3a68b77b-he-gulp-sourcemaps-2-6-0-package tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package
+244 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+245 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+246 verbose chmod C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz 644
+247 silly chown skipping for windows C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+248 silly lockFile f077b5fe-cemaps-gulp-sourcemaps-2-6-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz
+249 silly lockFile f077b5fe-cemaps-gulp-sourcemaps-2-6-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz
+250 silly lockFile 90a455ca-gulp-sourcemaps-2-6-0 gulp-sourcemaps@2.6.0
+251 silly lockFile 90a455ca-gulp-sourcemaps-2-6-0 gulp-sourcemaps@2.6.0
+252 silly lockFile e0bbdbf4-gulp-sourcemaps-2-2-0 gulp-sourcemaps@^2.2.0
+253 silly lockFile e0bbdbf4-gulp-sourcemaps-2-2-0 gulp-sourcemaps@^2.2.0
+254 silly resolved [ { name: 'gulp-jade',
+254 silly resolved     version: '1.1.0',
+254 silly resolved     description: 'Compile Jade templates',
+254 silly resolved     keywords: [ 'jade', 'gulpplugin', 'stream', 'compile' ],
+254 silly resolved     repository: { type: 'git', url: 'https://github.com/phated/gulp-jade.git' },
+254 silly resolved     author: { name: 'Blaine Bublitz', email: 'blaine@iceddev.com' },
+254 silly resolved     dependencies: { 'gulp-util': '^3.0.2', jade: '1.1 - 1.11', through2: '^2.0.0' },
+254 silly resolved     files: [ 'index.js', 'LICENSE' ],
+254 silly resolved     engines: { node: '>= 0.10' },
+254 silly resolved     scripts: { test: 'gulp jshint && tap ./test' },
+254 silly resolved     license: 'MIT',
+254 silly resolved     devDependencies: { gulp: '^3.8.10', tap: '^1.3.1', 'gulp-jshint': '^1.9.0' },
+254 silly resolved     readme: '[![Build Status](https://travis-ci.org/phated/gulp-jade.png?branch=master)](https://travis-ci.org/phated/gulp-jade)\n\n## Information\n\n<table>\n<tr>\n<td>Package</td><td>gulp-jade</td>\n</tr>\n<tr>\n<td>Description</td>\n<td>Compile Jade templates</td>\n</tr>\n<tr>\n<td>Node Version</td>\n<td>≥ 0.10</td>\n</tr>\n</table>\n\n## Usage\n\nCompile to HTML\n\n```javascript\nvar jade = require(\'gulp-jade\');\n\ngulp.task(\'templates\', function() {\n  var YOUR_LOCALS = {};\n\n  gulp.src(\'./lib/*.jade\')\n    .pipe(jade({\n      locals: YOUR_LOCALS\n    }))\n    .pipe(gulp.dest(\'./dist/\'))\n});\n```\n\nCompile to JS\n\n```javascript\nvar jade = require(\'gulp-jade\');\n\ngulp.task(\'templates\', function() {\n  gulp.src(\'./lib/*.jade\')\n    .pipe(jade({\n      client: true\n    }))\n    .pipe(gulp.dest(\'./dist/\'))\n});\n```\n\n## Options\n\nAll options supported by the [Jade API](http://jade-lang.com/api/) are supported\n\n__Note:__ `filename` option is taken from `path` property of incoming vinyl-file object. If you want to change it, use [gulp-rename](https://github.com/hparra/gulp-rename) before `gulp-jade` with desired path.\n\nIn addition, you can pass in a `locals` or `data` option that will be used as locals for your HTML compilation.  The `locals` option takes precedence over the `data` option, and both are overwritten by `data` on the vinyl file object (See "Use with `gulp-data`" below).\n\nIf you want to use a different version of jade, or define jade filters, you can pass your own instance of jade as the `jade` option:\n\n```javascript\nvar jade = require(\'jade\');\nvar gulpJade = require(\'gulp-jade\');\nvar katex = require(\'katex\');\n\njade.filters.katex = katex.renderToString;\njade.filters.shoutFilter = function (str) {\n  return str + \'!!!!\';\n}\n\ngulp.task(\'jade\', function () {\n  return gulp.src(\'public/**/*.jade\')\n    .pipe(gulpJade({\n      jade: jade,\n      pretty: true\n    }))\n    .pipe(gulp.dest(\'public/\'))\n})\n```\n\n## Use with [gulp-data](https://www.npmjs.org/package/gulp-data)\n\nThe `gulp-data` plugin, is a standard method for piping data down-stream to other plugins that need data in the form of a new file property `file.data`. If you have data from a JSON file, front-matter, a database, or anything really, use `gulp-data` to pass that data to gulp-jade.\n\nRetrieve data from a JSON file, keyed on file name:\n\n```javascript\ngulp.task(\'json-test\', function() {\n  return gulp.src(\'./examples/test1.jade\')\n    .pipe(data(function(file) {\n      return require(\'./examples/\' + path.basename(file.path) + \'.json\');\n    }))\n    .pipe(jade())\n    .pipe(gulp.dest(\'build\'));\n});\n```\n\nSince gulp-data provides a callback, it means you can get data from a database query as well:\n\n```javascript\ngulp.task(\'db-test\', function() {\n  return gulp.src(\'./examples/test3.jade\')\n    .pipe(data(function(file, cb) {\n      MongoClient.connect(\'mongodb://127.0.0.1:27017/gulp-data-test\', function(err, db) {\n        if(err) return cb(err);\n        cb(undefined, db.collection(\'file-data-test\').findOne({filename: path.basename(file.path)}));\n      });\n    }))\n    .pipe(jade())\n    .pipe(gulp.dest(\'build\'));\n});\n```\n\nIf you want to use some static locals and some dynamic using gulp-data, the static locals will be overridden.\nInstead, you can extend in the gulp-data function:\n\n```javascript\nvar _ = require(\'lodash\');\n\nvar statics = {\n  my: \'statics\',\n  foo: \'bar\'\n};\n\ngulp.task(\'json-test\', function() {\n  return gulp.src(\'./examples/test1.jade\')\n    .pipe(data(function(file) {\n      var json = require(\'./examples/\' + path.basename(file.path) + \'.json\');\n      var data = _.assign({}, json, statics);\n      return data;\n    }))\n    .pipe(jade())\n    .pipe(gulp.dest(\'build\'));\n});\n```\n\nMore info on [gulp-data](https://www.npmjs.org/package/gulp-data)\n\n## AMD\n\nIf you are trying to wrap your Jade template functions in an AMD wrapper, use [`gulp-wrap-amd`](https://github.com/phated/gulp-wrap-amd)\n\n```javascript\nvar jade = require(\'gulp-jade\');\nvar wrap = require(\'gulp-wrap-amd\');\n\ngulp.task(\'templates\', function() {\n  gulp.src(\'./lib/*.jade\')\n    .pipe(jade({\n      client: true\n    }))\n    .pipe(wrap({\n      deps: [\'jade\'],\n      params: [\'jade\']\n    }))\n    .pipe(gulp.dest(\'./dist/\'))\n});\n```\n## LICENSE\n\n(MIT License)\n\nCopyright (c) 2013 Blaine Bublitz\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+254 silly resolved     readmeFilename: 'README.md',
+254 silly resolved     bugs: { url: 'https://github.com/phated/gulp-jade/issues' },
+254 silly resolved     homepage: 'https://github.com/phated/gulp-jade',
+254 silly resolved     _id: 'gulp-jade@1.1.0',
+254 silly resolved     _from: 'gulp-jade@^1.1.0' },
+254 silly resolved   { name: 'gulp-sass',
+254 silly resolved     version: '2.3.2',
+254 silly resolved     description: 'Gulp plugin for sass',
+254 silly resolved     main: 'index.js',
+254 silly resolved     scripts: { test: 'mocha test' },
+254 silly resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass' },
+254 silly resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+254 silly resolved     author: { name: 'David Manning' },
+254 silly resolved     license: 'MIT',
+254 silly resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+254 silly resolved     dependencies:
+254 silly resolved      { 'gulp-util': '^3.0',
+254 silly resolved        'lodash.clonedeep': '^4.3.2',
+254 silly resolved        'node-sass': '^3.4.2',
+254 silly resolved        through2: '^2.0.0',
+254 silly resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+254 silly resolved     devDependencies:
+254 silly resolved      { 'autoprefixer-core': '^5.2.1',
+254 silly resolved        eslint: '^2.9.0',
+254 silly resolved        globule: '^1.0.0',
+254 silly resolved        gulp: '^3.8.11',
+254 silly resolved        'gulp-postcss': '^5.1.10',
+254 silly resolved        'gulp-sourcemaps': '^1.5.2',
+254 silly resolved        'gulp-tap': '^0.1.3',
+254 silly resolved        mocha: '^2.2.1',
+254 silly resolved        rimraf: '^2.4.3',
+254 silly resolved        should: '^8.3.1' },
+254 silly resolved     readme: '# gulp-sass [![Build Status](https://travis-ci.org/dlmanning/gulp-sass.svg?branch=master)](https://travis-ci.org/dlmanning/gulp-sass) [![Join the chat at https://gitter.im/dlmanning/gulp-sass](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dlmanning/gulp-sass?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/gulp-sass.svg)](http://badge.fury.io/js/gulp-sass)\n\nSass plugin for [Gulp](https://github.com/gulpjs/gulp).\n\n**_Before filing an issue, please make sure you have [Updated to the latest Gulp Sass](https://github.com/dlmanning/gulp-sass/wiki/Update-to-the-latest-Gulp-Sass) and have gone through our [Common Issues and Their Fixes](https://github.com/dlmanning/gulp-sass/wiki/Common-Issues-and-Their-Fixes) section._**\n\n# Install\n\n```\nnpm install gulp-sass --save-dev\n```\n\n# Basic Usage\n\nSomething like this will compile your Sass files:\n\n```javascript\n\'use strict\';\n\nvar gulp = require(\'gulp\');\nvar sass = require(\'gulp-sass\');\n\ngulp.task(\'sass\', function () {\n  return gulp.src(\'./sass/**/*.scss\')\n    .pipe(sass().on(\'error\', sass.logError))\n    .pipe(gulp.dest(\'./css\'));\n});\n\ngulp.task(\'sass:watch\', function () {\n  gulp.watch(\'./sass/**/*.scss\', [\'sass\']);\n});\n```\n\nYou can also compile synchronously, doing something like this:\n\n```javascript\n\'use strict\';\n\nvar gulp = require(\'gulp\');\nvar sass = require(\'gulp-sass\');\n\ngulp.task(\'sass\', function () {\n  return gulp.src(\'./sass/**/*.scss\')\n    .pipe(sass.sync().on(\'error\', sass.logError))\n    .pipe(gulp.dest(\'./css\'));\n});\n\ngulp.task(\'sass:watch\', function () {\n  gulp.watch(\'./sass/**/*.scss\', [\'sass\']);\n});\n```\n\n## Options\n\nPass in options just like you would for [`node-sass`](https://github.com/sass/node-sass#options); they will be passed along just as if you were using `node-sass`. Except for the `data` option which is used by gulp-sass internally. Using the `file` option is also unsupported and results in undefined behaviour that may change without notice.  \n\nFor example:\n\n```javascript\ngulp.task(\'sass\', function () {\n return gulp.src(\'./sass/**/*.scss\')\n   .pipe(sass({outputStyle: \'compressed\'}).on(\'error\', sass.logError))\n   .pipe(gulp.dest(\'./css\'));\n});\n```\n\n## Source Maps\n\n`gulp-sass` can be used in tandem with [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) to generate source maps for the Sass to CSS compilation. You will need to initialize [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) prior to running `gulp-sass` and write the source maps after.\n\n```javascript\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'sass\', function () {\n return gulp.src(\'./sass/**/*.scss\')\n  .pipe(sourcemaps.init())\n  .pipe(sass().on(\'error\', sass.logError))\n  .pipe(sourcemaps.write())\n  .pipe(gulp.dest(\'./css\'));\n});\n```\n\nBy default, [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) writes the source maps inline in the compiled CSS files. To write them to a separate file, specify a path relative to the `gulp.dest()` destination in the `sourcemaps.write()` function.\n\n```javascript\nvar sourcemaps = require(\'gulp-sourcemaps\');\ngulp.task(\'sass\', function () {\n return gulp.src(\'./sass/**/*.scss\')\n  .pipe(sourcemaps.init())\n  .pipe(sass().on(\'error\', sass.logError))\n  .pipe(sourcemaps.write(\'./maps\'))\n  .pipe(gulp.dest(\'./css\'));\n});\n```\n\n# Issues\n\n`gulp-sass` is a very light-weight wrapper around [`node-sass`](https://github.com/sass/node-sass), which in turn is a Node binding for [`libsass`](https://github.com/sass/libsass), which in turn is a port of [`Sass`](https://github.com/sass/sass). Because of this, the issue you\'re having likely isn\'t a `gulp-sass` issue, but an issue with one of those three projects.\n\nIf you have a feature request/question how Sass works/concerns on how your Sass gets compiled/errors in your compiling, it\'s likely a `libsass` or `Sass` issue and you should file your issue with one of those projects.\n\nIf you\'re having problems with the options you\'re passing in, it\'s likely a `node-sass` or `libsass` issue and you should file your issue with one of those projects.\n\nWe may, in the course of resolving issues, direct you to one of these other projects. If we do so, please follow up by searching that project\'s issue queue (both open and closed) for your problem and, if it doesn\'t exist, filing an issue with them.\n',
+254 silly resolved     readmeFilename: 'README.md',
+254 silly resolved     homepage: 'https://github.com/dlmanning/gulp-sass',
+254 silly resolved     _id: 'gulp-sass@2.3.2',
+254 silly resolved     _from: 'gulp-sass@^2.3.2' },
+254 silly resolved   { name: 'gulp',
+254 silly resolved     description: 'The streaming build system',
+254 silly resolved     version: '3.9.1',
+254 silly resolved     homepage: 'http://gulpjs.com',
+254 silly resolved     repository: { type: 'git', url: 'git://github.com/gulpjs/gulp' },
+254 silly resolved     author:
+254 silly resolved      { name: 'Fractal',
+254 silly resolved        email: 'contact@wearefractal.com',
+254 silly resolved        url: 'http://wearefractal.com/' },
+254 silly resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+254 silly resolved     files: [ 'index.js', 'lib', 'bin', 'completion', 'gulp.1' ],
+254 silly resolved     bin: { gulp: './bin/gulp.js' },
+254 silly resolved     man: [ 'gulp.1' ],
+254 silly resolved     dependencies:
+254 silly resolved      { archy: '^1.0.0',
+254 silly resolved        chalk: '^1.0.0',
+254 silly resolved        deprecated: '^0.0.1',
+254 silly resolved        'gulp-util': '^3.0.0',
+254 silly resolved        interpret: '^1.0.0',
+254 silly resolved        liftoff: '^2.1.0',
+254 silly resolved        minimist: '^1.1.0',
+254 silly resolved        orchestrator: '^0.3.0',
+254 silly resolved        'pretty-hrtime': '^1.0.0',
+254 silly resolved        semver: '^4.1.0',
+254 silly resolved        tildify: '^1.0.0',
+254 silly resolved        v8flags: '^2.0.2',
+254 silly resolved        'vinyl-fs': '^0.3.0' },
+254 silly resolved     devDependencies:
+254 silly resolved      { coveralls: '^2.7.0',
+254 silly resolved        eslint: '^1.7.3',
+254 silly resolved        'eslint-config-gulp': '^2.0.0',
+254 silly resolved        'graceful-fs': '^3.0.0',
+254 silly resolved        istanbul: '^0.3.0',
+254 silly resolved        jscs: '^2.3.5',
+254 silly resolved        'jscs-preset-gulp': '^1.0.0',
+254 silly resolved        'marked-man': '^0.1.3',
+254 silly resolved        mkdirp: '^0.5.0',
+254 silly resolved        mocha: '^2.0.1',
+254 silly resolved        'mocha-lcov-reporter': '^0.0.1',
+254 silly resolved        q: '^1.0.0',
+254 silly resolved        rimraf: '^2.2.5',
+254 silly resolved        should: '^5.0.1' },
+254 silly resolved     scripts:
+254 silly resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+254 silly resolved        lint: 'eslint . && jscs *.js bin/ lib/ test/',
+254 silly resolved        pretest: 'npm run lint',
+254 silly resolved        test: 'mocha --reporter spec',
+254 silly resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+254 silly resolved     engines: { node: '>= 0.9' },
+254 silly resolved     license: 'MIT',
+254 silly resolved     readme: '<p align="center">\n  <a href="http://gulpjs.com">\n    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">\n  </a>\n  <p align="center">The streaming build system</p>\n</p>\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Gitter chat][gitter-image]][gitter-url]\n\n## What is gulp?\n\n- **Automation** - gulp is a toolkit that helps you automate painful or time-consuming tasks in your development workflow.\n- **Platform-agnostic** - Integrations are built into all major IDEs and people are using gulp with PHP, .NET, Node.js, Java, and other platforms.\n- **Strong Ecosystem** - Use npm modules to do anything you want + over 2000 curated plugins for streaming file transformations\n- **Simple** - By providing only a minimal API surface, gulp is easy to learn and simple to use\n\n## Documentation\n\nFor a Getting started guide, API docs, recipes, making a plugin, etc. check out or docs!\n\n- Need something reliable? Check out the [documentation for the current release](/docs/README.md)!\n- Want to help us test the latest and greatest? Check out the [documentation for the next release](https://github.com/gulpjs/gulp/tree/4.0)!\n\n## Sample `gulpfile.js`\n\nThis file will give you a taste of what gulp does.\n\n```js\nvar gulp = require(\'gulp\');\nvar coffee = require(\'gulp-coffee\');\nvar concat = require(\'gulp-concat\');\nvar uglify = require(\'gulp-uglify\');\nvar imagemin = require(\'gulp-imagemin\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\nvar del = require(\'del\');\n\nvar paths = {\n  scripts: [\'client/js/**/*.coffee\', \'!client/external/**/*.coffee\'],\n  images: \'client/img/**/*\'\n};\n\n// Not all tasks need to use streams\n// A gulpfile is just another node program and you can use any package available on npm\ngulp.task(\'clean\', function() {\n  // You can use multiple globbing patterns as you would with `gulp.src`\n  return del([\'build\']);\n});\n\ngulp.task(\'scripts\', [\'clean\'], function() {\n  // Minify and copy all JavaScript (except vendor scripts)\n  // with sourcemaps all the way down\n  return gulp.src(paths.scripts)\n    .pipe(sourcemaps.init())\n      .pipe(coffee())\n      .pipe(uglify())\n      .pipe(concat(\'all.min.js\'))\n    .pipe(sourcemaps.write())\n    .pipe(gulp.dest(\'build/js\'));\n});\n\n// Copy all static images\ngulp.task(\'images\', [\'clean\'], function() {\n  return gulp.src(paths.images)\n    // Pass in options to the task\n    .pipe(imagemin({optimizationLevel: 5}))\n    .pipe(gulp.dest(\'build/img\'));\n});\n\n// Rerun the task when a file changes\ngulp.task(\'watch\', function() {\n  gulp.watch(paths.scripts, [\'scripts\']);\n  gulp.watch(paths.images, [\'images\']);\n});\n\n// The default task (called when you run `gulp` from cli)\ngulp.task(\'default\', [\'watch\', \'scripts\', \'images\']);\n```\n\n## Incremental Builds\n\nWe recommend these plugins:\n\n- [gulp-changed](https://github.com/sindresorhus/gulp-changed) - only pass through changed files\n- [gulp-cached](https://github.com/contra/gulp-cached) - in-memory file cache, not for operation on sets of files\n- [gulp-remember](https://github.com/ahaurw01/gulp-remember) - pairs nicely with gulp-cached\n- [gulp-newer](https://github.com/tschaub/gulp-newer) - pass through newer source files only, supports many:1 source:dest\n\n## Want to contribute?\n\nAnyone can help make this project better - check out our [Contributing guide](/CONTRIBUTING.md)!\n\n[downloads-image]: https://img.shields.io/npm/dm/gulp.svg\n[npm-url]: https://www.npmjs.com/package/gulp\n[npm-image]: https://img.shields.io/npm/v/gulp.svg\n\n[travis-url]: https://travis-ci.org/gulpjs/gulp\n[travis-image]: https://img.shields.io/travis/gulpjs/gulp.svg\n\n[coveralls-url]: https://coveralls.io/r/gulpjs/gulp\n[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulp/master.svg\n\n[gitter-url]: https://gitter.im/gulpjs/gulp\n[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png\n',
+254 silly resolved     readmeFilename: 'README.md',
+254 silly resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+254 silly resolved     _id: 'gulp@3.9.1',
+254 silly resolved     _from: 'gulp@^3.9.1' },
+254 silly resolved   { name: 'gulp-autoprefixer',
+254 silly resolved     version: '3.1.1',
+254 silly resolved     description: 'Prefix CSS',
+254 silly resolved     license: 'MIT',
+254 silly resolved     repository:
+254 silly resolved      { type: 'git',
+254 silly resolved        url: 'git://github.com/sindresorhus/gulp-autoprefixer' },
+254 silly resolved     author:
+254 silly resolved      { name: 'Sindre Sorhus',
+254 silly resolved        email: 'sindresorhus@gmail.com',
+254 silly resolved        url: 'sindresorhus.com' },
+254 silly resolved     engines: { node: '>=0.12.0' },
+254 silly resolved     scripts: { test: 'xo && mocha' },
+254 silly resolved     files: [ 'index.js' ],
+254 silly resolved     keywords:
+254 silly resolved      [ 'gulpplugin',
+254 silly resolved        'autoprefixer',
+254 silly resolved        'postcss',
+254 silly resolved        'css',
+254 silly resolved        'prefix',
+254 silly resolved        'prefixes',
+254 silly resolved        'stylesheet',
+254 silly resolved        'preprocess',
+254 silly resolved        'postcss-runner' ],
+254 silly resolved     dependencies:
+254 silly resolved      { autoprefixer: '^6.0.0',
+254 silly resolved        'gulp-util': '^3.0.0',
+254 silly resolved        postcss: '^5.0.4',
+254 silly resolved        through2: '^2.0.0',
+254 silly resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+254 silly resolved     devDependencies: { 'gulp-sourcemaps': '^1.1.1', mocha: '*', xo: '*' },
+254 silly resolved     readme: '# gulp-autoprefixer [![Build Status](https://travis-ci.org/sindresorhus/gulp-autoprefixer.svg?branch=master)](https://travis-ci.org/sindresorhus/gulp-autoprefixer)\n\n> Prefix CSS with [Autoprefixer](https://github.com/postcss/autoprefixer)\n\n*Issues with the output should be reported on the Autoprefixer [issue tracker](https://github.com/postcss/autoprefixer/issues).*\n\n---\n\n<p align="center"><b>🔥 Want to strengthen your core JavaScript skills and master ES6?</b><br>I would personally recommend this awesome <a href="https://ES6.io/friend/AWESOME">ES6 course</a> by Wes Bos.</p>\n\n---\n\n\n## Install\n\n```\n$ npm install --save-dev gulp-autoprefixer\n```\n\n\n## Usage\n\n```js\nconst gulp = require(\'gulp\');\nconst autoprefixer = require(\'gulp-autoprefixer\');\n\ngulp.task(\'default\', () =>\n\tgulp.src(\'src/app.css\')\n\t\t.pipe(autoprefixer({\n\t\t\tbrowsers: [\'last 2 versions\'],\n\t\t\tcascade: false\n\t\t}))\n\t\t.pipe(gulp.dest(\'dist\'))\n);\n```\n\n\n## API\n\n### autoprefixer([options])\n\n#### options\n\nSee the Autoprefixer [options](https://github.com/postcss/autoprefixer#options).\n\n\n## Source Maps\n\nUse [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) like this:\n\n```js\nconst gulp = require(\'gulp\');\nconst sourcemaps = require(\'gulp-sourcemaps\');\nconst autoprefixer = require(\'gulp-autoprefixer\');\nconst concat = require(\'gulp-concat\');\n\ngulp.task(\'default\', () =>\n\tgulp.src(\'src/**/*.css\')\n\t\t.pipe(sourcemaps.init())\n\t\t.pipe(autoprefixer())\n\t\t.pipe(concat(\'all.css\'))\n\t\t.pipe(sourcemaps.write(\'.\'))\n\t\t.pipe(gulp.dest(\'dist\'))\n);\n```\n\n\n## Tip\n\nYou might want to use Autoprefixer as a [PostCSS plugin](https://github.com/postcss/autoprefixer#gulp) if you use other PostCSS plugins in your build process.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n',
+254 silly resolved     readmeFilename: 'readme.md',
+254 silly resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-autoprefixer/issues' },
+254 silly resolved     homepage: 'https://github.com/sindresorhus/gulp-autoprefixer',
+254 silly resolved     _id: 'gulp-autoprefixer@3.1.1',
+254 silly resolved     _from: 'gulp-autoprefixer@^3.1.1' },
+254 silly resolved   { name: 'browser-sync',
+254 silly resolved     description: 'Live CSS Reload & Browser Syncing',
+254 silly resolved     version: '2.18.8',
+254 silly resolved     homepage: 'http://www.browsersync.io/',
+254 silly resolved     author: { name: 'Shane Osbourne' },
+254 silly resolved     repository:
+254 silly resolved      { type: 'git',
+254 silly resolved        url: 'git://github.com/Browsersync/browser-sync' },
+254 silly resolved     license: 'Apache-2.0',
+254 silly resolved     bin: { 'browser-sync': 'bin/browser-sync.js' },
+254 silly resolved     files: [ 'bin', 'index.js', 'lib', 'lodash.custom.js' ],
+254 silly resolved     engines: { node: '>= 0.8.0' },
+254 silly resolved     scripts:
+254 silly resolved      { env: 'node ./test/env.js',
+254 silly resolved        test: 'npm run lint && npm run env && npm run unit',
+254 silly resolved        lint: 'eslint index.js lib bin examples test/specs gulpfile.js --fix',
+254 silly resolved        pro: 'protractor test/protractor/config.single.js',
+254 silly resolved        'pro-local': 'node test/protractor/setup.js',
+254 silly resolved        unit: 'mocha --recursive test/specs --timeout 10000 --bail',
+254 silly resolved        cover: 'npm run env && npm run cover-local && npm run coveralls',
+254 silly resolved        'cover-local': 'istanbul cover -x lodash.custom.js _mocha -- --timeout 10000 --recursive ./test/specs',
+254 silly resolved        coveralls: 'istanbul-coveralls',
+254 silly resolved        'pre-release': 'npm test && npm run pro-local && npm run pro',
+254 silly resolved        lodash: 'lodash include=isUndefined,isFunction,toArray,includes,union,each,isString,merge,isObject,set exports=node' },
+254 silly resolved     dependencies:
+254 silly resolved      { 'browser-sync-client': '2.4.5',
+254 silly resolved        'browser-sync-ui': '0.6.3',
+254 silly resolved        'bs-recipes': '1.3.4',
+254 silly resolved        chokidar: '1.6.1',
+254 silly resolved        connect: '3.5.0',
+254 silly resolved        'dev-ip': '^1.0.1',
+254 silly resolved        'easy-extender': '2.3.2',
+254 silly resolved        'eazy-logger': '3.0.2',
+254 silly resolved        'emitter-steward': '^1.0.0',
+254 silly resolved        'fs-extra': '1.0.0',
+254 silly resolved        'http-proxy': '1.15.2',
+254 silly resolved        immutable: '3.8.1',
+254 silly resolved        localtunnel: '1.8.2',
+254 silly resolved        micromatch: '2.3.11',
+254 silly resolved        opn: '4.0.2',
+254 silly resolved        portscanner: '2.1.1',
+254 silly resolved        qs: '6.2.1',
+254 silly resolved        'resp-modifier': '6.0.2',
+254 silly resolved        rx: '4.1.0',
+254 silly resolved        'serve-index': '1.8.0',
+254 silly resolved        'serve-static': '1.11.1',
+254 silly resolved        'server-destroy': '1.0.1',
+254 silly resolved        'socket.io': '1.6.0',
+254 silly resolved        'socket.io-client': '1.6.0',
+254 silly resolved        'ua-parser-js': '0.7.12',
+254 silly resolved        yargs: '6.4.0' },
+254 silly resolved     devDependencies:
+254 silly resolved      { 'browser-sync-spa': '1.0.3',
+254 silly resolved        'bs-html-injector': '3.0.3',
+254 silly resolved        'bs-latency': '1.0.0',
+254 silly resolved        'bs-rewrite-rules': '2.0.0',
+254 silly resolved        'bs-snippet-injector': '2.0.1',
+254 silly resolved        chai: '3.5.0',
+254 silly resolved        chalk: '1.1.3',
+254 silly resolved        compression: '1.6.2',
+254 silly resolved        eslint: '3.7.1',
+254 silly resolved        'graceful-fs': '4.1.9',
+254 silly resolved        gulp: '3.9.1',
+254 silly resolved        'gulp-contribs': '0.0.3',
+254 silly resolved        'gulp-conventional-changelog': '1.1.0',
+254 silly resolved        'gulp-filter': '4.0.0',
+254 silly resolved        http2: '^3.3.6',
+254 silly resolved        istanbul: '0.4.5',
+254 silly resolved        'istanbul-coveralls': '1.0.3',
+254 silly resolved        'lodash-cli': '4.15.0',
+254 silly resolved        mocha: '3.0.2',
+254 silly resolved        q: '1.4.1',
+254 silly resolved        request: '2.74.0',
+254 silly resolved        rimraf: '2.5.4',
+254 silly resolved        sinon: '1.17.5',
+254 silly resolved        'socket.io-client': '1.5.0',
+254 silly resolved        supertest: '2.0.0',
+254 silly resolved        vinyl: '1.2.0' },
+254 silly resolved     keywords: [ 'browser sync', 'css', 'live reload', 'sync' ],
+254 silly resolved     readme: '<p align="center">\n<a href="https://ci.appveyor.com/project/shakyShane/browser-sync" title="AppVeyor branch">\n <img src="https://img.shields.io/appveyor/ci/shakyshane/browser-sync/master.svg?style=flat-square&label=windows" />\n</a>\n<a href="https://travis-ci.org/BrowserSync/browser-sync" title="Travis branch">\n <img src="https://img.shields.io/travis/BrowserSync/browser-sync/master.svg?style=flat-square&label=linux" />\n</a>\n<a href="https://coveralls.io/r/BrowserSync/browser-sync?branch=master" title="Coverage Status">\n <img src="https://img.shields.io/coveralls/BrowserSync/browser-sync.svg?style=flat-square" />\n</a>\n<a href="https://www.npmjs.com/package/browser-sync">\n <img src="https://img.shields.io/npm/dm/browser-sync.svg?style=flat-square" />\n</a>\n</p>\n<p align="center">\n<a href="https://www.npmjs.com/package/browser-sync" title="NPM version">\n <img src="https://img.shields.io/npm/v/browser-sync.svg?style=flat-square" />\n</a>\n<a href="https://david-dm.org/Browsersync/browser-sync" title="Dependency Status">\n <img src="https://img.shields.io/david/Browsersync/browser-sync.svg?style=flat-square&label=deps" />\n</a>\n<a href="https://david-dm.org/Browsersync/browser-sync#info=devDependencies" title="devDependency Status">\n <img src="https://img.shields.io/david/dev/Browsersync/browser-sync.svg?style=flat-square&label=devDeps" />\n</a>\n</p>\n<p align="center"><a href="http://www.browsersync.io"><img src="https://raw.githubusercontent.com/BrowserSync/browsersync.github.io/master/public/img/logo-gh.png" /></a></p>\n<p align="center">Keep multiple browsers & devices in sync when building websites.</p>\n\n<p align="center">Browsersync is developed and maintained internally at <a href="http://www.wearejh.com">JH</a></p>\n<p align="center">Follow <a href="https://twitter.com/browsersync">@Browsersync</a> on twitter for news & updates.</p>\n<p align="center">Community <a href="https://browsersync.herokuapp.com"><img src="https://browsersync.herokuapp.com/badge.svg" /></a></p>\n\n## Features\n\nPlease visit [browsersync.io](http://browsersync.io) for a full run-down of features\n\n## Requirements\n\nBrowsersync works by injecting an asynchronous script tag (`<script async>...</script>`) right after the `<body>` tag\nduring initial request. In order for this to work properly the `<body>` tag must be present. Alternatively you\ncan provide a custom rule for the snippet using [snippetOptions](http://www.browsersync.io/docs/options/#option-snippetOptions)\n\n## Upgrading from 1.x to 2.x ?\nProviding you haven\'t accessed any internal properties, everything will just work as\n there are no breaking changes to the public API. Internally however, we now use an\n immutable data structure for storing/retrieving options. So whereas before you could access urls like this...\n\n```js\nbrowserSync({server: true}, function(err, bs) {\n    console.log(bs.options.urls.local);\n});\n```\n\n... you now access them in the following way:\n\n```js\nbrowserSync({server: true}, function(err, bs) {\n    console.log(bs.options.getIn(["urls", "local"]));\n});\n```\n\n## Install and trouble shooting\n\n[browsersync.io docs](http://browsersync.io)\n\n## Integrations / recipes\n\n[Browsersync recipes](https://github.com/Browsersync/recipes)\n\n## Support\n\nIf you\'ve found Browser-sync useful and would like to contribute to its continued development & support, please feel free to send a donation of any size - it would be greatly appreciated!\n\n[![Support via Gittip](https://rawgithub.com/chris---/Donation-Badges/master/gittip.jpeg)](https://www.gittip.com/shakyshane)\n[![Support via PayPal](https://rawgithub.com/chris---/Donation-Badges/master/paypal.jpeg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=shakyshane%40gmail%2ecom&lc=US&item_name=browser%2dsync)\n\n\nApache 2\nCopyright (c) 2016 Shane Osbourne\n',
+254 silly resolved     readmeFilename: 'README.md',
+254 silly resolved     bugs: { url: 'https://github.com/Browsersync/browser-sync/issues' },
+254 silly resolved     _id: 'browser-sync@2.18.8',
+254 silly resolved     _from: 'browser-sync@^2.17.6' },
+254 silly resolved   { name: 'gulp-sourcemaps',
+254 silly resolved     version: '2.6.0',
+254 silly resolved     description: 'Source map support for Gulp.js',
+254 silly resolved     homepage: 'http://github.com/gulp-sourcemaps/gulp-sourcemaps',
+254 silly resolved     repository:
+254 silly resolved      { type: 'git',
+254 silly resolved        url: 'git://github.com/gulp-sourcemaps/gulp-sourcemaps.git' },
+254 silly resolved     main: 'index.js',
+254 silly resolved     scripts:
+254 silly resolved      { lint: 'jshint ./src/**/*.js test/*.js',
+254 silly resolved        test: 'npm run lint && faucet test/*.js $@',
+254 silly resolved        tap: 'tape test/*.js',
+254 silly resolved        cover: 'istanbul cover --dir reports/coverage tape "test/*.js"',
+254 silly resolved        coveralls: 'istanbul cover tape "test/*.js" --report lcovonly && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage',
+254 silly resolved        serve: 'http-server',
+254 silly resolved        'test:int': 'rm -rf ./tmp && tape ./test/integration.js' },
+254 silly resolved     keywords: [ 'gulpplugin', 'gulp', 'source maps', 'sourcemaps' ],
+254 silly resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+254 silly resolved     license: 'ISC',
+254 silly resolved     dependencies:
+254 silly resolved      { '@gulp-sourcemaps/identity-map': '1.X',
+254 silly resolved        '@gulp-sourcemaps/map-sources': '1.X',
+254 silly resolved        acorn: '4.X',
+254 silly resolved        'convert-source-map': '1.X',
+254 silly resolved        css: '2.X',
+254 silly resolved        'debug-fabulous': '0.1.X',
+254 silly resolved        'detect-newline': '2.X',
+254 silly resolved        'graceful-fs': '4.X',
+254 silly resolved        'source-map': '0.X',
+254 silly resolved        'strip-bom-string': '1.X',
+254 silly resolved        through2: '2.X',
+254 silly resolved        vinyl: '1.X' },
+254 silly resolved     devDependencies:
+254 silly resolved      { bootstrap: '3.3.7',
+254 silly resolved        coveralls: '2.X',
+254 silly resolved        faucet: '0.0.X',
+254 silly resolved        gulp: '3.X',
+254 silly resolved        'gulp-concat': '2.X',
+254 silly resolved        'gulp-if': '2.0.2',
+254 silly resolved        'gulp-less': '3.3.0',
+254 silly resolved        'gulp-load-plugins': '1.X',
+254 silly resolved        'hook-std': '0.2.X',
+254 silly resolved        'http-server': '0.9.0',
+254 silly resolved        istanbul: '0.X',
+254 silly resolved        jshint: '2.X',
+254 silly resolved        lodash: '4.17.4',
+254 silly resolved        mississippi: '^1.3.0',
+254 silly resolved        'object-assign': '^4.1.0',
+254 silly resolved        tape: '4.X',
+254 silly resolved        yargs: '6.6.0' },
+254 silly resolved     files: [ 'index.js', 'src' ],
+254 silly resolved     engines: { node: '>=4' },
+254 silly resolved     readme: '## gulp-sourcemaps  [![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][coveralls-image]][coveralls-url]\n\n### Branching\n\n__2.X now supports node 0.10+ due to switching out a dependency.__\n\n### Usage\n\n#### Write inline source maps\nInline source maps are embedded in the source file.\n\nExample:\n```javascript\nvar gulp = require(\'gulp\');\nvar plugin1 = require(\'gulp-plugin1\');\nvar plugin2 = require(\'gulp-plugin2\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'javascript\', function() {\n  gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init())\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write())\n    .pipe(gulp.dest(\'dist\'));\n});\n```\n\nAll plugins between `sourcemaps.init()` and `sourcemaps.write()` need to have support for `gulp-sourcemaps`. You can find a list of such plugins in the [wiki](https://github.com/gulp-sourcemaps/gulp-sourcemaps/wiki/Plugins-with-gulp-sourcemaps-support).\n\n\n#### Write external source map files\n\nTo write external source map files, pass a path relative to the destination to `sourcemaps.write()`.\n\nExample:\n```javascript\nvar gulp = require(\'gulp\');\nvar plugin1 = require(\'gulp-plugin1\');\nvar plugin2 = require(\'gulp-plugin2\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'javascript\', function() {\n  gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init())\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write(\'../maps\'))\n    .pipe(gulp.dest(\'dist\'));\n});\n```\n\n#### Load existing source maps\n\nTo load existing source maps, pass the option `loadMaps: true` to `sourcemaps.init()`.\n\nExample:\n```javascript\nvar gulp = require(\'gulp\');\nvar plugin1 = require(\'gulp-plugin1\');\nvar plugin2 = require(\'gulp-plugin2\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'javascript\', function() {\n  gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init({loadMaps: true}))\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write())\n    .pipe(gulp.dest(\'dist\'));\n});\n```\n\n#### Handle large files\n\nTo handle large files, pass the option `largeFile: true` to `sourcemaps.init()`.\n\nExample:\n```javascript\nvar gulp = require(\'gulp\');\nvar plugin1 = require(\'gulp-plugin1\');\nvar plugin2 = require(\'gulp-plugin2\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'javascript\', function() {\n  gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init({largeFile: true}))\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write())\n    .pipe(gulp.dest(\'dist\'));\n});\n```\n\n#### Handle source files from different directories\n\nUse the `base` option on `gulp.src` to make sure all files are relative to a common base directory.\n\nExample:\n```javascript\nvar gulp = require(\'gulp\');\nvar plugin1 = require(\'gulp-plugin1\');\nvar plugin2 = require(\'gulp-plugin2\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\n\ngulp.task(\'javascript\', function() {\ngulp.src([\'src/test.js\', \'src/testdir/test2.js\'], { base: \'src\' })\n    .pipe(sourcemaps.init())\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write(\'../maps\'))\n    .pipe(gulp.dest(\'dist\'));\n});\n```\n\n#### Alter `sources` property on sourcemaps\n\nThe exported `mapSources` method gives full control over the source paths. It takes a function that is called for every source and receives the default source path as a parameter and the original vinyl file.\n\nExample:\n```javascript\ngulp.task(\'javascript\', function() {\n  var stream = gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init())\n      .pipe(plugin1())\n      .pipe(plugin2())\n      // be careful with the sources returned otherwise contents might not be loaded properly\n      .pipe(sourcemaps.mapSources(function(sourcePath, file) {\n        // source paths are prefixed with \'../src/\'\n        return \'../src/\' + sourcePath;\n      }))\n    .pipe(sourcemaps.write(\'../maps\')\n    .pipe(gulp.dest(\'public/scripts\'));\n});\n```\n\n#### Generate Identity Sourcemap\n\nThe exported `identityMap` method allows you to generate a full valid source map encoding no changes (slower, only for Javascript and CSS) instead of the default empty source map (no mappings, fast). __Use this option if you get missing or incorrect mappings, e.g. when debugging.__\n\nExample:\n```javascript\ngulp.task(\'javascript\', function() {\n  var stream = gulp.src(\'src/**/*.js\')\n    .pipe(sourcemaps.init())\n      // An identity sourcemap will be generated at this step\n      .pipe(sourcemaps.identityMap())\n      .pipe(plugin1())\n      .pipe(plugin2())\n    .pipe(sourcemaps.write(\'../maps\')\n    .pipe(gulp.dest(\'public/scripts\'));\n});\n```\n\n\n### Init Options\n\n- `loadMaps`\n\n  Set to true to load existing maps for source files. Supports the following:\n    - inline source maps\n    - source map files referenced by a `sourceMappingURL=` comment\n    - source map files with the same name (plus .map) in the same directory\n\n\n- `identityMap`\n\n  __This option is deprecated. Upgrade to use our [`sourcemap.identityMap`](#generate-identity-sourcemap) API.__\n\n\n### Write Options\n\n- `addComment`\n\n  By default a comment containing / referencing the source map is added. Set this to `false` to disable the comment (e.g. if you want to load the source maps by header).\n\n  Example:\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write(\'../maps\', {addComment: false}))\n      .pipe(gulp.dest(\'dist\'));\n  });\n  ```\n\n- `includeContent`\n\n  By default the source maps include the source code. Pass `false` to use the original files.\n\n  Including the content is the recommended way, because it "just works". When setting this to `false` you have to host the source files and set the correct `sourceRoot`.\n\n- `sourceRoot`\n\n  Set the location where the source files are hosted (use this when `includeContent` is set to `false`). This is usually a URL (or an absolute URL path), not a local file system path.\n  By default the source root is \'\' or in case `destPath` is set, the relative path from the source map to the source base directory (this should work for many dev environments).\n  If a relative path is used (empty string or one starting with a `.`), it is interpreted as a path relative to the destination. The plugin rewrites it to a path relative to each source map.\n\n  Example:\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write({includeContent: false, sourceRoot: \'/src\'}))\n      .pipe(gulp.dest(\'dist\'));\n  });\n  ```\n\n  Example (using a function):\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write({\n        includeContent: false,\n        sourceRoot: function(file) {\n          return \'/src\';\n        }\n       }))\n      .pipe(gulp.dest(\'dist\'));\n  });\n  ```\n\n  Example (relative path):\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write(\'.\', {includeContent: false, sourceRoot: \'../src\'}))\n      .pipe(gulp.dest(\'dist\'));\n  });\n  ```\n  In this case for a file written to `dist/subdir/example.js`, the source map is written to `dist/subdir/example.js.map` and the sourceRoot will be `../../src` (resulting in the full source path `../../src/subdir/example.js`).\n\n- `destPath`\n\n  Set the destination path (the same you pass to `gulp.dest()`). If the source map destination path is not a subpath of the destination path, this is needed to get the correct path in the `file` property of the source map.\n  In addition, it allows to automatically set a relative `sourceRoot` if none is set explicitly.\n\n- `sourceMappingURLPrefix`\n\n  Specify a prefix to be prepended onto the source map URL when writing external source maps. Relative paths will have their leading dots stripped.\n\n  Example:\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write(\'../maps\', {\n        sourceMappingURLPrefix: \'https://asset-host.example.com/assets\'\n      }))\n      .pipe(gulp.dest(\'public/scripts\'));\n  });\n  ```\n\n  This will result in a source mapping URL comment like `sourceMappingURL=https://asset-host.example.com/assets/maps/helloworld.js.map`.\n\n- `sourceMappingURL`\n\n  If you need full control over the source map URL you can pass a function to this option. The output of the function must be the full URL to the source map (in function of the output file).\n\n  Example:\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write(\'../maps\', {\n        sourceMappingURL: function(file) {\n          return \'https://asset-host.example.com/\' + file.relative + \'.map\';\n        }\n      }))\n      .pipe(gulp.dest(\'public/scripts\'));\n  });\n  ```\n\n  This will result in a source mapping URL comment like `sourceMappingURL=https://asset-host.example.com/helloworld.js.map`.\n\n- `mapFile`\n\n  This option allows to rename the map file. It takes a function that is called for every map and receives the default map path as a parameter.\n\n  Example:\n  ```javascript\n  gulp.task(\'javascript\', function() {\n    var stream = gulp.src(\'src/**/*.js\')\n      .pipe(sourcemaps.init())\n        .pipe(plugin1())\n        .pipe(plugin2())\n      .pipe(sourcemaps.write(\'../maps\', {\n        mapFile: function(mapFilePath) {\n          // source map files are named *.map instead of *.js.map\n          return mapFilePath.replace(\'.js.map\', \'.map\');\n        }\n      }))\n      .pipe(gulp.dest(\'public/scripts\'));\n  });\n  ```\n\n- `mapSources`\n\n  __This option is deprecated. Upgrade to use our [`sourcemap.mapSources`](#alter-sources-property-on-sourcemaps) API.__\n\n- `charset`\n\n  Sets the charset for inline source maps. Default: `utf8`\n\n- `clone`\n\n  Clones the original file for creation of the map file. Could be important if file history is important. See [file.clone()](https://github.com/gulpjs/vinyl#filecloneoptions) for possible options. Default: `{deep:false, contents:false}`\n\n### Plugin developers only:\n\n- **How to add source map support to plugins**\n\n  - Generate a source map for the transformation the plugin is applying\n  - **Important**: Make sure the paths in the generated source map (`file` and `sources`) are relative to `file.base` (e.g. use `file.relative`).\n  - Apply this source map to the vinyl `file`. E.g. by using [vinyl-sourcemaps-apply](https://github.com/gulp-sourcemaps/vinyl-sourcemaps-apply).\n    This combines the source map of this plugin with the source maps coming from plugins further up the chain.\n  - Add your plugin to the [wiki page](https://github.com/gulp-sourcemaps/gulp-sourcemaps/wiki/Plugins-with-gulp-sourcemaps-support)\n\n  #### Example:\n\n  ```js\n  var through = require(\'through2\');\n  var applySourceMap = require(\'vinyl-sourcemaps-apply\');\n  var myTransform = require(\'myTransform\');\n\n  module.exports = function(options) {\n\n    function transform(file, encoding, callback) {\n      // generate source maps if plugin source-map present\n      if (file.sourceMap) {\n        options.makeSourceMaps = true;\n      }\n\n      // do normal plugin logic\n      var result = myTransform(file.contents, options);\n      file.contents = new Buffer(result.code);\n\n      // apply source map to the chain\n      if (file.sourceMap) {\n        applySourceMap(file, result.map);\n      }\n\n      this.push(file);\n      callback();\n    }\n\n    return through.obj(transform);\n  };\n  ```\n\n  - **Very sourcemaps is working**\n\n    See example below or refer to [test/write.js](./test/write.js)\n\n  #### Example:\n  ```js\n  var stream = plugin();\n  var init = sourcemaps.init();\n  var write = sourcemaps.write();\n\n  init.pipe(stream).pipe(write);\n\n  write.on(\'data\', function (file) {\n    assert(...);\n    cb();\n  });\n\n  init.write(new gutil.File(...));\n  init.end();\n  ```\n\n### Debugging\n\nAll debugging output relys on [visionmedia/debug](https://github.com/visionmedia/debug). Fllow the directions to set the\nenvironment variable ``$DEBUG`.\n\nFor a few examples of debug you could use:\n\n```sh\n  DEBUG=\'gulp-sourcemaps:*\' #everything\n  DEBUG=\'gulp-sourcemaps:init\' #init/index.js\n  DEBUG=\'gulp-sourcemaps:init:*\' #init/index.internals.js\n  DEBUG=\'gulp-sourcemaps:write:\' #write/index.js\n  DEBUG=\'gulp-sourcemaps:write:*\' #write/index.internals.js\n  DEBUG=\'gulp-sourcemaps:write:,gulp-sourcemaps:init:**\' #write/index.internals.js and init/index.internals.js\n```\n\n[npm-image]: https://img.shields.io/npm/v/gulp-sourcemaps.svg\n[npm-url]: https://www.npmjs.com/package/gulp-sourcemaps\n[travis-image]: https://img.shields.io/travis/gulp-sourcemaps/gulp-sourcemaps.svg\n[travis-url]: https://travis-ci.org/gulp-sourcemaps/gulp-sourcemaps\n[coveralls-image]: https://img.shields.io/coveralls/gulp-sourcemaps/gulp-sourcemaps.svg\n[coveralls-url]: https://coveralls.io/r/gulp-sourcemaps/gulp-sourcemaps?branch=master\n',
+254 silly resolved     readmeFilename: 'README.md',
+254 silly resolved     bugs: { url: 'https://github.com/gulp-sourcemaps/gulp-sourcemaps/issues' },
+254 silly resolved     _id: 'gulp-sourcemaps@2.6.0',
+254 silly resolved     dist: { shasum: 'ea0ae68eb901f459446627fa0c3c1daf6fd3ec10' },
+254 silly resolved     _from: 'gulp-sourcemaps@^2.2.0',
+254 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.0.tgz' } ]
+255 info install gulp-jade@1.1.0 into d:\rab-stol\info\rus-och
+256 info install gulp-sass@2.3.2 into d:\rab-stol\info\rus-och
+257 info install gulp@3.9.1 into d:\rab-stol\info\rus-och
+258 info install gulp-autoprefixer@3.1.1 into d:\rab-stol\info\rus-och
+259 info install browser-sync@2.18.8 into d:\rab-stol\info\rus-och
+260 info install gulp-sourcemaps@2.6.0 into d:\rab-stol\info\rus-och
+261 info installOne gulp-jade@1.1.0
+262 info installOne gulp-sass@2.3.2
+263 info installOne gulp@3.9.1
+264 info installOne gulp-autoprefixer@3.1.1
+265 warn engine gulp-autoprefixer@3.1.1: wanted: {"node":">=0.12.0"} (current: {"node":"v0.10.26","npm":"1.4.3"})
+266 info installOne browser-sync@2.18.8
+267 info installOne gulp-sourcemaps@2.6.0
+268 warn engine gulp-sourcemaps@2.6.0: wanted: {"node":">=4"} (current: {"node":"v0.10.26","npm":"1.4.3"})
+269 info d:\rab-stol\info\rus-och\node_modules\gulp-jade unbuild
+270 info d:\rab-stol\info\rus-och\node_modules\gulp-sass unbuild
+271 info d:\rab-stol\info\rus-och\node_modules\gulp unbuild
+272 info d:\rab-stol\info\rus-och\node_modules\gulp-autoprefixer unbuild
+273 info d:\rab-stol\info\rus-och\node_modules\browser-sync unbuild
+274 info d:\rab-stol\info\rus-och\node_modules\gulp-sourcemaps unbuild
+275 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-jade\1.1.0\package.tgz
+276 silly lockFile 9b2c3201-o-rus-och-node-modules-gulp-jade tar://d:\rab-stol\info\rus-och\node_modules\gulp-jade
+277 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\gulp-jade C:\Users\ndegtyareva\AppData\Roaming\npm-cache\9b2c3201-o-rus-och-node-modules-gulp-jade.lock
+278 silly lockFile 26d3593e-ache-gulp-jade-1-1-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-jade\1.1.0\package.tgz
+279 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-jade\1.1.0\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\26d3593e-ache-gulp-jade-1-1-0-package-tgz.lock
+280 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz
+281 silly lockFile d8e4e1dd-o-rus-och-node-modules-gulp-sass tar://d:\rab-stol\info\rus-och\node_modules\gulp-sass
+282 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\gulp-sass C:\Users\ndegtyareva\AppData\Roaming\npm-cache\d8e4e1dd-o-rus-och-node-modules-gulp-sass.lock
+283 silly lockFile 8fab4f67-ache-gulp-sass-2-3-2-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz
+284 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8fab4f67-ache-gulp-sass-2-3-2-package-tgz.lock
+285 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp\3.9.1\package.tgz
+286 silly lockFile 00497a87-l-info-rus-och-node-modules-gulp tar://d:\rab-stol\info\rus-och\node_modules\gulp
+287 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\gulp C:\Users\ndegtyareva\AppData\Roaming\npm-cache\00497a87-l-info-rus-och-node-modules-gulp.lock
+288 silly lockFile 0f075029-npm-cache-gulp-3-9-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp\3.9.1\package.tgz
+289 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp\3.9.1\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\0f075029-npm-cache-gulp-3-9-1-package-tgz.lock
+290 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-autoprefixer\3.1.1\package.tgz
+291 silly lockFile 54ea9671-h-node-modules-gulp-autoprefixer tar://d:\rab-stol\info\rus-och\node_modules\gulp-autoprefixer
+292 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\gulp-autoprefixer C:\Users\ndegtyareva\AppData\Roaming\npm-cache\54ea9671-h-node-modules-gulp-autoprefixer.lock
+293 silly lockFile 8ab42f89-p-autoprefixer-3-1-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-autoprefixer\3.1.1\package.tgz
+294 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-autoprefixer\3.1.1\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8ab42f89-p-autoprefixer-3-1-1-package-tgz.lock
+295 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\browser-sync\2.18.8\package.tgz
+296 silly lockFile e74a55d6-us-och-node-modules-browser-sync tar://d:\rab-stol\info\rus-och\node_modules\browser-sync
+297 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\browser-sync C:\Users\ndegtyareva\AppData\Roaming\npm-cache\e74a55d6-us-och-node-modules-browser-sync.lock
+298 silly lockFile 1ee71240--browser-sync-2-18-8-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\browser-sync\2.18.8\package.tgz
+299 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\browser-sync\2.18.8\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\1ee71240--browser-sync-2-18-8-package-tgz.lock
+300 verbose tar unpack C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+301 silly lockFile 05a1c945-och-node-modules-gulp-sourcemaps tar://d:\rab-stol\info\rus-och\node_modules\gulp-sourcemaps
+302 verbose lock tar://d:\rab-stol\info\rus-och\node_modules\gulp-sourcemaps C:\Users\ndegtyareva\AppData\Roaming\npm-cache\05a1c945-och-node-modules-gulp-sourcemaps.lock
+303 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+304 verbose lock tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2c9c8954-ulp-sourcemaps-2-6-0-package-tgz.lock
+305 silly gunzTarPerm modes [ '755', '644' ]
+306 silly gunzTarPerm modes [ '755', '644' ]
+307 silly gunzTarPerm modes [ '755', '644' ]
+308 silly gunzTarPerm modes [ '755', '644' ]
+309 silly gunzTarPerm modes [ '755', '644' ]
+310 silly gunzTarPerm modes [ '755', '644' ]
+311 silly gunzTarPerm extractEntry package.json
+312 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+313 silly gunzTarPerm extractEntry README.md
+314 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+315 silly gunzTarPerm extractEntry index.js
+316 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry src/debug.js
+318 silly gunzTarPerm modified mode [ 'src/debug.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry src/utils.js
+320 silly gunzTarPerm modified mode [ 'src/utils.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry src/init/index.internals.js
+322 silly gunzTarPerm modified mode [ 'src/init/index.internals.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry src/init/index.js
+324 silly gunzTarPerm modified mode [ 'src/init/index.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry src/write/index.internals.js
+326 silly gunzTarPerm modified mode [ 'src/write/index.internals.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry src/write/index.js
+328 silly gunzTarPerm modified mode [ 'src/write/index.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry package.json
+330 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+331 silly gunzTarPerm extractEntry README.md
+332 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+333 silly gunzTarPerm extractEntry LICENSE
+334 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+335 silly gunzTarPerm extractEntry index.js
+336 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+337 silly gunzTarPerm extractEntry package.json
+338 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+339 silly gunzTarPerm extractEntry package.json
+340 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+341 silly gunzTarPerm extractEntry .npmignore
+342 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+343 silly gunzTarPerm extractEntry README.md
+344 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+345 silly gunzTarPerm extractEntry LICENSE
+346 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+347 silly gunzTarPerm extractEntry index.js
+348 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+349 silly gunzTarPerm extractEntry package.json
+350 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+351 silly gunzTarPerm extractEntry test.js
+352 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry .eslintrc
+354 silly gunzTarPerm modified mode [ '.eslintrc', 438, 420 ]
+355 silly gunzTarPerm extractEntry .editorconfig
+356 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+357 silly gunzTarPerm extractEntry dest/test.css
+358 silly gunzTarPerm modified mode [ 'dest/test.css', 438, 420 ]
+359 silly gunzTarPerm extractEntry .travis.yml
+360 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+361 silly gunzTarPerm extractEntry CHANGELOG.md
+362 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+363 silly gunzTarPerm extractEntry CONTRIBUTING.md
+364 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+365 silly gunzTarPerm extractEntry test.scss
+366 silly gunzTarPerm modified mode [ 'test.scss', 438, 420 ]
+367 silly gunzTarPerm extractEntry index.js
+368 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry readme.md
+370 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+371 silly lockFile 9b2c3201-o-rus-och-node-modules-gulp-jade tar://d:\rab-stol\info\rus-och\node_modules\gulp-jade
+372 silly lockFile 9b2c3201-o-rus-och-node-modules-gulp-jade tar://d:\rab-stol\info\rus-och\node_modules\gulp-jade
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+375 silly gunzTarPerm extractEntry index.js
+376 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+379 silly lockFile 26d3593e-ache-gulp-jade-1-1-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-jade\1.1.0\package.tgz
+380 silly lockFile 26d3593e-ache-gulp-jade-1-1-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-jade\1.1.0\package.tgz
+381 silly gunzTarPerm extractEntry README.md
+382 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+383 silly gunzTarPerm extractEntry index.js
+384 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry lodash.custom.js
+386 silly gunzTarPerm modified mode [ 'lodash.custom.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry bin/gulp.js
+388 silly gunzTarPerm modified mode [ 'bin/gulp.js', 438, 420 ]
+389 silly gunzTarPerm extractEntry completion/README.md
+390 silly gunzTarPerm modified mode [ 'completion/README.md', 438, 420 ]
+391 info preinstall gulp-jade@1.1.0
+392 verbose readDependencies using package.json deps
+393 verbose readDependencies using package.json deps
+394 silly gunzTarPerm extractEntry bin/browser-sync.js
+395 silly gunzTarPerm modified mode [ 'bin/browser-sync.js', 438, 420 ]
+396 silly gunzTarPerm extractEntry lib/args.js
+397 silly gunzTarPerm modified mode [ 'lib/args.js', 438, 420 ]
+398 silly gunzTarPerm extractEntry completion/bash
+399 silly gunzTarPerm modified mode [ 'completion/bash', 438, 420 ]
+400 verbose cache add [ 'gulp-util@^3.0.2', null ]
+401 verbose cache add name=undefined spec="gulp-util@^3.0.2" args=["gulp-util@^3.0.2",null]
+402 verbose parsed url { protocol: null,
+402 verbose parsed url   slashes: null,
+402 verbose parsed url   auth: null,
+402 verbose parsed url   host: null,
+402 verbose parsed url   port: null,
+402 verbose parsed url   hostname: null,
+402 verbose parsed url   hash: null,
+402 verbose parsed url   search: null,
+402 verbose parsed url   query: null,
+402 verbose parsed url   pathname: 'gulp-util@^3.0.2',
+402 verbose parsed url   path: 'gulp-util@^3.0.2',
+402 verbose parsed url   href: 'gulp-util@^3.0.2' }
+403 verbose cache add name="gulp-util" spec="^3.0.2" args=["gulp-util","^3.0.2"]
+404 verbose parsed url { protocol: null,
+404 verbose parsed url   slashes: null,
+404 verbose parsed url   auth: null,
+404 verbose parsed url   host: null,
+404 verbose parsed url   port: null,
+404 verbose parsed url   hostname: null,
+404 verbose parsed url   hash: null,
+404 verbose parsed url   search: null,
+404 verbose parsed url   query: null,
+404 verbose parsed url   pathname: '^3.0.2',
+404 verbose parsed url   path: '^3.0.2',
+404 verbose parsed url   href: '^3.0.2' }
+405 verbose addNamed [ 'gulp-util', '^3.0.2' ]
+406 verbose addNamed [ null, '>=3.0.2-0 <4.0.0-0' ]
+407 silly lockFile 8675ccfc-gulp-util-3-0-2 gulp-util@^3.0.2
+408 verbose lock gulp-util@^3.0.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8675ccfc-gulp-util-3-0-2.lock
+409 verbose cache add [ 'jade@1.1 - 1.11', null ]
+410 verbose cache add name=undefined spec="jade@1.1 - 1.11" args=["jade@1.1 - 1.11",null]
+411 verbose parsed url { protocol: null,
+411 verbose parsed url   slashes: null,
+411 verbose parsed url   auth: null,
+411 verbose parsed url   host: null,
+411 verbose parsed url   port: null,
+411 verbose parsed url   hostname: null,
+411 verbose parsed url   hash: null,
+411 verbose parsed url   search: null,
+411 verbose parsed url   query: null,
+411 verbose parsed url   pathname: 'jade@1.1%20-%201.11',
+411 verbose parsed url   path: 'jade@1.1%20-%201.11',
+411 verbose parsed url   href: 'jade@1.1%20-%201.11' }
+412 verbose cache add name="jade" spec="1.1 - 1.11" args=["jade","1.1 - 1.11"]
+413 verbose parsed url { protocol: null,
+413 verbose parsed url   slashes: null,
+413 verbose parsed url   auth: null,
+413 verbose parsed url   host: null,
+413 verbose parsed url   port: null,
+413 verbose parsed url   hostname: null,
+413 verbose parsed url   hash: null,
+413 verbose parsed url   search: null,
+413 verbose parsed url   query: null,
+413 verbose parsed url   pathname: '1.1%20-%201.11',
+413 verbose parsed url   path: '1.1%20-%201.11',
+413 verbose parsed url   href: '1.1%20-%201.11' }
+414 verbose addNamed [ 'jade', '1.1 - 1.11' ]
+415 verbose addNamed [ null, '>=1.1.0-0 <1.12.0-0' ]
+416 silly lockFile 12644663-jade-1-1-1-11 jade@1.1 - 1.11
+417 verbose lock jade@1.1 - 1.11 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\12644663-jade-1-1-1-11.lock
+418 verbose cache add [ 'through2@^2.0.0', null ]
+419 verbose cache add name=undefined spec="through2@^2.0.0" args=["through2@^2.0.0",null]
+420 verbose parsed url { protocol: null,
+420 verbose parsed url   slashes: null,
+420 verbose parsed url   auth: null,
+420 verbose parsed url   host: null,
+420 verbose parsed url   port: null,
+420 verbose parsed url   hostname: null,
+420 verbose parsed url   hash: null,
+420 verbose parsed url   search: null,
+420 verbose parsed url   query: null,
+420 verbose parsed url   pathname: 'through2@^2.0.0',
+420 verbose parsed url   path: 'through2@^2.0.0',
+420 verbose parsed url   href: 'through2@^2.0.0' }
+421 verbose cache add name="through2" spec="^2.0.0" args=["through2","^2.0.0"]
+422 verbose parsed url { protocol: null,
+422 verbose parsed url   slashes: null,
+422 verbose parsed url   auth: null,
+422 verbose parsed url   host: null,
+422 verbose parsed url   port: null,
+422 verbose parsed url   hostname: null,
+422 verbose parsed url   hash: null,
+422 verbose parsed url   search: null,
+422 verbose parsed url   query: null,
+422 verbose parsed url   pathname: '^2.0.0',
+422 verbose parsed url   path: '^2.0.0',
+422 verbose parsed url   href: '^2.0.0' }
+423 verbose addNamed [ 'through2', '^2.0.0' ]
+424 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+425 silly lockFile 06b895c8-through2-2-0-0 through2@^2.0.0
+426 verbose lock through2@^2.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\06b895c8-through2-2-0-0.lock
+427 silly lockFile 54ea9671-h-node-modules-gulp-autoprefixer tar://d:\rab-stol\info\rus-och\node_modules\gulp-autoprefixer
+428 silly lockFile 54ea9671-h-node-modules-gulp-autoprefixer tar://d:\rab-stol\info\rus-och\node_modules\gulp-autoprefixer
+429 silly addNameRange { name: 'gulp-util',
+429 silly addNameRange   range: '>=3.0.2-0 <4.0.0-0',
+429 silly addNameRange   hasData: false }
+430 silly lockFile 8ab42f89-p-autoprefixer-3-1-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-autoprefixer\3.1.1\package.tgz
+431 silly lockFile 8ab42f89-p-autoprefixer-3-1-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-autoprefixer\3.1.1\package.tgz
+432 silly addNameRange { name: 'jade', range: '>=1.1.0-0 <1.12.0-0', hasData: false }
+433 silly addNameRange { name: 'through2', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+434 silly gunzTarPerm extractEntry completion/fish
+435 silly gunzTarPerm modified mode [ 'completion/fish', 438, 420 ]
+436 silly gunzTarPerm extractEntry completion/powershell
+437 silly gunzTarPerm modified mode [ 'completion/powershell', 438, 420 ]
+438 silly gunzTarPerm extractEntry lib/connect-utils.js
+439 silly gunzTarPerm modified mode [ 'lib/connect-utils.js', 438, 420 ]
+440 silly gunzTarPerm extractEntry lib/default-config.js
+441 silly gunzTarPerm modified mode [ 'lib/default-config.js', 438, 420 ]
+442 silly lockFile 05a1c945-och-node-modules-gulp-sourcemaps tar://d:\rab-stol\info\rus-och\node_modules\gulp-sourcemaps
+443 silly lockFile 05a1c945-och-node-modules-gulp-sourcemaps tar://d:\rab-stol\info\rus-och\node_modules\gulp-sourcemaps
+444 silly gunzTarPerm extractEntry completion/zsh
+445 silly gunzTarPerm modified mode [ 'completion/zsh', 438, 420 ]
+446 silly gunzTarPerm extractEntry gulp.1
+447 silly gunzTarPerm modified mode [ 'gulp.1', 438, 420 ]
+448 silly gunzTarPerm extractEntry lib/completion.js
+449 silly gunzTarPerm modified mode [ 'lib/completion.js', 438, 420 ]
+450 silly gunzTarPerm extractEntry lib/taskTree.js
+451 silly gunzTarPerm modified mode [ 'lib/taskTree.js', 438, 420 ]
+452 silly gunzTarPerm extractEntry lib/file-event-handler.js
+453 silly gunzTarPerm modified mode [ 'lib/file-event-handler.js', 438, 420 ]
+454 silly gunzTarPerm extractEntry lib/file-utils.js
+455 silly gunzTarPerm modified mode [ 'lib/file-utils.js', 438, 420 ]
+456 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+457 silly lockFile 2c9c8954-ulp-sourcemaps-2-6-0-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sourcemaps\2.6.0\package.tgz
+458 info preinstall gulp-autoprefixer@3.1.1
+459 verbose readDependencies using package.json deps
+460 verbose readDependencies using package.json deps
+461 info preinstall gulp-sourcemaps@2.6.0
+462 verbose readDependencies using package.json deps
+463 verbose readDependencies using package.json deps
+464 silly gunzTarPerm extractEntry lib/config.js
+465 silly gunzTarPerm modified mode [ 'lib/config.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry lib/hooks.js
+467 silly gunzTarPerm modified mode [ 'lib/hooks.js', 438, 420 ]
+468 verbose cache add [ 'autoprefixer@^6.0.0', null ]
+469 verbose cache add name=undefined spec="autoprefixer@^6.0.0" args=["autoprefixer@^6.0.0",null]
+470 verbose parsed url { protocol: null,
+470 verbose parsed url   slashes: null,
+470 verbose parsed url   auth: null,
+470 verbose parsed url   host: null,
+470 verbose parsed url   port: null,
+470 verbose parsed url   hostname: null,
+470 verbose parsed url   hash: null,
+470 verbose parsed url   search: null,
+470 verbose parsed url   query: null,
+470 verbose parsed url   pathname: 'autoprefixer@^6.0.0',
+470 verbose parsed url   path: 'autoprefixer@^6.0.0',
+470 verbose parsed url   href: 'autoprefixer@^6.0.0' }
+471 verbose cache add name="autoprefixer" spec="^6.0.0" args=["autoprefixer","^6.0.0"]
+472 verbose parsed url { protocol: null,
+472 verbose parsed url   slashes: null,
+472 verbose parsed url   auth: null,
+472 verbose parsed url   host: null,
+472 verbose parsed url   port: null,
+472 verbose parsed url   hostname: null,
+472 verbose parsed url   hash: null,
+472 verbose parsed url   search: null,
+472 verbose parsed url   query: null,
+472 verbose parsed url   pathname: '^6.0.0',
+472 verbose parsed url   path: '^6.0.0',
+472 verbose parsed url   href: '^6.0.0' }
+473 verbose addNamed [ 'autoprefixer', '^6.0.0' ]
+474 verbose addNamed [ null, '>=6.0.0-0 <7.0.0-0' ]
+475 silly lockFile 275ce812-autoprefixer-6-0-0 autoprefixer@^6.0.0
+476 verbose lock autoprefixer@^6.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\275ce812-autoprefixer-6-0-0.lock
+477 verbose cache add [ 'gulp-util@^3.0.0', null ]
+478 verbose cache add name=undefined spec="gulp-util@^3.0.0" args=["gulp-util@^3.0.0",null]
+479 verbose parsed url { protocol: null,
+479 verbose parsed url   slashes: null,
+479 verbose parsed url   auth: null,
+479 verbose parsed url   host: null,
+479 verbose parsed url   port: null,
+479 verbose parsed url   hostname: null,
+479 verbose parsed url   hash: null,
+479 verbose parsed url   search: null,
+479 verbose parsed url   query: null,
+479 verbose parsed url   pathname: 'gulp-util@^3.0.0',
+479 verbose parsed url   path: 'gulp-util@^3.0.0',
+479 verbose parsed url   href: 'gulp-util@^3.0.0' }
+480 verbose cache add name="gulp-util" spec="^3.0.0" args=["gulp-util","^3.0.0"]
+481 verbose parsed url { protocol: null,
+481 verbose parsed url   slashes: null,
+481 verbose parsed url   auth: null,
+481 verbose parsed url   host: null,
+481 verbose parsed url   port: null,
+481 verbose parsed url   hostname: null,
+481 verbose parsed url   hash: null,
+481 verbose parsed url   search: null,
+481 verbose parsed url   query: null,
+481 verbose parsed url   pathname: '^3.0.0',
+481 verbose parsed url   path: '^3.0.0',
+481 verbose parsed url   href: '^3.0.0' }
+482 verbose addNamed [ 'gulp-util', '^3.0.0' ]
+483 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+484 silly lockFile dfa9a863-gulp-util-3-0-0 gulp-util@^3.0.0
+485 verbose lock gulp-util@^3.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\dfa9a863-gulp-util-3-0-0.lock
+486 verbose cache add [ '@gulp-sourcemaps/identity-map@1.X', null ]
+487 verbose cache add name=undefined spec="@gulp-sourcemaps/identity-map@1.X" args=["@gulp-sourcemaps/identity-map@1.X",null]
+488 verbose parsed url { protocol: null,
+488 verbose parsed url   slashes: null,
+488 verbose parsed url   auth: null,
+488 verbose parsed url   host: null,
+488 verbose parsed url   port: null,
+488 verbose parsed url   hostname: null,
+488 verbose parsed url   hash: null,
+488 verbose parsed url   search: null,
+488 verbose parsed url   query: null,
+488 verbose parsed url   pathname: '@gulp-sourcemaps/identity-map@1.X',
+488 verbose parsed url   path: '@gulp-sourcemaps/identity-map@1.X',
+488 verbose parsed url   href: '@gulp-sourcemaps/identity-map@1.X' }
+489 verbose cache add [ '@gulp-sourcemaps/map-sources@1.X', null ]
+490 verbose cache add name=undefined spec="@gulp-sourcemaps/map-sources@1.X" args=["@gulp-sourcemaps/map-sources@1.X",null]
+491 verbose parsed url { protocol: null,
+491 verbose parsed url   slashes: null,
+491 verbose parsed url   auth: null,
+491 verbose parsed url   host: null,
+491 verbose parsed url   port: null,
+491 verbose parsed url   hostname: null,
+491 verbose parsed url   hash: null,
+491 verbose parsed url   search: null,
+491 verbose parsed url   query: null,
+491 verbose parsed url   pathname: '@gulp-sourcemaps/map-sources@1.X',
+491 verbose parsed url   path: '@gulp-sourcemaps/map-sources@1.X',
+491 verbose parsed url   href: '@gulp-sourcemaps/map-sources@1.X' }
+492 verbose cache add [ 'postcss@^5.0.4', null ]
+493 verbose cache add name=undefined spec="postcss@^5.0.4" args=["postcss@^5.0.4",null]
+494 verbose parsed url { protocol: null,
+494 verbose parsed url   slashes: null,
+494 verbose parsed url   auth: null,
+494 verbose parsed url   host: null,
+494 verbose parsed url   port: null,
+494 verbose parsed url   hostname: null,
+494 verbose parsed url   hash: null,
+494 verbose parsed url   search: null,
+494 verbose parsed url   query: null,
+494 verbose parsed url   pathname: 'postcss@^5.0.4',
+494 verbose parsed url   path: 'postcss@^5.0.4',
+494 verbose parsed url   href: 'postcss@^5.0.4' }
+495 verbose cache add name="postcss" spec="^5.0.4" args=["postcss","^5.0.4"]
+496 verbose parsed url { protocol: null,
+496 verbose parsed url   slashes: null,
+496 verbose parsed url   auth: null,
+496 verbose parsed url   host: null,
+496 verbose parsed url   port: null,
+496 verbose parsed url   hostname: null,
+496 verbose parsed url   hash: null,
+496 verbose parsed url   search: null,
+496 verbose parsed url   query: null,
+496 verbose parsed url   pathname: '^5.0.4',
+496 verbose parsed url   path: '^5.0.4',
+496 verbose parsed url   href: '^5.0.4' }
+497 verbose addNamed [ 'postcss', '^5.0.4' ]
+498 verbose addNamed [ null, '>=5.0.4-0 <6.0.0-0' ]
+499 silly lockFile b0ad4b73-postcss-5-0-4 postcss@^5.0.4
+500 verbose lock postcss@^5.0.4 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\b0ad4b73-postcss-5-0-4.lock
+501 verbose cache add [ 'acorn@4.X', null ]
+502 verbose cache add name=undefined spec="acorn@4.X" args=["acorn@4.X",null]
+503 verbose parsed url { protocol: null,
+503 verbose parsed url   slashes: null,
+503 verbose parsed url   auth: null,
+503 verbose parsed url   host: null,
+503 verbose parsed url   port: null,
+503 verbose parsed url   hostname: null,
+503 verbose parsed url   hash: null,
+503 verbose parsed url   search: null,
+503 verbose parsed url   query: null,
+503 verbose parsed url   pathname: 'acorn@4.X',
+503 verbose parsed url   path: 'acorn@4.X',
+503 verbose parsed url   href: 'acorn@4.X' }
+504 verbose cache add name="acorn" spec="4.X" args=["acorn","4.X"]
+505 verbose parsed url { protocol: null,
+505 verbose parsed url   slashes: null,
+505 verbose parsed url   auth: null,
+505 verbose parsed url   host: null,
+505 verbose parsed url   port: null,
+505 verbose parsed url   hostname: null,
+505 verbose parsed url   hash: null,
+505 verbose parsed url   search: null,
+505 verbose parsed url   query: null,
+505 verbose parsed url   pathname: '4.X',
+505 verbose parsed url   path: '4.X',
+505 verbose parsed url   href: '4.X' }
+506 verbose addNamed [ 'acorn', '4.X' ]
+507 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+508 silly lockFile bbd8c4fe-acorn-4-X acorn@4.X
+509 verbose lock acorn@4.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\bbd8c4fe-acorn-4-X.lock
+510 verbose cache add [ 'through2@^2.0.0', null ]
+511 verbose cache add name=undefined spec="through2@^2.0.0" args=["through2@^2.0.0",null]
+512 verbose parsed url { protocol: null,
+512 verbose parsed url   slashes: null,
+512 verbose parsed url   auth: null,
+512 verbose parsed url   host: null,
+512 verbose parsed url   port: null,
+512 verbose parsed url   hostname: null,
+512 verbose parsed url   hash: null,
+512 verbose parsed url   search: null,
+512 verbose parsed url   query: null,
+512 verbose parsed url   pathname: 'through2@^2.0.0',
+512 verbose parsed url   path: 'through2@^2.0.0',
+512 verbose parsed url   href: 'through2@^2.0.0' }
+513 verbose cache add name="through2" spec="^2.0.0" args=["through2","^2.0.0"]
+514 verbose parsed url { protocol: null,
+514 verbose parsed url   slashes: null,
+514 verbose parsed url   auth: null,
+514 verbose parsed url   host: null,
+514 verbose parsed url   port: null,
+514 verbose parsed url   hostname: null,
+514 verbose parsed url   hash: null,
+514 verbose parsed url   search: null,
+514 verbose parsed url   query: null,
+514 verbose parsed url   pathname: '^2.0.0',
+514 verbose parsed url   path: '^2.0.0',
+514 verbose parsed url   href: '^2.0.0' }
+515 verbose addNamed [ 'through2', '^2.0.0' ]
+516 verbose cache add [ 'convert-source-map@1.X', null ]
+517 verbose cache add name=undefined spec="convert-source-map@1.X" args=["convert-source-map@1.X",null]
+518 verbose parsed url { protocol: null,
+518 verbose parsed url   slashes: null,
+518 verbose parsed url   auth: null,
+518 verbose parsed url   host: null,
+518 verbose parsed url   port: null,
+518 verbose parsed url   hostname: null,
+518 verbose parsed url   hash: null,
+518 verbose parsed url   search: null,
+518 verbose parsed url   query: null,
+518 verbose parsed url   pathname: 'convert-source-map@1.X',
+518 verbose parsed url   path: 'convert-source-map@1.X',
+518 verbose parsed url   href: 'convert-source-map@1.X' }
+519 verbose cache add name="convert-source-map" spec="1.X" args=["convert-source-map","1.X"]
+520 verbose parsed url { protocol: null,
+520 verbose parsed url   slashes: null,
+520 verbose parsed url   auth: null,
+520 verbose parsed url   host: null,
+520 verbose parsed url   port: null,
+520 verbose parsed url   hostname: null,
+520 verbose parsed url   hash: null,
+520 verbose parsed url   search: null,
+520 verbose parsed url   query: null,
+520 verbose parsed url   pathname: '1.X',
+520 verbose parsed url   path: '1.X',
+520 verbose parsed url   href: '1.X' }
+521 verbose addNamed [ 'convert-source-map', '1.X' ]
+522 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+523 silly lockFile 0d0a27d4-convert-source-map-1-X convert-source-map@1.X
+524 verbose lock convert-source-map@1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\0d0a27d4-convert-source-map-1-X.lock
+525 verbose cache add [ 'vinyl-sourcemaps-apply@^0.2.0', null ]
+526 verbose cache add name=undefined spec="vinyl-sourcemaps-apply@^0.2.0" args=["vinyl-sourcemaps-apply@^0.2.0",null]
+527 verbose parsed url { protocol: null,
+527 verbose parsed url   slashes: null,
+527 verbose parsed url   auth: null,
+527 verbose parsed url   host: null,
+527 verbose parsed url   port: null,
+527 verbose parsed url   hostname: null,
+527 verbose parsed url   hash: null,
+527 verbose parsed url   search: null,
+527 verbose parsed url   query: null,
+527 verbose parsed url   pathname: 'vinyl-sourcemaps-apply@^0.2.0',
+527 verbose parsed url   path: 'vinyl-sourcemaps-apply@^0.2.0',
+527 verbose parsed url   href: 'vinyl-sourcemaps-apply@^0.2.0' }
+528 verbose cache add name="vinyl-sourcemaps-apply" spec="^0.2.0" args=["vinyl-sourcemaps-apply","^0.2.0"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '^0.2.0',
+529 verbose parsed url   path: '^0.2.0',
+529 verbose parsed url   href: '^0.2.0' }
+530 verbose addNamed [ 'vinyl-sourcemaps-apply', '^0.2.0' ]
+531 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+532 silly lockFile 8550c2ed-vinyl-sourcemaps-apply-0-2-0 vinyl-sourcemaps-apply@^0.2.0
+533 verbose lock vinyl-sourcemaps-apply@^0.2.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\8550c2ed-vinyl-sourcemaps-apply-0-2-0.lock
+534 verbose cache add [ 'css@2.X', null ]
+535 verbose cache add name=undefined spec="css@2.X" args=["css@2.X",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'css@2.X',
+536 verbose parsed url   path: 'css@2.X',
+536 verbose parsed url   href: 'css@2.X' }
+537 verbose cache add name="css" spec="2.X" args=["css","2.X"]
+538 verbose parsed url { protocol: null,
+538 verbose parsed url   slashes: null,
+538 verbose parsed url   auth: null,
+538 verbose parsed url   host: null,
+538 verbose parsed url   port: null,
+538 verbose parsed url   hostname: null,
+538 verbose parsed url   hash: null,
+538 verbose parsed url   search: null,
+538 verbose parsed url   query: null,
+538 verbose parsed url   pathname: '2.X',
+538 verbose parsed url   path: '2.X',
+538 verbose parsed url   href: '2.X' }
+539 verbose addNamed [ 'css', '2.X' ]
+540 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+541 silly lockFile 79cd8a68-css-2-X css@2.X
+542 verbose lock css@2.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\79cd8a68-css-2-X.lock
+543 verbose cache add [ 'debug-fabulous@0.1.X', null ]
+544 verbose cache add name=undefined spec="debug-fabulous@0.1.X" args=["debug-fabulous@0.1.X",null]
+545 verbose parsed url { protocol: null,
+545 verbose parsed url   slashes: null,
+545 verbose parsed url   auth: null,
+545 verbose parsed url   host: null,
+545 verbose parsed url   port: null,
+545 verbose parsed url   hostname: null,
+545 verbose parsed url   hash: null,
+545 verbose parsed url   search: null,
+545 verbose parsed url   query: null,
+545 verbose parsed url   pathname: 'debug-fabulous@0.1.X',
+545 verbose parsed url   path: 'debug-fabulous@0.1.X',
+545 verbose parsed url   href: 'debug-fabulous@0.1.X' }
+546 verbose cache add name="debug-fabulous" spec="0.1.X" args=["debug-fabulous","0.1.X"]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: '0.1.X',
+547 verbose parsed url   path: '0.1.X',
+547 verbose parsed url   href: '0.1.X' }
+548 verbose addNamed [ 'debug-fabulous', '0.1.X' ]
+549 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+550 silly lockFile c5d7d010-debug-fabulous-0-1-X debug-fabulous@0.1.X
+551 verbose lock debug-fabulous@0.1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\c5d7d010-debug-fabulous-0-1-X.lock
+552 verbose cache add [ 'detect-newline@2.X', null ]
+553 verbose cache add name=undefined spec="detect-newline@2.X" args=["detect-newline@2.X",null]
+554 verbose parsed url { protocol: null,
+554 verbose parsed url   slashes: null,
+554 verbose parsed url   auth: null,
+554 verbose parsed url   host: null,
+554 verbose parsed url   port: null,
+554 verbose parsed url   hostname: null,
+554 verbose parsed url   hash: null,
+554 verbose parsed url   search: null,
+554 verbose parsed url   query: null,
+554 verbose parsed url   pathname: 'detect-newline@2.X',
+554 verbose parsed url   path: 'detect-newline@2.X',
+554 verbose parsed url   href: 'detect-newline@2.X' }
+555 verbose cache add name="detect-newline" spec="2.X" args=["detect-newline","2.X"]
+556 verbose parsed url { protocol: null,
+556 verbose parsed url   slashes: null,
+556 verbose parsed url   auth: null,
+556 verbose parsed url   host: null,
+556 verbose parsed url   port: null,
+556 verbose parsed url   hostname: null,
+556 verbose parsed url   hash: null,
+556 verbose parsed url   search: null,
+556 verbose parsed url   query: null,
+556 verbose parsed url   pathname: '2.X',
+556 verbose parsed url   path: '2.X',
+556 verbose parsed url   href: '2.X' }
+557 verbose addNamed [ 'detect-newline', '2.X' ]
+558 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+559 silly lockFile 348c89ef-detect-newline-2-X detect-newline@2.X
+560 verbose lock detect-newline@2.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\348c89ef-detect-newline-2-X.lock
+561 verbose cache add [ 'graceful-fs@4.X', null ]
+562 verbose cache add name=undefined spec="graceful-fs@4.X" args=["graceful-fs@4.X",null]
+563 verbose parsed url { protocol: null,
+563 verbose parsed url   slashes: null,
+563 verbose parsed url   auth: null,
+563 verbose parsed url   host: null,
+563 verbose parsed url   port: null,
+563 verbose parsed url   hostname: null,
+563 verbose parsed url   hash: null,
+563 verbose parsed url   search: null,
+563 verbose parsed url   query: null,
+563 verbose parsed url   pathname: 'graceful-fs@4.X',
+563 verbose parsed url   path: 'graceful-fs@4.X',
+563 verbose parsed url   href: 'graceful-fs@4.X' }
+564 verbose cache add name="graceful-fs" spec="4.X" args=["graceful-fs","4.X"]
+565 verbose parsed url { protocol: null,
+565 verbose parsed url   slashes: null,
+565 verbose parsed url   auth: null,
+565 verbose parsed url   host: null,
+565 verbose parsed url   port: null,
+565 verbose parsed url   hostname: null,
+565 verbose parsed url   hash: null,
+565 verbose parsed url   search: null,
+565 verbose parsed url   query: null,
+565 verbose parsed url   pathname: '4.X',
+565 verbose parsed url   path: '4.X',
+565 verbose parsed url   href: '4.X' }
+566 verbose addNamed [ 'graceful-fs', '4.X' ]
+567 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+568 silly lockFile 309342b2-graceful-fs-4-X graceful-fs@4.X
+569 verbose lock graceful-fs@4.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\309342b2-graceful-fs-4-X.lock
+570 verbose cache add [ 'source-map@0.X', null ]
+571 verbose cache add name=undefined spec="source-map@0.X" args=["source-map@0.X",null]
+572 verbose parsed url { protocol: null,
+572 verbose parsed url   slashes: null,
+572 verbose parsed url   auth: null,
+572 verbose parsed url   host: null,
+572 verbose parsed url   port: null,
+572 verbose parsed url   hostname: null,
+572 verbose parsed url   hash: null,
+572 verbose parsed url   search: null,
+572 verbose parsed url   query: null,
+572 verbose parsed url   pathname: 'source-map@0.X',
+572 verbose parsed url   path: 'source-map@0.X',
+572 verbose parsed url   href: 'source-map@0.X' }
+573 verbose cache add name="source-map" spec="0.X" args=["source-map","0.X"]
+574 verbose parsed url { protocol: null,
+574 verbose parsed url   slashes: null,
+574 verbose parsed url   auth: null,
+574 verbose parsed url   host: null,
+574 verbose parsed url   port: null,
+574 verbose parsed url   hostname: null,
+574 verbose parsed url   hash: null,
+574 verbose parsed url   search: null,
+574 verbose parsed url   query: null,
+574 verbose parsed url   pathname: '0.X',
+574 verbose parsed url   path: '0.X',
+574 verbose parsed url   href: '0.X' }
+575 verbose addNamed [ 'source-map', '0.X' ]
+576 verbose addNamed [ null, '>=0.0.0-0 <1.0.0-0' ]
+577 silly lockFile c32c3a56-source-map-0-X source-map@0.X
+578 verbose lock source-map@0.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\c32c3a56-source-map-0-X.lock
+579 verbose cache add [ 'strip-bom-string@1.X', null ]
+580 verbose cache add name=undefined spec="strip-bom-string@1.X" args=["strip-bom-string@1.X",null]
+581 verbose parsed url { protocol: null,
+581 verbose parsed url   slashes: null,
+581 verbose parsed url   auth: null,
+581 verbose parsed url   host: null,
+581 verbose parsed url   port: null,
+581 verbose parsed url   hostname: null,
+581 verbose parsed url   hash: null,
+581 verbose parsed url   search: null,
+581 verbose parsed url   query: null,
+581 verbose parsed url   pathname: 'strip-bom-string@1.X',
+581 verbose parsed url   path: 'strip-bom-string@1.X',
+581 verbose parsed url   href: 'strip-bom-string@1.X' }
+582 verbose cache add name="strip-bom-string" spec="1.X" args=["strip-bom-string","1.X"]
+583 verbose parsed url { protocol: null,
+583 verbose parsed url   slashes: null,
+583 verbose parsed url   auth: null,
+583 verbose parsed url   host: null,
+583 verbose parsed url   port: null,
+583 verbose parsed url   hostname: null,
+583 verbose parsed url   hash: null,
+583 verbose parsed url   search: null,
+583 verbose parsed url   query: null,
+583 verbose parsed url   pathname: '1.X',
+583 verbose parsed url   path: '1.X',
+583 verbose parsed url   href: '1.X' }
+584 verbose addNamed [ 'strip-bom-string', '1.X' ]
+585 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+586 silly lockFile 38dad75b-strip-bom-string-1-X strip-bom-string@1.X
+587 verbose lock strip-bom-string@1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\38dad75b-strip-bom-string-1-X.lock
+588 verbose cache add [ 'through2@2.X', null ]
+589 verbose cache add name=undefined spec="through2@2.X" args=["through2@2.X",null]
+590 verbose parsed url { protocol: null,
+590 verbose parsed url   slashes: null,
+590 verbose parsed url   auth: null,
+590 verbose parsed url   host: null,
+590 verbose parsed url   port: null,
+590 verbose parsed url   hostname: null,
+590 verbose parsed url   hash: null,
+590 verbose parsed url   search: null,
+590 verbose parsed url   query: null,
+590 verbose parsed url   pathname: 'through2@2.X',
+590 verbose parsed url   path: 'through2@2.X',
+590 verbose parsed url   href: 'through2@2.X' }
+591 verbose cache add name="through2" spec="2.X" args=["through2","2.X"]
+592 verbose parsed url { protocol: null,
+592 verbose parsed url   slashes: null,
+592 verbose parsed url   auth: null,
+592 verbose parsed url   host: null,
+592 verbose parsed url   port: null,
+592 verbose parsed url   hostname: null,
+592 verbose parsed url   hash: null,
+592 verbose parsed url   search: null,
+592 verbose parsed url   query: null,
+592 verbose parsed url   pathname: '2.X',
+592 verbose parsed url   path: '2.X',
+592 verbose parsed url   href: '2.X' }
+593 verbose addNamed [ 'through2', '2.X' ]
+594 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+595 silly lockFile 0c04bea3-through2-2-X through2@2.X
+596 verbose lock through2@2.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\0c04bea3-through2-2-X.lock
+597 verbose cache add name="" spec="gulp-sourcemaps/identity-map@1.X" args=["","gulp-sourcemaps/identity-map@1.X"]
+598 verbose parsed url { protocol: null,
+598 verbose parsed url   slashes: null,
+598 verbose parsed url   auth: null,
+598 verbose parsed url   host: null,
+598 verbose parsed url   port: null,
+598 verbose parsed url   hostname: null,
+598 verbose parsed url   hash: null,
+598 verbose parsed url   search: null,
+598 verbose parsed url   query: null,
+598 verbose parsed url   pathname: 'gulp-sourcemaps/identity-map@1.X',
+598 verbose parsed url   path: 'gulp-sourcemaps/identity-map@1.X',
+598 verbose parsed url   href: 'gulp-sourcemaps/identity-map@1.X' }
+599 verbose cache add name="" spec="gulp-sourcemaps/map-sources@1.X" args=["","gulp-sourcemaps/map-sources@1.X"]
+600 verbose parsed url { protocol: null,
+600 verbose parsed url   slashes: null,
+600 verbose parsed url   auth: null,
+600 verbose parsed url   host: null,
+600 verbose parsed url   port: null,
+600 verbose parsed url   hostname: null,
+600 verbose parsed url   hash: null,
+600 verbose parsed url   search: null,
+600 verbose parsed url   query: null,
+600 verbose parsed url   pathname: 'gulp-sourcemaps/map-sources@1.X',
+600 verbose parsed url   path: 'gulp-sourcemaps/map-sources@1.X',
+600 verbose parsed url   href: 'gulp-sourcemaps/map-sources@1.X' }
+601 verbose cache add name="gulp-sourcemaps/identity-map" spec="1.X" args=["gulp-sourcemaps/identity-map","1.X"]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: '1.X',
+602 verbose parsed url   path: '1.X',
+602 verbose parsed url   href: '1.X' }
+603 verbose addNamed [ 'gulp-sourcemaps/identity-map', '1.X' ]
+604 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+605 silly lockFile eaca633b-gulp-sourcemaps-identity-map-1-X gulp-sourcemaps/identity-map@1.X
+606 verbose lock gulp-sourcemaps/identity-map@1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\eaca633b-gulp-sourcemaps-identity-map-1-X.lock
+607 verbose cache add name="gulp-sourcemaps/map-sources" spec="1.X" args=["gulp-sourcemaps/map-sources","1.X"]
+608 verbose parsed url { protocol: null,
+608 verbose parsed url   slashes: null,
+608 verbose parsed url   auth: null,
+608 verbose parsed url   host: null,
+608 verbose parsed url   port: null,
+608 verbose parsed url   hostname: null,
+608 verbose parsed url   hash: null,
+608 verbose parsed url   search: null,
+608 verbose parsed url   query: null,
+608 verbose parsed url   pathname: '1.X',
+608 verbose parsed url   path: '1.X',
+608 verbose parsed url   href: '1.X' }
+609 verbose addNamed [ 'gulp-sourcemaps/map-sources', '1.X' ]
+610 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+611 silly lockFile f40b09d5-gulp-sourcemaps-map-sources-1-X gulp-sourcemaps/map-sources@1.X
+612 verbose lock gulp-sourcemaps/map-sources@1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\f40b09d5-gulp-sourcemaps-map-sources-1-X.lock
+613 silly addNameRange { name: 'autoprefixer',
+613 silly addNameRange   range: '>=6.0.0-0 <7.0.0-0',
+613 silly addNameRange   hasData: false }
+614 silly gunzTarPerm extractEntry lib/async-tasks.js
+615 silly gunzTarPerm modified mode [ 'lib/async-tasks.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/internal-events.js
+617 silly gunzTarPerm modified mode [ 'lib/internal-events.js', 438, 420 ]
+618 silly addNameRange { name: 'graceful-fs',
+618 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+618 silly addNameRange   hasData: false }
+619 silly addNameRange { name: 'through2', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+620 silly addNameRange { name: 'strip-bom-string',
+620 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+620 silly addNameRange   hasData: false }
+621 silly addNameRange { name: 'gulp-util',
+621 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+621 silly addNameRange   hasData: false }
+622 silly addNameRange { name: 'detect-newline',
+622 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+622 silly addNameRange   hasData: false }
+623 silly addNameRange { name: 'source-map',
+623 silly addNameRange   range: '>=0.0.0-0 <1.0.0-0',
+623 silly addNameRange   hasData: false }
+624 silly addNameRange { name: 'gulp-sourcemaps/identity-map',
+624 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+624 silly addNameRange   hasData: false }
+625 silly addNameRange { name: 'debug-fabulous',
+625 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+625 silly addNameRange   hasData: false }
+626 silly addNameRange { name: 'postcss', range: '>=5.0.4-0 <6.0.0-0', hasData: false }
+627 silly addNameRange { name: 'acorn', range: '>=4.0.0-0 <5.0.0-0', hasData: false }
+628 silly addNameRange { name: 'vinyl-sourcemaps-apply',
+628 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+628 silly addNameRange   hasData: false }
+629 silly addNameRange { name: 'gulp-sourcemaps/map-sources',
+629 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+629 silly addNameRange   hasData: false }
+630 silly addNameRange { name: 'convert-source-map',
+630 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+630 silly addNameRange   hasData: false }
+631 silly addNameRange { name: 'css', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+632 verbose cache add [ 'vinyl@1.X', null ]
+633 verbose cache add name=undefined spec="vinyl@1.X" args=["vinyl@1.X",null]
+634 verbose parsed url { protocol: null,
+634 verbose parsed url   slashes: null,
+634 verbose parsed url   auth: null,
+634 verbose parsed url   host: null,
+634 verbose parsed url   port: null,
+634 verbose parsed url   hostname: null,
+634 verbose parsed url   hash: null,
+634 verbose parsed url   search: null,
+634 verbose parsed url   query: null,
+634 verbose parsed url   pathname: 'vinyl@1.X',
+634 verbose parsed url   path: 'vinyl@1.X',
+634 verbose parsed url   href: 'vinyl@1.X' }
+635 verbose cache add name="vinyl" spec="1.X" args=["vinyl","1.X"]
+636 verbose parsed url { protocol: null,
+636 verbose parsed url   slashes: null,
+636 verbose parsed url   auth: null,
+636 verbose parsed url   host: null,
+636 verbose parsed url   port: null,
+636 verbose parsed url   hostname: null,
+636 verbose parsed url   hash: null,
+636 verbose parsed url   search: null,
+636 verbose parsed url   query: null,
+636 verbose parsed url   pathname: '1.X',
+636 verbose parsed url   path: '1.X',
+636 verbose parsed url   href: '1.X' }
+637 verbose addNamed [ 'vinyl', '1.X' ]
+638 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+639 silly lockFile 9b576b8f-vinyl-1-X vinyl@1.X
+640 verbose lock vinyl@1.X C:\Users\ndegtyareva\AppData\Roaming\npm-cache\9b576b8f-vinyl-1-X.lock
+641 verbose url raw strip-bom-string
+642 verbose url resolving [ 'https://registry.npmjs.org/', './strip-bom-string' ]
+643 verbose url resolved https://registry.npmjs.org/strip-bom-string
+644 info trying registry request attempt 1 at 13:59:28
+645 http GET https://registry.npmjs.org/strip-bom-string
+646 silly gunzTarPerm extractEntry lib/logger.js
+647 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry lib/options.js
+649 silly gunzTarPerm modified mode [ 'lib/options.js', 438, 420 ]
+650 silly gunzTarPerm extractEntry lib/tunnel.js
+651 silly gunzTarPerm modified mode [ 'lib/tunnel.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry lib/plugins.js
+653 silly gunzTarPerm modified mode [ 'lib/plugins.js', 438, 420 ]
+654 silly gunzTarPerm extractEntry lib/browser-sync.js
+655 silly gunzTarPerm modified mode [ 'lib/browser-sync.js', 438, 420 ]
+656 silly gunzTarPerm extractEntry lib/sockets.js
+657 silly gunzTarPerm modified mode [ 'lib/sockets.js', 438, 420 ]
+658 verbose url raw gulp-sourcemaps/identity-map
+659 verbose url resolving [ 'https://registry.npmjs.org/',
+659 verbose url resolving   './gulp-sourcemaps/identity-map' ]
+660 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps/identity-map
+661 info trying registry request attempt 1 at 13:59:28
+662 http GET https://registry.npmjs.org/gulp-sourcemaps/identity-map
+663 verbose url raw gulp-sourcemaps/map-sources
+664 verbose url resolving [ 'https://registry.npmjs.org/',
+664 verbose url resolving   './gulp-sourcemaps/map-sources' ]
+665 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps/map-sources
+666 info trying registry request attempt 1 at 13:59:28
+667 http GET https://registry.npmjs.org/gulp-sourcemaps/map-sources
+668 silly addNameRange { name: 'vinyl', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+669 silly gunzTarPerm extractEntry lib/async.js
+670 silly gunzTarPerm modified mode [ 'lib/async.js', 438, 420 ]
+671 silly gunzTarPerm extractEntry lib/snippet.js
+672 silly gunzTarPerm modified mode [ 'lib/snippet.js', 438, 420 ]
+673 verbose url raw jade
+674 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+675 verbose url resolved https://registry.npmjs.org/jade
+676 info trying registry request attempt 1 at 13:59:28
+677 verbose etag "58857476-27af0"
+678 http GET https://registry.npmjs.org/jade
+679 verbose url raw vinyl-sourcemaps-apply
+680 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-sourcemaps-apply' ]
+681 verbose url resolved https://registry.npmjs.org/vinyl-sourcemaps-apply
+682 info trying registry request attempt 1 at 13:59:28
+683 verbose etag "56802669-2633"
+684 http GET https://registry.npmjs.org/vinyl-sourcemaps-apply
+685 verbose url raw detect-newline
+686 verbose url resolving [ 'https://registry.npmjs.org/', './detect-newline' ]
+687 verbose url resolved https://registry.npmjs.org/detect-newline
+688 info trying registry request attempt 1 at 13:59:28
+689 verbose etag "56c36da7-347b"
+690 http GET https://registry.npmjs.org/detect-newline
+691 silly gunzTarPerm extractEntry lib/file-watcher.js
+692 silly gunzTarPerm modified mode [ 'lib/file-watcher.js', 438, 420 ]
+693 silly gunzTarPerm extractEntry lib/utils.js
+694 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+695 verbose url raw css
+696 verbose url resolving [ 'https://registry.npmjs.org/', './css' ]
+697 verbose url resolved https://registry.npmjs.org/css
+698 info trying registry request attempt 1 at 13:59:28
+699 verbose etag "57ef352f-70df"
+700 http GET https://registry.npmjs.org/css
+701 silly lockFile d8e4e1dd-o-rus-och-node-modules-gulp-sass tar://d:\rab-stol\info\rus-och\node_modules\gulp-sass
+702 silly lockFile d8e4e1dd-o-rus-och-node-modules-gulp-sass tar://d:\rab-stol\info\rus-och\node_modules\gulp-sass
+703 silly lockFile 8fab4f67-ache-gulp-sass-2-3-2-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz
+704 silly lockFile 8fab4f67-ache-gulp-sass-2-3-2-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz
+705 verbose url raw acorn
+706 verbose url resolving [ 'https://registry.npmjs.org/', './acorn' ]
+707 verbose url resolved https://registry.npmjs.org/acorn
+708 info trying registry request attempt 1 at 13:59:28
+709 verbose etag "5899d336-1fb30"
+710 http GET https://registry.npmjs.org/acorn
+711 info preinstall gulp-sass@2.3.2
+712 verbose readDependencies using package.json deps
+713 verbose readDependencies using package.json deps
+714 verbose cache add [ 'gulp-util@^3.0', null ]
+715 verbose cache add name=undefined spec="gulp-util@^3.0" args=["gulp-util@^3.0",null]
+716 verbose parsed url { protocol: null,
+716 verbose parsed url   slashes: null,
+716 verbose parsed url   auth: null,
+716 verbose parsed url   host: null,
+716 verbose parsed url   port: null,
+716 verbose parsed url   hostname: null,
+716 verbose parsed url   hash: null,
+716 verbose parsed url   search: null,
+716 verbose parsed url   query: null,
+716 verbose parsed url   pathname: 'gulp-util@^3.0',
+716 verbose parsed url   path: 'gulp-util@^3.0',
+716 verbose parsed url   href: 'gulp-util@^3.0' }
+717 verbose cache add name="gulp-util" spec="^3.0" args=["gulp-util","^3.0"]
+718 verbose parsed url { protocol: null,
+718 verbose parsed url   slashes: null,
+718 verbose parsed url   auth: null,
+718 verbose parsed url   host: null,
+718 verbose parsed url   port: null,
+718 verbose parsed url   hostname: null,
+718 verbose parsed url   hash: null,
+718 verbose parsed url   search: null,
+718 verbose parsed url   query: null,
+718 verbose parsed url   pathname: '^3.0',
+718 verbose parsed url   path: '^3.0',
+718 verbose parsed url   href: '^3.0' }
+719 verbose addNamed [ 'gulp-util', '^3.0' ]
+720 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+721 silly lockFile d29ddf51-gulp-util-3-0 gulp-util@^3.0
+722 verbose lock gulp-util@^3.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\d29ddf51-gulp-util-3-0.lock
+723 verbose cache add [ 'lodash.clonedeep@^4.3.2', null ]
+724 verbose cache add name=undefined spec="lodash.clonedeep@^4.3.2" args=["lodash.clonedeep@^4.3.2",null]
+725 verbose parsed url { protocol: null,
+725 verbose parsed url   slashes: null,
+725 verbose parsed url   auth: null,
+725 verbose parsed url   host: null,
+725 verbose parsed url   port: null,
+725 verbose parsed url   hostname: null,
+725 verbose parsed url   hash: null,
+725 verbose parsed url   search: null,
+725 verbose parsed url   query: null,
+725 verbose parsed url   pathname: 'lodash.clonedeep@^4.3.2',
+725 verbose parsed url   path: 'lodash.clonedeep@^4.3.2',
+725 verbose parsed url   href: 'lodash.clonedeep@^4.3.2' }
+726 verbose cache add name="lodash.clonedeep" spec="^4.3.2" args=["lodash.clonedeep","^4.3.2"]
+727 verbose parsed url { protocol: null,
+727 verbose parsed url   slashes: null,
+727 verbose parsed url   auth: null,
+727 verbose parsed url   host: null,
+727 verbose parsed url   port: null,
+727 verbose parsed url   hostname: null,
+727 verbose parsed url   hash: null,
+727 verbose parsed url   search: null,
+727 verbose parsed url   query: null,
+727 verbose parsed url   pathname: '^4.3.2',
+727 verbose parsed url   path: '^4.3.2',
+727 verbose parsed url   href: '^4.3.2' }
+728 verbose addNamed [ 'lodash.clonedeep', '^4.3.2' ]
+729 verbose addNamed [ null, '>=4.3.2-0 <5.0.0-0' ]
+730 silly lockFile a9085380-lodash-clonedeep-4-3-2 lodash.clonedeep@^4.3.2
+731 verbose lock lodash.clonedeep@^4.3.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\a9085380-lodash-clonedeep-4-3-2.lock
+732 verbose cache add [ 'node-sass@^3.4.2', null ]
+733 verbose cache add name=undefined spec="node-sass@^3.4.2" args=["node-sass@^3.4.2",null]
+734 verbose parsed url { protocol: null,
+734 verbose parsed url   slashes: null,
+734 verbose parsed url   auth: null,
+734 verbose parsed url   host: null,
+734 verbose parsed url   port: null,
+734 verbose parsed url   hostname: null,
+734 verbose parsed url   hash: null,
+734 verbose parsed url   search: null,
+734 verbose parsed url   query: null,
+734 verbose parsed url   pathname: 'node-sass@^3.4.2',
+734 verbose parsed url   path: 'node-sass@^3.4.2',
+734 verbose parsed url   href: 'node-sass@^3.4.2' }
+735 verbose cache add name="node-sass" spec="^3.4.2" args=["node-sass","^3.4.2"]
+736 verbose parsed url { protocol: null,
+736 verbose parsed url   slashes: null,
+736 verbose parsed url   auth: null,
+736 verbose parsed url   host: null,
+736 verbose parsed url   port: null,
+736 verbose parsed url   hostname: null,
+736 verbose parsed url   hash: null,
+736 verbose parsed url   search: null,
+736 verbose parsed url   query: null,
+736 verbose parsed url   pathname: '^3.4.2',
+736 verbose parsed url   path: '^3.4.2',
+736 verbose parsed url   href: '^3.4.2' }
+737 verbose addNamed [ 'node-sass', '^3.4.2' ]
+738 verbose addNamed [ null, '>=3.4.2-0 <4.0.0-0' ]
+739 silly lockFile a4b8542c-node-sass-3-4-2 node-sass@^3.4.2
+740 verbose lock node-sass@^3.4.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\a4b8542c-node-sass-3-4-2.lock
+741 verbose cache add [ 'through2@^2.0.0', null ]
+742 verbose cache add name=undefined spec="through2@^2.0.0" args=["through2@^2.0.0",null]
+743 verbose parsed url { protocol: null,
+743 verbose parsed url   slashes: null,
+743 verbose parsed url   auth: null,
+743 verbose parsed url   host: null,
+743 verbose parsed url   port: null,
+743 verbose parsed url   hostname: null,
+743 verbose parsed url   hash: null,
+743 verbose parsed url   search: null,
+743 verbose parsed url   query: null,
+743 verbose parsed url   pathname: 'through2@^2.0.0',
+743 verbose parsed url   path: 'through2@^2.0.0',
+743 verbose parsed url   href: 'through2@^2.0.0' }
+744 verbose cache add name="through2" spec="^2.0.0" args=["through2","^2.0.0"]
+745 verbose parsed url { protocol: null,
+745 verbose parsed url   slashes: null,
+745 verbose parsed url   auth: null,
+745 verbose parsed url   host: null,
+745 verbose parsed url   port: null,
+745 verbose parsed url   hostname: null,
+745 verbose parsed url   hash: null,
+745 verbose parsed url   search: null,
+745 verbose parsed url   query: null,
+745 verbose parsed url   pathname: '^2.0.0',
+745 verbose parsed url   path: '^2.0.0',
+745 verbose parsed url   href: '^2.0.0' }
+746 verbose addNamed [ 'through2', '^2.0.0' ]
+747 verbose cache add [ 'vinyl-sourcemaps-apply@^0.2.0', null ]
+748 verbose cache add name=undefined spec="vinyl-sourcemaps-apply@^0.2.0" args=["vinyl-sourcemaps-apply@^0.2.0",null]
+749 verbose parsed url { protocol: null,
+749 verbose parsed url   slashes: null,
+749 verbose parsed url   auth: null,
+749 verbose parsed url   host: null,
+749 verbose parsed url   port: null,
+749 verbose parsed url   hostname: null,
+749 verbose parsed url   hash: null,
+749 verbose parsed url   search: null,
+749 verbose parsed url   query: null,
+749 verbose parsed url   pathname: 'vinyl-sourcemaps-apply@^0.2.0',
+749 verbose parsed url   path: 'vinyl-sourcemaps-apply@^0.2.0',
+749 verbose parsed url   href: 'vinyl-sourcemaps-apply@^0.2.0' }
+750 verbose cache add name="vinyl-sourcemaps-apply" spec="^0.2.0" args=["vinyl-sourcemaps-apply","^0.2.0"]
+751 verbose parsed url { protocol: null,
+751 verbose parsed url   slashes: null,
+751 verbose parsed url   auth: null,
+751 verbose parsed url   host: null,
+751 verbose parsed url   port: null,
+751 verbose parsed url   hostname: null,
+751 verbose parsed url   hash: null,
+751 verbose parsed url   search: null,
+751 verbose parsed url   query: null,
+751 verbose parsed url   pathname: '^0.2.0',
+751 verbose parsed url   path: '^0.2.0',
+751 verbose parsed url   href: '^0.2.0' }
+752 verbose addNamed [ 'vinyl-sourcemaps-apply', '^0.2.0' ]
+753 verbose url raw source-map
+754 verbose url resolving [ 'https://registry.npmjs.org/', './source-map' ]
+755 verbose url resolved https://registry.npmjs.org/source-map
+756 info trying registry request attempt 1 at 13:59:28
+757 verbose etag "5857b719-2524b"
+758 http GET https://registry.npmjs.org/source-map
+759 silly addNameRange { name: 'gulp-util',
+759 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+759 silly addNameRange   hasData: false }
+760 silly addNameRange { name: 'lodash.clonedeep',
+760 silly addNameRange   range: '>=4.3.2-0 <5.0.0-0',
+760 silly addNameRange   hasData: false }
+761 silly addNameRange { name: 'node-sass',
+761 silly addNameRange   range: '>=3.4.2-0 <4.0.0-0',
+761 silly addNameRange   hasData: false }
+762 verbose url raw debug-fabulous
+763 verbose url resolving [ 'https://registry.npmjs.org/', './debug-fabulous' ]
+764 verbose url resolved https://registry.npmjs.org/debug-fabulous
+765 info trying registry request attempt 1 at 13:59:28
+766 verbose etag "57fe3470-135f"
+767 http GET https://registry.npmjs.org/debug-fabulous
+768 verbose url raw convert-source-map
+769 verbose url resolving [ 'https://registry.npmjs.org/', './convert-source-map' ]
+770 verbose url resolved https://registry.npmjs.org/convert-source-map
+771 info trying registry request attempt 1 at 13:59:28
+772 verbose etag "586f9a69-92e1"
+773 http GET https://registry.npmjs.org/convert-source-map
+774 verbose url raw gulp-util
+775 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+776 verbose url resolved https://registry.npmjs.org/gulp-util
+777 info trying registry request attempt 1 at 13:59:28
+778 verbose etag "589d305a-fd69"
+779 http GET https://registry.npmjs.org/gulp-util
+780 verbose url raw gulp-util
+781 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+782 verbose url resolved https://registry.npmjs.org/gulp-util
+783 info trying registry request attempt 1 at 13:59:28
+784 verbose etag "589d305a-fd69"
+785 http GET https://registry.npmjs.org/gulp-util
+786 verbose url raw gulp-util
+787 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+788 verbose url resolved https://registry.npmjs.org/gulp-util
+789 info trying registry request attempt 1 at 13:59:28
+790 verbose etag "589d305a-fd69"
+791 http GET https://registry.npmjs.org/gulp-util
+792 verbose url raw postcss
+793 verbose url resolving [ 'https://registry.npmjs.org/', './postcss' ]
+794 verbose url resolved https://registry.npmjs.org/postcss
+795 info trying registry request attempt 1 at 13:59:28
+796 verbose etag "589799e1-26910"
+797 http GET https://registry.npmjs.org/postcss
+798 verbose url raw through2
+799 verbose url resolving [ 'https://registry.npmjs.org/', './through2' ]
+800 verbose url resolved https://registry.npmjs.org/through2
+801 info trying registry request attempt 1 at 13:59:28
+802 verbose etag "58893721-a8c2"
+803 http GET https://registry.npmjs.org/through2
+804 verbose url raw through2
+805 verbose url resolving [ 'https://registry.npmjs.org/', './through2' ]
+806 verbose url resolved https://registry.npmjs.org/through2
+807 info trying registry request attempt 1 at 13:59:28
+808 verbose etag "58893721-a8c2"
+809 http GET https://registry.npmjs.org/through2
+810 verbose url raw node-sass
+811 verbose url resolving [ 'https://registry.npmjs.org/', './node-sass' ]
+812 verbose url resolved https://registry.npmjs.org/node-sass
+813 info trying registry request attempt 1 at 13:59:28
+814 verbose etag "58a15818-3b57a"
+815 http GET https://registry.npmjs.org/node-sass
+816 verbose url raw lodash.clonedeep
+817 verbose url resolving [ 'https://registry.npmjs.org/', './lodash.clonedeep' ]
+818 verbose url resolved https://registry.npmjs.org/lodash.clonedeep
+819 info trying registry request attempt 1 at 13:59:28
+820 verbose etag "58467d04-a0b9"
+821 http GET https://registry.npmjs.org/lodash.clonedeep
+822 verbose url raw graceful-fs
+823 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+824 verbose url resolved https://registry.npmjs.org/graceful-fs
+825 info trying registry request attempt 1 at 13:59:28
+826 verbose etag "589f4547-1008f"
+827 http GET https://registry.npmjs.org/graceful-fs
+828 verbose url raw autoprefixer
+829 verbose url resolving [ 'https://registry.npmjs.org/', './autoprefixer' ]
+830 verbose url resolved https://registry.npmjs.org/autoprefixer
+831 info trying registry request attempt 1 at 13:59:28
+832 verbose etag "5898d2f6-35fd8"
+833 http GET https://registry.npmjs.org/autoprefixer
+834 silly gunzTarPerm extractEntry lib/http-protocol.js
+835 silly gunzTarPerm modified mode [ 'lib/http-protocol.js', 438, 420 ]
+836 silly gunzTarPerm extractEntry lib/server/index.js
+837 silly gunzTarPerm modified mode [ 'lib/server/index.js', 438, 420 ]
+838 silly gunzTarPerm extractEntry lib/server/proxy-server.js
+839 silly gunzTarPerm modified mode [ 'lib/server/proxy-server.js', 438, 420 ]
+840 silly gunzTarPerm extractEntry lib/server/proxy-utils.js
+841 silly gunzTarPerm modified mode [ 'lib/server/proxy-utils.js', 438, 420 ]
+842 silly gunzTarPerm extractEntry lib/server/snippet-server.js
+843 silly gunzTarPerm modified mode [ 'lib/server/snippet-server.js', 438, 420 ]
+844 silly gunzTarPerm extractEntry lib/server/static-server.js
+845 silly gunzTarPerm modified mode [ 'lib/server/static-server.js', 438, 420 ]
+846 verbose url raw vinyl
+847 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl' ]
+848 verbose url resolved https://registry.npmjs.org/vinyl
+849 info trying registry request attempt 1 at 13:59:28
+850 verbose etag "585fdf52-c7be"
+851 http GET https://registry.npmjs.org/vinyl
+852 silly lockFile 00497a87-l-info-rus-och-node-modules-gulp tar://d:\rab-stol\info\rus-och\node_modules\gulp
+853 silly lockFile 00497a87-l-info-rus-och-node-modules-gulp tar://d:\rab-stol\info\rus-och\node_modules\gulp
+854 silly lockFile 0f075029-npm-cache-gulp-3-9-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp\3.9.1\package.tgz
+855 silly lockFile 0f075029-npm-cache-gulp-3-9-1-package-tgz tar://C:\Users\ndegtyareva\AppData\Roaming\npm-cache\gulp\3.9.1\package.tgz
+856 info preinstall gulp@3.9.1
+857 verbose readDependencies using package.json deps
+858 verbose readDependencies using package.json deps
+859 silly gunzTarPerm extractEntry lib/server/utils.js
+860 silly gunzTarPerm modified mode [ 'lib/server/utils.js', 438, 420 ]
+861 silly gunzTarPerm extractEntry lib/server/certs/browsersync.pfx
+862 silly gunzTarPerm modified mode [ 'lib/server/certs/browsersync.pfx', 438, 420 ]
+863 verbose cache add [ 'archy@^1.0.0', null ]
+864 verbose cache add name=undefined spec="archy@^1.0.0" args=["archy@^1.0.0",null]
+865 verbose parsed url { protocol: null,
+865 verbose parsed url   slashes: null,
+865 verbose parsed url   auth: null,
+865 verbose parsed url   host: null,
+865 verbose parsed url   port: null,
+865 verbose parsed url   hostname: null,
+865 verbose parsed url   hash: null,
+865 verbose parsed url   search: null,
+865 verbose parsed url   query: null,
+865 verbose parsed url   pathname: 'archy@^1.0.0',
+865 verbose parsed url   path: 'archy@^1.0.0',
+865 verbose parsed url   href: 'archy@^1.0.0' }
+866 verbose cache add name="archy" spec="^1.0.0" args=["archy","^1.0.0"]
+867 verbose parsed url { protocol: null,
+867 verbose parsed url   slashes: null,
+867 verbose parsed url   auth: null,
+867 verbose parsed url   host: null,
+867 verbose parsed url   port: null,
+867 verbose parsed url   hostname: null,
+867 verbose parsed url   hash: null,
+867 verbose parsed url   search: null,
+867 verbose parsed url   query: null,
+867 verbose parsed url   pathname: '^1.0.0',
+867 verbose parsed url   path: '^1.0.0',
+867 verbose parsed url   href: '^1.0.0' }
+868 verbose addNamed [ 'archy', '^1.0.0' ]
+869 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+870 silly lockFile 91d41a90-archy-1-0-0 archy@^1.0.0
+871 verbose lock archy@^1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\91d41a90-archy-1-0-0.lock
+872 verbose cache add [ 'chalk@^1.0.0', null ]
+873 verbose cache add name=undefined spec="chalk@^1.0.0" args=["chalk@^1.0.0",null]
+874 verbose parsed url { protocol: null,
+874 verbose parsed url   slashes: null,
+874 verbose parsed url   auth: null,
+874 verbose parsed url   host: null,
+874 verbose parsed url   port: null,
+874 verbose parsed url   hostname: null,
+874 verbose parsed url   hash: null,
+874 verbose parsed url   search: null,
+874 verbose parsed url   query: null,
+874 verbose parsed url   pathname: 'chalk@^1.0.0',
+874 verbose parsed url   path: 'chalk@^1.0.0',
+874 verbose parsed url   href: 'chalk@^1.0.0' }
+875 verbose cache add name="chalk" spec="^1.0.0" args=["chalk","^1.0.0"]
+876 verbose parsed url { protocol: null,
+876 verbose parsed url   slashes: null,
+876 verbose parsed url   auth: null,
+876 verbose parsed url   host: null,
+876 verbose parsed url   port: null,
+876 verbose parsed url   hostname: null,
+876 verbose parsed url   hash: null,
+876 verbose parsed url   search: null,
+876 verbose parsed url   query: null,
+876 verbose parsed url   pathname: '^1.0.0',
+876 verbose parsed url   path: '^1.0.0',
+876 verbose parsed url   href: '^1.0.0' }
+877 verbose addNamed [ 'chalk', '^1.0.0' ]
+878 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+879 silly lockFile 2b6848f7-chalk-1-0-0 chalk@^1.0.0
+880 verbose lock chalk@^1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2b6848f7-chalk-1-0-0.lock
+881 verbose cache add [ 'deprecated@^0.0.1', null ]
+882 verbose cache add name=undefined spec="deprecated@^0.0.1" args=["deprecated@^0.0.1",null]
+883 verbose parsed url { protocol: null,
+883 verbose parsed url   slashes: null,
+883 verbose parsed url   auth: null,
+883 verbose parsed url   host: null,
+883 verbose parsed url   port: null,
+883 verbose parsed url   hostname: null,
+883 verbose parsed url   hash: null,
+883 verbose parsed url   search: null,
+883 verbose parsed url   query: null,
+883 verbose parsed url   pathname: 'deprecated@^0.0.1',
+883 verbose parsed url   path: 'deprecated@^0.0.1',
+883 verbose parsed url   href: 'deprecated@^0.0.1' }
+884 verbose cache add name="deprecated" spec="^0.0.1" args=["deprecated","^0.0.1"]
+885 verbose parsed url { protocol: null,
+885 verbose parsed url   slashes: null,
+885 verbose parsed url   auth: null,
+885 verbose parsed url   host: null,
+885 verbose parsed url   port: null,
+885 verbose parsed url   hostname: null,
+885 verbose parsed url   hash: null,
+885 verbose parsed url   search: null,
+885 verbose parsed url   query: null,
+885 verbose parsed url   pathname: '^0.0.1',
+885 verbose parsed url   path: '^0.0.1',
+885 verbose parsed url   href: '^0.0.1' }
+886 verbose addNamed [ 'deprecated', '^0.0.1' ]
+887 verbose addNamed [ null, '=0.0.1' ]
+888 silly lockFile 0e32a569-deprecated-0-0-1 deprecated@^0.0.1
+889 verbose lock deprecated@^0.0.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\0e32a569-deprecated-0-0-1.lock
+890 verbose cache add [ 'gulp-util@^3.0.0', null ]
+891 verbose cache add name=undefined spec="gulp-util@^3.0.0" args=["gulp-util@^3.0.0",null]
+892 verbose parsed url { protocol: null,
+892 verbose parsed url   slashes: null,
+892 verbose parsed url   auth: null,
+892 verbose parsed url   host: null,
+892 verbose parsed url   port: null,
+892 verbose parsed url   hostname: null,
+892 verbose parsed url   hash: null,
+892 verbose parsed url   search: null,
+892 verbose parsed url   query: null,
+892 verbose parsed url   pathname: 'gulp-util@^3.0.0',
+892 verbose parsed url   path: 'gulp-util@^3.0.0',
+892 verbose parsed url   href: 'gulp-util@^3.0.0' }
+893 verbose cache add name="gulp-util" spec="^3.0.0" args=["gulp-util","^3.0.0"]
+894 verbose parsed url { protocol: null,
+894 verbose parsed url   slashes: null,
+894 verbose parsed url   auth: null,
+894 verbose parsed url   host: null,
+894 verbose parsed url   port: null,
+894 verbose parsed url   hostname: null,
+894 verbose parsed url   hash: null,
+894 verbose parsed url   search: null,
+894 verbose parsed url   query: null,
+894 verbose parsed url   pathname: '^3.0.0',
+894 verbose parsed url   path: '^3.0.0',
+894 verbose parsed url   href: '^3.0.0' }
+895 verbose addNamed [ 'gulp-util', '^3.0.0' ]
+896 verbose cache add [ 'interpret@^1.0.0', null ]
+897 verbose cache add name=undefined spec="interpret@^1.0.0" args=["interpret@^1.0.0",null]
+898 verbose parsed url { protocol: null,
+898 verbose parsed url   slashes: null,
+898 verbose parsed url   auth: null,
+898 verbose parsed url   host: null,
+898 verbose parsed url   port: null,
+898 verbose parsed url   hostname: null,
+898 verbose parsed url   hash: null,
+898 verbose parsed url   search: null,
+898 verbose parsed url   query: null,
+898 verbose parsed url   pathname: 'interpret@^1.0.0',
+898 verbose parsed url   path: 'interpret@^1.0.0',
+898 verbose parsed url   href: 'interpret@^1.0.0' }
+899 verbose cache add name="interpret" spec="^1.0.0" args=["interpret","^1.0.0"]
+900 verbose parsed url { protocol: null,
+900 verbose parsed url   slashes: null,
+900 verbose parsed url   auth: null,
+900 verbose parsed url   host: null,
+900 verbose parsed url   port: null,
+900 verbose parsed url   hostname: null,
+900 verbose parsed url   hash: null,
+900 verbose parsed url   search: null,
+900 verbose parsed url   query: null,
+900 verbose parsed url   pathname: '^1.0.0',
+900 verbose parsed url   path: '^1.0.0',
+900 verbose parsed url   href: '^1.0.0' }
+901 verbose addNamed [ 'interpret', '^1.0.0' ]
+902 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+903 silly lockFile ee77118f-interpret-1-0-0 interpret@^1.0.0
+904 verbose lock interpret@^1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\ee77118f-interpret-1-0-0.lock
+905 verbose cache add [ 'liftoff@^2.1.0', null ]
+906 verbose cache add name=undefined spec="liftoff@^2.1.0" args=["liftoff@^2.1.0",null]
+907 verbose parsed url { protocol: null,
+907 verbose parsed url   slashes: null,
+907 verbose parsed url   auth: null,
+907 verbose parsed url   host: null,
+907 verbose parsed url   port: null,
+907 verbose parsed url   hostname: null,
+907 verbose parsed url   hash: null,
+907 verbose parsed url   search: null,
+907 verbose parsed url   query: null,
+907 verbose parsed url   pathname: 'liftoff@^2.1.0',
+907 verbose parsed url   path: 'liftoff@^2.1.0',
+907 verbose parsed url   href: 'liftoff@^2.1.0' }
+908 verbose cache add name="liftoff" spec="^2.1.0" args=["liftoff","^2.1.0"]
+909 verbose parsed url { protocol: null,
+909 verbose parsed url   slashes: null,
+909 verbose parsed url   auth: null,
+909 verbose parsed url   host: null,
+909 verbose parsed url   port: null,
+909 verbose parsed url   hostname: null,
+909 verbose parsed url   hash: null,
+909 verbose parsed url   search: null,
+909 verbose parsed url   query: null,
+909 verbose parsed url   pathname: '^2.1.0',
+909 verbose parsed url   path: '^2.1.0',
+909 verbose parsed url   href: '^2.1.0' }
+910 verbose addNamed [ 'liftoff', '^2.1.0' ]
+911 verbose addNamed [ null, '>=2.1.0-0 <3.0.0-0' ]
+912 silly lockFile 2d576056-liftoff-2-1-0 liftoff@^2.1.0
+913 verbose lock liftoff@^2.1.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2d576056-liftoff-2-1-0.lock
+914 verbose cache add [ 'minimist@^1.1.0', null ]
+915 verbose cache add name=undefined spec="minimist@^1.1.0" args=["minimist@^1.1.0",null]
+916 verbose parsed url { protocol: null,
+916 verbose parsed url   slashes: null,
+916 verbose parsed url   auth: null,
+916 verbose parsed url   host: null,
+916 verbose parsed url   port: null,
+916 verbose parsed url   hostname: null,
+916 verbose parsed url   hash: null,
+916 verbose parsed url   search: null,
+916 verbose parsed url   query: null,
+916 verbose parsed url   pathname: 'minimist@^1.1.0',
+916 verbose parsed url   path: 'minimist@^1.1.0',
+916 verbose parsed url   href: 'minimist@^1.1.0' }
+917 verbose cache add name="minimist" spec="^1.1.0" args=["minimist","^1.1.0"]
+918 verbose parsed url { protocol: null,
+918 verbose parsed url   slashes: null,
+918 verbose parsed url   auth: null,
+918 verbose parsed url   host: null,
+918 verbose parsed url   port: null,
+918 verbose parsed url   hostname: null,
+918 verbose parsed url   hash: null,
+918 verbose parsed url   search: null,
+918 verbose parsed url   query: null,
+918 verbose parsed url   pathname: '^1.1.0',
+918 verbose parsed url   path: '^1.1.0',
+918 verbose parsed url   href: '^1.1.0' }
+919 verbose addNamed [ 'minimist', '^1.1.0' ]
+920 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+921 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+922 verbose lock minimist@^1.1.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\b7cda548-minimist-1-1-0.lock
+923 verbose cache add [ 'orchestrator@^0.3.0', null ]
+924 verbose cache add name=undefined spec="orchestrator@^0.3.0" args=["orchestrator@^0.3.0",null]
+925 verbose parsed url { protocol: null,
+925 verbose parsed url   slashes: null,
+925 verbose parsed url   auth: null,
+925 verbose parsed url   host: null,
+925 verbose parsed url   port: null,
+925 verbose parsed url   hostname: null,
+925 verbose parsed url   hash: null,
+925 verbose parsed url   search: null,
+925 verbose parsed url   query: null,
+925 verbose parsed url   pathname: 'orchestrator@^0.3.0',
+925 verbose parsed url   path: 'orchestrator@^0.3.0',
+925 verbose parsed url   href: 'orchestrator@^0.3.0' }
+926 verbose cache add name="orchestrator" spec="^0.3.0" args=["orchestrator","^0.3.0"]
+927 verbose parsed url { protocol: null,
+927 verbose parsed url   slashes: null,
+927 verbose parsed url   auth: null,
+927 verbose parsed url   host: null,
+927 verbose parsed url   port: null,
+927 verbose parsed url   hostname: null,
+927 verbose parsed url   hash: null,
+927 verbose parsed url   search: null,
+927 verbose parsed url   query: null,
+927 verbose parsed url   pathname: '^0.3.0',
+927 verbose parsed url   path: '^0.3.0',
+927 verbose parsed url   href: '^0.3.0' }
+928 verbose addNamed [ 'orchestrator', '^0.3.0' ]
+929 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+930 silly lockFile 74d9c599-orchestrator-0-3-0 orchestrator@^0.3.0
+931 verbose lock orchestrator@^0.3.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\74d9c599-orchestrator-0-3-0.lock
+932 verbose cache add [ 'pretty-hrtime@^1.0.0', null ]
+933 verbose cache add name=undefined spec="pretty-hrtime@^1.0.0" args=["pretty-hrtime@^1.0.0",null]
+934 verbose parsed url { protocol: null,
+934 verbose parsed url   slashes: null,
+934 verbose parsed url   auth: null,
+934 verbose parsed url   host: null,
+934 verbose parsed url   port: null,
+934 verbose parsed url   hostname: null,
+934 verbose parsed url   hash: null,
+934 verbose parsed url   search: null,
+934 verbose parsed url   query: null,
+934 verbose parsed url   pathname: 'pretty-hrtime@^1.0.0',
+934 verbose parsed url   path: 'pretty-hrtime@^1.0.0',
+934 verbose parsed url   href: 'pretty-hrtime@^1.0.0' }
+935 verbose cache add name="pretty-hrtime" spec="^1.0.0" args=["pretty-hrtime","^1.0.0"]
+936 verbose parsed url { protocol: null,
+936 verbose parsed url   slashes: null,
+936 verbose parsed url   auth: null,
+936 verbose parsed url   host: null,
+936 verbose parsed url   port: null,
+936 verbose parsed url   hostname: null,
+936 verbose parsed url   hash: null,
+936 verbose parsed url   search: null,
+936 verbose parsed url   query: null,
+936 verbose parsed url   pathname: '^1.0.0',
+936 verbose parsed url   path: '^1.0.0',
+936 verbose parsed url   href: '^1.0.0' }
+937 verbose addNamed [ 'pretty-hrtime', '^1.0.0' ]
+938 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+939 silly lockFile 81ac8ff0-pretty-hrtime-1-0-0 pretty-hrtime@^1.0.0
+940 verbose lock pretty-hrtime@^1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\81ac8ff0-pretty-hrtime-1-0-0.lock
+941 verbose cache add [ 'semver@^4.1.0', null ]
+942 verbose cache add name=undefined spec="semver@^4.1.0" args=["semver@^4.1.0",null]
+943 verbose parsed url { protocol: null,
+943 verbose parsed url   slashes: null,
+943 verbose parsed url   auth: null,
+943 verbose parsed url   host: null,
+943 verbose parsed url   port: null,
+943 verbose parsed url   hostname: null,
+943 verbose parsed url   hash: null,
+943 verbose parsed url   search: null,
+943 verbose parsed url   query: null,
+943 verbose parsed url   pathname: 'semver@^4.1.0',
+943 verbose parsed url   path: 'semver@^4.1.0',
+943 verbose parsed url   href: 'semver@^4.1.0' }
+944 verbose cache add name="semver" spec="^4.1.0" args=["semver","^4.1.0"]
+945 verbose parsed url { protocol: null,
+945 verbose parsed url   slashes: null,
+945 verbose parsed url   auth: null,
+945 verbose parsed url   host: null,
+945 verbose parsed url   port: null,
+945 verbose parsed url   hostname: null,
+945 verbose parsed url   hash: null,
+945 verbose parsed url   search: null,
+945 verbose parsed url   query: null,
+945 verbose parsed url   pathname: '^4.1.0',
+945 verbose parsed url   path: '^4.1.0',
+945 verbose parsed url   href: '^4.1.0' }
+946 verbose addNamed [ 'semver', '^4.1.0' ]
+947 verbose addNamed [ null, '>=4.1.0-0 <5.0.0-0' ]
+948 silly lockFile 3aa770ad-semver-4-1-0 semver@^4.1.0
+949 verbose lock semver@^4.1.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\3aa770ad-semver-4-1-0.lock
+950 verbose cache add [ 'tildify@^1.0.0', null ]
+951 verbose cache add name=undefined spec="tildify@^1.0.0" args=["tildify@^1.0.0",null]
+952 verbose parsed url { protocol: null,
+952 verbose parsed url   slashes: null,
+952 verbose parsed url   auth: null,
+952 verbose parsed url   host: null,
+952 verbose parsed url   port: null,
+952 verbose parsed url   hostname: null,
+952 verbose parsed url   hash: null,
+952 verbose parsed url   search: null,
+952 verbose parsed url   query: null,
+952 verbose parsed url   pathname: 'tildify@^1.0.0',
+952 verbose parsed url   path: 'tildify@^1.0.0',
+952 verbose parsed url   href: 'tildify@^1.0.0' }
+953 verbose cache add name="tildify" spec="^1.0.0" args=["tildify","^1.0.0"]
+954 verbose parsed url { protocol: null,
+954 verbose parsed url   slashes: null,
+954 verbose parsed url   auth: null,
+954 verbose parsed url   host: null,
+954 verbose parsed url   port: null,
+954 verbose parsed url   hostname: null,
+954 verbose parsed url   hash: null,
+954 verbose parsed url   search: null,
+954 verbose parsed url   query: null,
+954 verbose parsed url   pathname: '^1.0.0',
+954 verbose parsed url   path: '^1.0.0',
+954 verbose parsed url   href: '^1.0.0' }
+955 verbose addNamed [ 'tildify', '^1.0.0' ]
+956 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+957 silly lockFile b323af2b-tildify-1-0-0 tildify@^1.0.0
+958 verbose lock tildify@^1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\b323af2b-tildify-1-0-0.lock
+959 silly addNameRange { name: 'deprecated', range: '=0.0.1', hasData: false }
+960 silly addNameRange { name: 'interpret',
+960 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+960 silly addNameRange   hasData: false }
+961 silly addNameRange { name: 'liftoff', range: '>=2.1.0-0 <3.0.0-0', hasData: false }
+962 silly addNameRange { name: 'minimist', range: '>=1.1.0-0 <2.0.0-0', hasData: false }
+963 silly addNameRange { name: 'chalk', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+964 silly addNameRange { name: 'archy', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+965 silly addNameRange { name: 'orchestrator',
+965 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+965 silly addNameRange   hasData: false }
+966 silly addNameRange { name: 'semver', range: '>=4.1.0-0 <5.0.0-0', hasData: false }
+967 silly addNameRange { name: 'pretty-hrtime',
+967 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+967 silly addNameRange   hasData: false }
+968 silly gunzTarPerm extractEntry lib/server/certs/gen.sh
+969 silly gunzTarPerm modified mode [ 'lib/server/certs/gen.sh', 438, 420 ]
+970 silly gunzTarPerm extractEntry lib/server/certs/server.crt
+971 silly gunzTarPerm modified mode [ 'lib/server/certs/server.crt', 438, 420 ]
+972 silly gunzTarPerm extractEntry lib/server/certs/server.csr
+973 silly gunzTarPerm modified mode [ 'lib/server/certs/server.csr', 438, 420 ]
+974 silly gunzTarPerm extractEntry lib/server/certs/server.key
+975 silly gunzTarPerm modified mode [ 'lib/server/certs/server.key', 438, 420 ]
+976 verbose cache add [ 'v8flags@^2.0.2', null ]
+977 verbose cache add name=undefined spec="v8flags@^2.0.2" args=["v8flags@^2.0.2",null]
+978 verbose parsed url { protocol: null,
+978 verbose parsed url   slashes: null,
+978 verbose parsed url   auth: null,
+978 verbose parsed url   host: null,
+978 verbose parsed url   port: null,
+978 verbose parsed url   hostname: null,
+978 verbose parsed url   hash: null,
+978 verbose parsed url   search: null,
+978 verbose parsed url   query: null,
+978 verbose parsed url   pathname: 'v8flags@^2.0.2',
+978 verbose parsed url   path: 'v8flags@^2.0.2',
+978 verbose parsed url   href: 'v8flags@^2.0.2' }
+979 verbose cache add name="v8flags" spec="^2.0.2" args=["v8flags","^2.0.2"]
+980 verbose parsed url { protocol: null,
+980 verbose parsed url   slashes: null,
+980 verbose parsed url   auth: null,
+980 verbose parsed url   host: null,
+980 verbose parsed url   port: null,
+980 verbose parsed url   hostname: null,
+980 verbose parsed url   hash: null,
+980 verbose parsed url   search: null,
+980 verbose parsed url   query: null,
+980 verbose parsed url   pathname: '^2.0.2',
+980 verbose parsed url   path: '^2.0.2',
+980 verbose parsed url   href: '^2.0.2' }
+981 verbose addNamed [ 'v8flags', '^2.0.2' ]
+982 verbose addNamed [ null, '>=2.0.2-0 <3.0.0-0' ]
+983 silly lockFile f57003f9-v8flags-2-0-2 v8flags@^2.0.2
+984 verbose lock v8flags@^2.0.2 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\f57003f9-v8flags-2-0-2.lock
+985 verbose cache add [ 'vinyl-fs@^0.3.0', null ]
+986 verbose cache add name=undefined spec="vinyl-fs@^0.3.0" args=["vinyl-fs@^0.3.0",null]
+987 verbose parsed url { protocol: null,
+987 verbose parsed url   slashes: null,
+987 verbose parsed url   auth: null,
+987 verbose parsed url   host: null,
+987 verbose parsed url   port: null,
+987 verbose parsed url   hostname: null,
+987 verbose parsed url   hash: null,
+987 verbose parsed url   search: null,
+987 verbose parsed url   query: null,
+987 verbose parsed url   pathname: 'vinyl-fs@^0.3.0',
+987 verbose parsed url   path: 'vinyl-fs@^0.3.0',
+987 verbose parsed url   href: 'vinyl-fs@^0.3.0' }
+988 verbose cache add name="vinyl-fs" spec="^0.3.0" args=["vinyl-fs","^0.3.0"]
+989 verbose parsed url { protocol: null,
+989 verbose parsed url   slashes: null,
+989 verbose parsed url   auth: null,
+989 verbose parsed url   host: null,
+989 verbose parsed url   port: null,
+989 verbose parsed url   hostname: null,
+989 verbose parsed url   hash: null,
+989 verbose parsed url   search: null,
+989 verbose parsed url   query: null,
+989 verbose parsed url   pathname: '^0.3.0',
+989 verbose parsed url   path: '^0.3.0',
+989 verbose parsed url   href: '^0.3.0' }
+990 verbose addNamed [ 'vinyl-fs', '^0.3.0' ]
+991 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+992 silly lockFile f9e5bbec-vinyl-fs-0-3-0 vinyl-fs@^0.3.0
+993 verbose lock vinyl-fs@^0.3.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\f9e5bbec-vinyl-fs-0-3-0.lock
+994 silly gunzTarPerm extractEntry lib/public/exit.js
+995 silly gunzTarPerm modified mode [ 'lib/public/exit.js', 438, 420 ]
+996 silly gunzTarPerm extractEntry lib/public/init.js
+997 silly gunzTarPerm modified mode [ 'lib/public/init.js', 438, 420 ]
+998 silly gunzTarPerm extractEntry lib/public/notify.js
+999 silly gunzTarPerm modified mode [ 'lib/public/notify.js', 438, 420 ]
+1000 silly gunzTarPerm extractEntry lib/public/pause.js
+1001 silly gunzTarPerm modified mode [ 'lib/public/pause.js', 438, 420 ]
+1002 silly gunzTarPerm extractEntry lib/public/public-utils.js
+1003 silly gunzTarPerm modified mode [ 'lib/public/public-utils.js', 438, 420 ]
+1004 silly gunzTarPerm extractEntry lib/public/reload.js
+1005 silly gunzTarPerm modified mode [ 'lib/public/reload.js', 438, 420 ]
+1006 silly gunzTarPerm extractEntry lib/public/resume.js
+1007 silly gunzTarPerm modified mode [ 'lib/public/resume.js', 438, 420 ]
+1008 verbose url raw deprecated
+1009 verbose url resolving [ 'https://registry.npmjs.org/', './deprecated' ]
+1010 verbose url resolved https://registry.npmjs.org/deprecated
+1011 info trying registry request attempt 1 at 13:59:28
+1012 verbose etag "570823bb-844"
+1013 http GET https://registry.npmjs.org/deprecated
+1014 silly gunzTarPerm extractEntry lib/public/socket.io.min.1.6.0.js
+1015 silly gunzTarPerm modified mode [ 'lib/public/socket.io.min.1.6.0.js', 438, 420 ]
+1016 silly gunzTarPerm extractEntry lib/public/stream.js
+1017 silly gunzTarPerm modified mode [ 'lib/public/stream.js', 438, 420 ]
+1018 silly gunzTarPerm extractEntry lib/templates/connector.tmpl
+1019 silly gunzTarPerm modified mode [ 'lib/templates/connector.tmpl', 438, 420 ]
+1020 silly gunzTarPerm extractEntry lib/templates/script-tags-simple.tmpl
+1021 silly gunzTarPerm modified mode [ 'lib/templates/script-tags-simple.tmpl', 438, 420 ]
+1022 silly addNameRange { name: 'tildify', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+1023 silly gunzTarPerm extractEntry lib/templates/script-tags.tmpl
+1024 silly gunzTarPerm modified mode [ 'lib/templates/script-tags.tmpl', 438, 420 ]
+1025 silly gunzTarPerm extractEntry lib/cli/cli-info.js
+1026 silly gunzTarPerm modified mode [ 'lib/cli/cli-info.js', 438, 420 ]
+1027 silly addNameRange { name: 'vinyl-fs', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+1028 silly addNameRange { name: 'v8flags', range: '>=2.0.2-0 <3.0.0-0', hasData: false }
+1029 silly gunzTarPerm extractEntry lib/cli/cli-template.js
+1030 silly gunzTarPerm modified mode [ 'lib/cli/cli-template.js', 438, 420 ]
+1031 silly gunzTarPerm extractEntry lib/cli/command.init.js
+1032 silly gunzTarPerm modified mode [ 'lib/cli/command.init.js', 438, 420 ]
+1033 verbose url raw vinyl-fs
+1034 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-fs' ]
+1035 verbose url resolved https://registry.npmjs.org/vinyl-fs
+1036 info trying registry request attempt 1 at 13:59:28
+1037 verbose etag "58801dc0-138ce"
+1038 http GET https://registry.npmjs.org/vinyl-fs
+1039 verbose url raw v8flags
+1040 verbose url resolving [ 'https://registry.npmjs.org/', './v8flags' ]
+1041 verbose url resolved https://registry.npmjs.org/v8flags
+1042 info trying registry request attempt 1 at 13:59:28
+1043 verbose etag "5812f12a-723c"
+1044 http GET https://registry.npmjs.org/v8flags
+1045 verbose url raw orchestrator
+1046 verbose url resolving [ 'https://registry.npmjs.org/', './orchestrator' ]
+1047 verbose url resolved https://registry.npmjs.org/orchestrator
+1048 info trying registry request attempt 1 at 13:59:28
+1049 verbose etag "5822ea10-7d98"
+1050 http GET https://registry.npmjs.org/orchestrator
+1051 verbose url raw chalk
+1052 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+1053 verbose url resolved https://registry.npmjs.org/chalk
+1054 info trying registry request attempt 1 at 13:59:28
+1055 verbose etag "58a19a31-8538"
+1056 http GET https://registry.npmjs.org/chalk
+1057 verbose url raw tildify
+1058 verbose url resolving [ 'https://registry.npmjs.org/', './tildify' ]
+1059 verbose url resolved https://registry.npmjs.org/tildify
+1060 info trying registry request attempt 1 at 13:59:28
+1061 verbose etag "58a0ff40-25ba"
+1062 http GET https://registry.npmjs.org/tildify
+1063 verbose url raw pretty-hrtime
+1064 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-hrtime' ]
+1065 verbose url resolved https://registry.npmjs.org/pretty-hrtime
+1066 info trying registry request attempt 1 at 13:59:28
+1067 verbose etag "581e3549-2aa5"
+1068 http GET https://registry.npmjs.org/pretty-hrtime
+1069 verbose url raw interpret
+1070 verbose url resolving [ 'https://registry.npmjs.org/', './interpret' ]
+1071 verbose url resolved https://registry.npmjs.org/interpret
+1072 info trying registry request attempt 1 at 13:59:28
+1073 verbose etag "586fdd94-9b05"
+1074 http GET https://registry.npmjs.org/interpret
+1075 verbose url raw archy
+1076 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
+1077 verbose url resolved https://registry.npmjs.org/archy
+1078 info trying registry request attempt 1 at 13:59:28
+1079 verbose etag "589be6c2-1b87"
+1080 http GET https://registry.npmjs.org/archy
+1081 verbose url raw minimist
+1082 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+1083 verbose url resolved https://registry.npmjs.org/minimist
+1084 info trying registry request attempt 1 at 13:59:28
+1085 verbose etag "589fa600-7380"
+1086 http GET https://registry.npmjs.org/minimist
+1087 silly gunzTarPerm extractEntry lib/cli/command.recipe.js
+1088 silly gunzTarPerm modified mode [ 'lib/cli/command.recipe.js', 438, 420 ]
+1089 silly gunzTarPerm extractEntry lib/cli/command.reload.js
+1090 silly gunzTarPerm modified mode [ 'lib/cli/command.reload.js', 438, 420 ]
+1091 verbose url raw semver
+1092 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+1093 verbose url resolved https://registry.npmjs.org/semver
+1094 info trying registry request attempt 1 at 13:59:28
+1095 verbose etag "58a1952e-11b3d"
+1096 http GET https://registry.npmjs.org/semver
+1097 verbose url raw liftoff
+1098 verbose url resolving [ 'https://registry.npmjs.org/', './liftoff' ]
+1099 verbose url resolved https://registry.npmjs.org/liftoff
+1100 info trying registry request attempt 1 at 13:59:28
+1101 verbose etag "58a15cfa-130e0"
+1102 http GET https://registry.npmjs.org/liftoff
+1103 http 200 https://registry.npmjs.org/strip-bom-string
+1104 silly registry.get cb [ 200,
+1104 silly registry.get   { server: 'nginx/1.10.1',
+1104 silly registry.get     'content-type': 'application/json',
+1104 silly registry.get     'last-modified': 'Thu, 30 Mar 2017 03:43:50 GMT',
+1104 silly registry.get     etag: '"58dc7ef6-24cf"',
+1104 silly registry.get     'cache-control': 'max-age=300',
+1104 silly registry.get     'content-length': '9423',
+1104 silly registry.get     'accept-ranges': 'bytes',
+1104 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:28 GMT',
+1104 silly registry.get     via: '1.1 varnish',
+1104 silly registry.get     age: '0',
+1104 silly registry.get     connection: 'keep-alive',
+1104 silly registry.get     'x-served-by': 'cache-bos8225-BOS',
+1104 silly registry.get     'x-cache': 'MISS',
+1104 silly registry.get     'x-cache-hits': '0',
+1104 silly registry.get     'x-timer': 'S1493290769.516423,VS0,VE84',
+1104 silly registry.get     vary: 'Accept-Encoding' } ]
+1105 http 304 https://registry.npmjs.org/vinyl-sourcemaps-apply
+1106 silly registry.get cb [ 304,
+1106 silly registry.get   { date: 'Thu, 27 Apr 2017 10:59:28 GMT',
+1106 silly registry.get     via: '1.1 varnish',
+1106 silly registry.get     'cache-control': 'max-age=300',
+1106 silly registry.get     etag: '"56802669-2633"',
+1106 silly registry.get     age: '0',
+1106 silly registry.get     connection: 'keep-alive',
+1106 silly registry.get     'x-served-by': 'cache-bos8221-BOS',
+1106 silly registry.get     'x-cache': 'MISS',
+1106 silly registry.get     'x-cache-hits': '0',
+1106 silly registry.get     'x-timer': 'S1493290769.590208,VS0,VE13',
+1106 silly registry.get     vary: 'Accept-Encoding' } ]
+1107 verbose etag vinyl-sourcemaps-apply from cache
+1108 silly gunzTarPerm extractEntry lib/cli/cli-options.js
+1109 silly gunzTarPerm modified mode [ 'lib/cli/cli-options.js', 438, 420 ]
+1110 silly gunzTarPerm extractEntry lib/cli/command.start.js
+1111 silly gunzTarPerm modified mode [ 'lib/cli/command.start.js', 438, 420 ]
+1112 silly addNameRange number 2 { name: 'strip-bom-string',
+1112 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+1112 silly addNameRange   hasData: true }
+1113 silly addNameRange versions [ 'strip-bom-string', [ '0.1.0', '0.1.1', '0.1.2', '1.0.0' ] ]
+1114 verbose addNamed [ 'strip-bom-string', '1.0.0' ]
+1115 verbose addNamed [ '1.0.0', '1.0.0' ]
+1116 silly lockFile 2e7d05f2-strip-bom-string-1-0-0 strip-bom-string@1.0.0
+1117 verbose lock strip-bom-string@1.0.0 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\2e7d05f2-strip-bom-string-1-0-0.lock
+1118 silly addNameRange number 2 { name: 'vinyl-sourcemaps-apply',
+1118 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+1118 silly addNameRange   hasData: true }
+1119 silly addNameRange versions [ 'vinyl-sourcemaps-apply',
+1119 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0', '0.2.1' ] ]
+1120 verbose addNamed [ 'vinyl-sourcemaps-apply', '0.2.1' ]
+1121 verbose addNamed [ '0.2.1', '0.2.1' ]
+1122 silly lockFile 34be9aec-vinyl-sourcemaps-apply-0-2-1 vinyl-sourcemaps-apply@0.2.1
+1123 verbose lock vinyl-sourcemaps-apply@0.2.1 C:\Users\ndegtyareva\AppData\Roaming\npm-cache\34be9aec-vinyl-sourcemaps-apply-0-2-1.lock
+1124 silly lockFile df23cfee-tring-strip-bom-string-1-0-0-tgz https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz
+1125 verbose lock https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz C:\Users\ndegtyareva\AppData\Roaming\npm-cache\df23cfee-tring-strip-bom-string-1-0-0-tgz.lock
+1126 verbose addRemoteTarball [ 'https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz',
+1126 verbose addRemoteTarball   'e5211e9224369fbb81d633a2f00044dc8cedad92' ]
+1127 info retry fetch attempt 1 at 13:59:28
+1128 verbose fetch to= C:\Users\NDEGTY~1\AppData\Local\Temp\npm-5288-MIJqcG-U\1493290768694-0.3702781251631677\tmp.tgz
+1129 http GET https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz
+1130 silly gunzTarPerm extractEntry lib/cli/help.txt
+1131 silly gunzTarPerm modified mode [ 'lib/cli/help.txt', 438, 420 ]
+1132 silly gunzTarPerm extractEntry lib/cli/opts.init.json
+1133 silly gunzTarPerm modified mode [ 'lib/cli/opts.init.json', 438, 420 ]
+1134 silly gunzTarPerm extractEntry lib/cli/opts.recipe.json
+1135 silly gunzTarPerm modified mode [ 'lib/cli/opts.recipe.json', 438, 420 ]
+1136 silly gunzTarPerm extractEntry lib/cli/opts.reload.json
+1137 silly gunzTarPerm modified mode [ 'lib/cli/opts.reload.json', 438, 420 ]
+1138 silly gunzTarPerm extractEntry lib/cli/opts.start.json
+1139 silly gunzTarPerm modified mode [ 'lib/cli/opts.start.json', 438, 420 ]
+1140 http 404 https://registry.npmjs.org/gulp-sourcemaps/map-sources
+1141 silly registry.get cb [ 404,
+1141 silly registry.get   { 'content-type': 'application/json',
+1141 silly registry.get     'cache-control': 'max-age=0',
+1141 silly registry.get     'content-length': '2',
+1141 silly registry.get     'accept-ranges': 'bytes',
+1141 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:28 GMT',
+1141 silly registry.get     via: '1.1 varnish',
+1141 silly registry.get     age: '0',
+1141 silly registry.get     connection: 'keep-alive',
+1141 silly registry.get     'x-served-by': 'cache-bos8222-BOS',
+1141 silly registry.get     'x-cache': 'MISS',
+1141 silly registry.get     'x-cache-hits': '0',
+1141 silly registry.get     'x-timer': 'S1493290769.576748,VS0,VE84',
+1141 silly registry.get     vary: 'Accept-Encoding' } ]
+1142 http 404 https://registry.npmjs.org/gulp-sourcemaps/identity-map
+1143 silly registry.get cb [ 404,
+1143 silly registry.get   { 'content-type': 'application/json',
+1143 silly registry.get     'cache-control': 'max-age=0',
+1143 silly registry.get     'content-length': '2',
+1143 silly registry.get     'accept-ranges': 'bytes',
+1143 silly registry.get     date: 'Thu, 27 Apr 2017 10:59:28 GMT',
+1143 silly registry.get     via: '1.1 varnish',
+1143 silly registry.get     age: '0',
+1143 silly registry.get     connection: 'keep-alive',
+1143 silly registry.get     'x-served-by': 'cache-bos8233-BOS',
+1143 silly registry.get     'x-cache': 'MISS',
+1143 silly registry.get     'x-cache-hits': '0',
+1143 silly registry.get     'x-timer': 'S1493290769.576519,VS0,VE86',
+1143 silly registry.get     vary: 'Accept-Encoding' } ]
+1144 silly addNameRange number 2 { name: 'gulp-sourcemaps/map-sources',
+1144 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+1144 silly addNameRange   hasData: true }
+1145 silly addNameRange versions [ undefined, [] ]
+1146 error TypeError: Cannot read property 'latest' of undefined
+1146 error     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:744:35)
+1146 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:732:5
+1146 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:148:7)
+1146 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:133:7
+1146 error     at Object.oncomplete (fs.js:107:15)
+1147 error If you need help, you may report this *entire* log,
+1147 error including the npm and node versions, at:
+1147 error     <http://github.com/npm/npm/issues>
+1148 error System Windows_NT 6.1.7601
+1149 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1150 error cwd d:\rab-stol\info\rus-och
+1151 error node -v v0.10.26
+1152 error npm -v 1.4.3
+1153 error type non_object_property_load
+1154 verbose exit [ 1, true ]
