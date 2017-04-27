@@ -112,6 +112,7 @@ a {
 
 header {
   margin-bottom: 50px;
+  background: url(img/header-bg.png) repeat-x;
 }
 
 .header-info {
@@ -215,20 +216,20 @@ header {
   width: 28px;
   height: 30px;
   padding: 0 14px;
-  border-right: 1px dotted #fff;
+  background: url(/img/header-line.svg) 100% 0 no-repeat;
   position: relative;
 }
 
 .header-social-item:last-child {
-  border: 0;
+  background: none;
 }
 
 .header-social-item:before {
   content: '';
   position: absolute;
   width: 28px;
-  height: 22px;
-  top: 6px;
+  height: 30px;
+  top: 0;
   left: 50%;
   margin-left: -14px;
 }
@@ -303,13 +304,10 @@ header {
 
 .header-search {
   position: absolute;
-  width: 100%;
+  right: 40px;
+  left: 40px;
   top: 20px;
-  left: 50%;
   max-width: 1360px;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
   display: none;
 }
 
@@ -326,22 +324,18 @@ header {
 
 .header-search input[type=search]::-webkit-input-placeholder {
   color: #5016a6;
-  font-weight: 700;
 }
 
 .header-search input[type=search]::-moz-placeholder {
   color: #5016a6;
-  font-weight: 700;
 }
 
 .header-search input[type=search]:-ms-input-placeholder {
   color: #5016a6;
-  font-weight: 700;
 }
 
 .header-search input[type=search]:-moz-placeholder {
   color: #5016a6;
-  font-weight: 700;
 }
 
 .header-search input[type=submit] {
@@ -716,6 +710,7 @@ header {
 
 .news__info {
   box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px #efefef;
 }
 
 @media (max-width: 1023px) {
@@ -751,7 +746,7 @@ header {
 }
 
 .news__item {
-  border-top: 1px solid #efefef;
+  /*border-top: 1px solid #efefef;*/
 }
 
 @media (max-width: 1023px) {
@@ -763,7 +758,6 @@ header {
 @media (min-width: 1024px) {
   .news__item {
     margin-top: 11px;
-    outline: 1px solid #efefef;
     max-width: 213px;
     width: 23.8%;
     margin-right: 1.6%;
@@ -797,6 +791,7 @@ header {
 
 .news__item:first-child .news__info {
   box-sizing: border-box;
+  box-shadow: none;
   width: 100%;
 }
 
@@ -949,19 +944,19 @@ footer h3 {
 
 @media (min-width: 768px) {
   .footer-social-item {
-    border-right: 1px dashed #5016a6;
+    background: url(/img/footer-border.gif) 100% 0 no-repeat;
   }
 }
 
 .footer-social-item:last-child {
-  border: 0;
+  background: none;
 }
 
 .footer-social-item:before {
   content: '';
   position: absolute;
   width: 28px;
-  height: 34px;
+  height: 24px;
   left: 50%;
   margin-left: -14px;
 }
@@ -1029,12 +1024,12 @@ footer h3 {
     height: 50px;
     box-sizing: border-box;
     padding-top: 16px;
-    border-right: 1px dashed #5016a6;
+    background: url(/img/footer-border.gif) 100% 0 no-repeat;
     font-weight: 700;
     font-size: 14px;
   }
   .footer-menu li:last-child {
-    border: 0;
+    background: none;
   }
   .footer-menu a {
     color: #000;
@@ -1175,20 +1170,8 @@ footer h3 {
   color: #5016a5;
 }
 
-.sidebar-item--last p {
-  padding: 5px 0;
-  margin: 4px 0;
-  border-bottom: 1px solid #efefef;
-}
-
-.sidebar-item--last p:first-child {
-  border-top: 1px solid #efefef;
-}
-
-.sidebar-item--last p:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
+.sidebar-item--last {
+  padding: 12px 15px;
 }
 
 .sidebar-item--last a {
@@ -1196,6 +1179,30 @@ footer h3 {
 }
 
 .sidebar-item--last span {
+  font-style: italic;
+}
+
+.sidebar-item--last .last-item {
+  padding: 5px 0 8px;
+  margin: 1px 0 4px;
+  border-bottom: 1px solid #efefef;
+}
+
+.sidebar-item--last .last-item:last-child {
+  border-bottom: 0;
+}
+
+.sidebar-item--last p {
+  margin-bottom: 3px;
+}
+
+.sidebar-item--last p:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-item--last .author {
+  display: inline;
+  color: #000;
   font-style: italic;
 }
 
@@ -1308,7 +1315,6 @@ footer h3 {
 
 .thema__item {
   width: 100%;
-  border-bottom: 1px solid #efefef;
 }
 
 @media (max-width: 1023px) {
@@ -1319,9 +1325,8 @@ footer h3 {
 
 @media (min-width: 1024px) {
   .thema__item {
-    outline: 1px solid #efefef;
     margin: 0 0 20px 21px;
-    width: 30.1%;
+    width: 30.9%;
   }
 }
 
@@ -1377,6 +1382,7 @@ footer h3 {
 @media (min-width: 1024px) {
   .thema__info {
     padding: 10px;
+    box-shadow: inset 0 0 0 1px #efefef;
   }
 }
 
