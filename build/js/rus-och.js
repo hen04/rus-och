@@ -44,6 +44,9 @@ $(function(){
 		$('.js-comments').show();
 	});
 	
+	$('.js-mistake-btn a').on('click', function(e){
+		e.preventDefault();
+	});
 	$('.js-mistake-btn').on('click', function() {
 		$('.js-mistake').show();
 	});

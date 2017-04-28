@@ -215,7 +215,7 @@ header {
 .header-social-item {
   width: 28px;
   height: 30px;
-  padding: 0 14px;
+  padding: 0 16px;
   background: url(/img/header-line.svg) 100% 0 no-repeat;
   position: relative;
 }
@@ -418,8 +418,8 @@ header {
   width: 100%;
 }
 
-.menu-1level > li.active:after, .menu-1level > li:hover:after {
-  background-color: #5016a5;
+.menu-1level > li.active:after {
+  background-color: #5016a6;
 }
 
 .menu-1level > li > a {
@@ -427,6 +427,10 @@ header {
   display: block;
   padding: 30px 24px 33px 20px;
   color: #000;
+}
+
+.menu-1level > li > a:hover {
+  color: #5016a6;
 }
 
 .menu-1level > li.sub-menu {
@@ -1000,7 +1004,7 @@ footer h3 {
 
 @media (min-width: 1024px) {
   .footer-menu {
-    border-top: 2px solid #5016a5;
+    border-top: 2px solid #5016a6;
     padding: 50px 0 46px;
   }
   .footer-menu ul {
@@ -1167,7 +1171,7 @@ footer h3 {
 }
 
 .sidebar-item--rel a {
-  color: #5016a5;
+  color: #5016a6;
 }
 
 .sidebar-item--last {
@@ -1282,6 +1286,11 @@ footer h3 {
   position: absolute;
   right: 0;
   top: 0;
+  transition: background-color .2s linear;
+}
+
+.sidebar-item--subscribe input[type=submit]:hover {
+  background-color: #783ccf;
 }
 
 .breadcrumbs {
@@ -1530,7 +1539,7 @@ footer h3 {
   content: '“';
   position: absolute;
   font-size: 90px;
-  color: #5016a5;
+  color: #5016a6;
   line-height: 1;
   top: 12px;
   left: 20px;
@@ -1698,6 +1707,10 @@ footer h3 {
   }
 }
 
+.form-block .sendbutton:focus {
+  outline: none;
+}
+
 .form-block .subscribe-to-comments input[type=checkbox] {
   display: none;
 }
@@ -1737,7 +1750,7 @@ footer h3 {
   margin: 24px 0;
 }
 
-.fix-mistake span {
+.fix-mistake a {
   cursor: pointer;
   color: #5016a6;
   font-size: 14px;
@@ -1874,4 +1887,49 @@ footer h3 {
 
 .news-slider-small .slick-slide:focus {
   outline: none;
+}
+
+.desktop a:hover {
+  text-decoration: underline;
+}
+
+.desktop .thema__item:hover,
+.desktop .news__item:hover,
+.desktop .footer-social-item:hover,
+.desktop .footer-menu a:hover,
+.desktop .menu a:hover {
+  text-decoration: none;
+}
+
+.desktop .sendbutton:hover {
+  background-color: #783ccf;
+}
+
+.desktop .fix-mistake a:hover {
+  text-decoration: underline;
+}
+
+.desktop .footer-social-item:hover {
+  color: #5016a6;
+}
+
+.desktop .footer-menu a:hover {
+  color: #5016a6;
+}
+
+.desktop .thema__item:hover p {
+  color: #5016a6;
+}
+
+.desktop .header-lang a:hover {
+  text-decoration: none;
+  background-color: #5016a6;
+}
+
+.desktop .comments-btn span:hover {
+  background-color: #783ccf;
+}
+
+.desktop .footer-social-item--tw:hover:before {
+  background: url(img/icon-tw-hover.svg) 0 0 no-repeat;
 }

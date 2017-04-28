@@ -1,4 +1,6 @@
 $violet: #5016a6;
+$violethover: #783ccf;
+
 html {
 	height: 100vh;
 }
@@ -168,7 +170,7 @@ header {
 .header-social-item {
 	width: 28px;
 	height: 30px;
-	padding: 0 14px;
+	padding: 0 16px;
 	background: url(/img/header-line.svg) 100% 0 no-repeat;
 	position: relative;
 	&:last-child {
@@ -343,10 +345,9 @@ header {
 			z-index: 1;
 			width: 100%;
 		}
-		&.active,
-		&:hover {
+		&.active {
 			&:after {
-				background-color: #5016a5;
+				background-color: $violet;
 			}
 		}
 		>a {
@@ -354,6 +355,9 @@ header {
 			display: block;
 			padding: 30px 24px 33px 20px;
 			color: #000;
+			&:hover {
+				color: $violet;
+			}
 		}
 		&.sub-menu {
 			position: relative;
@@ -824,7 +828,7 @@ footer {
 		display: none;
 	}
 	@media (min-width: 1024px) {
-		border-top: 2px solid #5016a5;
+		border-top: 2px solid $violet;
 		padding: 50px 0 46px;
 		ul {
 			display: -webkit-flex;
@@ -908,7 +912,7 @@ footer {
 }
 .sidebar-item {
 	border: 1px solid #efefef;
-	border-top: 6px solid #5016a6;
+	border-top: 6px solid $violet;
 	margin-bottom: 40px;
 	padding: 20px 15px;
 	box-sizing: border-box;
@@ -974,7 +978,7 @@ footer {
 			}
 		}
 		a {
-			color: #5016a5;
+			color: $violet;
 		}
 	}
 	&--last {
@@ -1075,6 +1079,10 @@ footer {
 		position: absolute;
 		right: 0;
 		top: 0;
+		transition: background-color .2s linear;
+		&:hover {
+			background-color: $violethover;
+		}
 	}
 }
 .breadcrumbs {
@@ -1266,7 +1274,7 @@ footer {
 		content: '“';
 		position: absolute;
 		font-size: 90px;
-		color: #5016a5;
+		color: $violet;
 		line-height: 1;
 		top: 12px;
 		left: 20px;
@@ -1395,6 +1403,9 @@ footer {
 		@media (min-width: 768px) {
 			padding: 14px 44px;
 		}
+		&:focus {
+			outline: none;
+		}
 	}
 	.subscribe-to-comments {
 		input[type=checkbox] {
@@ -1412,7 +1423,7 @@ footer {
 				left: 0;
 				width: 23px;
 				height: 23px;
-				background: url(img/inp-checkbox.png) 0 0 no-repeat;				
+				background: url(img/inp-checkbox.png) 0 0 no-repeat;
 			}
 		}
 		input[type=checkbox]:checked + label {
@@ -1432,7 +1443,7 @@ footer {
 }
 .fix-mistake {
 	margin: 24px 0;
-	span {
+	a {
 		cursor: pointer;
 		color: $violet;
 		font-size: 14px;
@@ -1537,6 +1548,66 @@ footer {
 		opacity: .7;
 		&:focus {
 			outline: none;
+		}
+	}
+}
+
+.desktop {
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.thema__item,
+	.news__item,
+	.footer-social-item,
+	.footer-menu a,
+	.menu a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.sendbutton {
+		&:hover {
+			background-color: $violethover;
+		}
+	}
+	.fix-mistake a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.footer-social-item {
+		&:hover {
+			color: $violet;
+		}
+	}
+	.footer-menu a {
+		&:hover {
+			color: $violet;
+		}
+	}
+	.thema__item {
+		&:hover p {
+			color: $violet;
+		}
+	}
+	.header-lang a {
+		&:hover {
+			text-decoration: none;
+			background-color: $violet;
+		}
+	}
+	.comments-btn span {
+		&:hover {
+			background-color: $violethover;
+		}
+	}
+	.footer-social-item--tw {
+		&:hover {
+			&:before {
+				background: url(img/icon-tw-hover.svg) 0 0 no-repeat;
+			}
 		}
 	}
 }
