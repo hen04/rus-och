@@ -20,7 +20,8 @@
     <div class="main-content">
       <header>
         <div class="header-info">
-          <div class="header-info-social"><a href="" class="header-social-item header-social-item--fb"></a><a href="" class="header-social-item header-social-item--tw"></a><a href="" class="header-social-item header-social-item--vk"></a><a href="" class="header-social-item header-social-item--tg"></a><a href="" class="header-social-item header-social-item--yt"></a></div>
+          <div class="header-info-social header-info-social--desktop"><a href="" class="header-social-item header-social-item--fb"></a><a href="" class="header-social-item header-social-item--tw"></a><a href="" class="header-social-item header-social-item--vk"></a><a href="" class="header-social-item header-social-item--tg"></a><a href="" class="header-social-item header-social-item--yt"></a></div>
+          <div class="tablet-menu-btn js-menu">Меню</div>
           <div class="header-lang-search">
             <div class="header-lang"><a href="" class="header-lang-item active">Ру</a><a href="" class="header-lang-item">Fr</a></div><span class="js-search-btn"></span>
           </div>
@@ -36,11 +37,22 @@
         </div>
         <!-- .header-info-->
         <div class="menu">
+          <div class="menu-close">Закрыть</div>
           <ul class="menu-1level">
             <li class="active"><a href="index.html">Главная</a></li>
             <li><a href="news.html">Новости</a></li>
             <li><a href="">Наши встречи</a></li>
-            <li><a href="">Зарубежная Россия</a></li>
+            <li class="sub-menu"><a href="" class="active">Зарубежная Россия</a>
+              <ul class="menu-2level">
+                <li><a href="">Литература</a></li>
+                <li class="sub-menu"><a href="">Живопись</a>
+                  <ul class="menu-3level">
+                    <li><a href="">Маньеризм</a></li>
+                    <li><a href="">Ренессанс</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <li><a href="">Мнения</a></li>
             <li class="sub-menu"><a href="" class="active">Жизнь</a>
               <ul class="menu-2level">
@@ -57,8 +69,22 @@
             <li><a href="">Мультимедиа</a></li>
             <li><a href="">Спецпроекты</a></li>
           </ul>
+          <ul class="mobile-menu">
+            <li><a href="">Архив</a></li>
+            <li><a href="">Plan du site</a></li>
+            <li><a href="">Mention légal</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">RSS</a></li>
+            <li><a href="">Контакты</a></li>
+            <li><a href="">Партнеры</a></li>
+          </ul>
+          <div class="header-info-social header-info-social--mobile"><a href="" class="header-social-item header-social-item--fb"></a><a href="" class="header-social-item header-social-item--tw"></a><a href="" class="header-social-item header-social-item--vk"></a><a href="" class="header-social-item header-social-item--tg"></a><a href="" class="header-social-item header-social-item--yt"></a></div>
         </div>
         <!-- .menu-->
+        <div class="mobile-header-info">
+          <div class="mobile-menu-btn js-menu">Меню</div>
+          <div class="mobile-header-lang"><a href="" class="header-lang-item active">Ру</a><a href="" class="header-lang-item">Fr</a><span class="js-search-btn"></span></div>
+        </div>
       </header>
       <!-- header-->
       <main>
@@ -106,10 +132,12 @@
                 <!-- .sidebar-item-img-->
                 <div class="sidebar-item sidebar-item--weather">
                   <h6>Погода</h6>
+                  <div class="weather">Блок с погодой		</div>
                 </div>
                 <!-- .sidebar-item.sidebar-item--weather-->
                 <div class="sidebar-item sidebar-item--currency">
                   <h6>Курсы валют</h6>
+                  <div class="currency">Блок с валютой</div>
                 </div>
                 <!-- .sidebar-item.sidebar-item--currency-->
                 <div class="sidebar-item-img"><a href=""><img src="img/canal.jpg" alt=""></a></div>
@@ -146,7 +174,7 @@
                 <div class="news"><a href="news.html" class="news__item"><img src="img/news-sm-1.jpg" alt="">
                     <div class="news__info">
                       <h5>Русофония 2017: из диссидентства в современность</h5>
-                      <p>В субботу и воскресенье, 4-5 февраля, в мэрии пятого округа столицы Франции прошли ежегодные восьмые парижские Дни русской книги. </p><span class="date">15 февраля 2017</span>
+                      <p>В субботу и воскресенье, 4-5 февраля, в мэрии пятого округа столицы Франции прошли ежегодные восьмые парижские Дни русской книги. </p><span class="razdel">Общество </span><span class="date">15 февраля 2017</span>
                     </div></a><a href="" class="news__item"><img src="img/news-sm-2.jpg" alt="">
                     <div class="news__info">
                       <h5>Общество</h5>

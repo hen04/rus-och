@@ -23,7 +23,7 @@ $(function(){
 				}
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 800,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 2
@@ -38,6 +38,13 @@ $(function(){
 			}
 		]
 	});
+	
+	$('.sub-menu a.active').on('click', function(e) {
+		e.preventDefault();
+	});
+	$('.sub-menu').on('click', function() {
+		$(this).addClass('open');
+	})
 	
 	$('.js-comments-btn').on('click', function() {
 		$(this).hide();
@@ -54,8 +61,26 @@ $(function(){
 	$('.js-search-btn').on('click', function() {
 		$('.js-search').fadeIn();
 	});
+	
+	$('.menu-close').on('click', function() {
+		$('.menu').fadeOut();
+	});
+
+	$('.js-menu').on('click', function() {
+		$('.menu').fadeIn();
+	});
 
 });
+
+$(document).on('click', function(e) {
+	if (!$(e.target).closest(".js-search-btn").length) {
+		$('.js-search').fadeOut();
+	}
+	e.stopPropagation();
+});
+	
+
+
 
 VK.Widgets.Group("vk_groups", {mode: 3, width: "290"}, 60271187);
 

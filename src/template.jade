@@ -19,12 +19,13 @@ html(lang="ru")
 		.main-content
 			header
 				.header-info
-					.header-info-social
+					.header-info-social.header-info-social--desktop
 						a(href="").header-social-item.header-social-item--fb
 						a(href="").header-social-item.header-social-item--tw
 						a(href="").header-social-item.header-social-item--vk
 						a(href="").header-social-item.header-social-item--tg
 						a(href="").header-social-item.header-social-item--yt
+					.tablet-menu-btn.js-menu Меню
 					.header-lang-search
 						.header-lang
 							a(href="").header-lang-item.active Ру
@@ -41,6 +42,7 @@ html(lang="ru")
 						span.ru Французская газета на русском языке
 				// .header-info
 				.menu
+					.menu-close Закрыть
 					ul.menu-1level
 						li.active
 							a(href="index.html") Главная
@@ -48,8 +50,18 @@ html(lang="ru")
 							a(href="news.html") Новости
 						li
 							a(href="") Наши встречи
-						li
-							a(href="") Зарубежная Россия
+						li.sub-menu
+							a(href="").active Зарубежная Россия
+							ul.menu-2level
+								li
+									a(href="") Литература
+								li.sub-menu
+									a(href="") Живопись
+									ul.menu-3level
+										li
+											a(href="") Маньеризм
+										li
+											a(href="") Ренессанс
 						li
 							a(href="") Мнения
 						li.sub-menu
@@ -70,7 +82,34 @@ html(lang="ru")
 							a(href="") Мультимедиа
 						li
 							a(href="") Спецпроекты
+					ul.mobile-menu
+						li
+							a(href="") Архив
+						li
+							a(href="") Plan du site
+						li
+							a(href="") Mention légal
+						li
+							a(href="") О нас
+						li
+							a(href="") RSS
+						li
+							a(href="") Контакты
+						li
+							a(href="") Партнеры
+					.header-info-social.header-info-social--mobile
+						a(href="").header-social-item.header-social-item--fb
+						a(href="").header-social-item.header-social-item--tw
+						a(href="").header-social-item.header-social-item--vk
+						a(href="").header-social-item.header-social-item--tg
+						a(href="").header-social-item.header-social-item--yt
 				// .menu
+				.mobile-header-info
+					.mobile-menu-btn.js-menu Меню
+					.mobile-header-lang
+						a(href="").header-lang-item.active Ру
+						a(href="").header-lang-item Fr
+						span.js-search-btn
 			// header
 			main
 				block content
