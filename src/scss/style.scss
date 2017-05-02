@@ -196,7 +196,7 @@ header {
 	width: 28px;
 	height: 30px;
 	padding: 0 16px;
-	background: url(/img/header-line.svg) 100% 0 no-repeat;
+	background: url(img/header-line.svg) 100% 0 no-repeat;
 	position: relative;
 	&:last-child {
 		background: none; 
@@ -1152,7 +1152,7 @@ footer {
 	}
 	@media (min-width: 768px) {
 		height: 55px;
-		background: url(/img/footer-border.gif) 100% 0 no-repeat;
+		background: url(img/footer-border.gif) 100% 0 no-repeat;
 	}
 	&:before {
 		content: '';
@@ -1252,7 +1252,7 @@ footer {
 			height: 50px;
 			box-sizing: border-box;
 			padding-top: 16px;
-			background: url(/img/footer-border.gif) 100% 0 no-repeat;
+			background: url(img/footer-border.gif) 100% 0 no-repeat;
 			font-weight: 700;
 			font-size: 14px;
 			&:last-child {
@@ -1333,7 +1333,7 @@ footer {
 		margin-bottom: 40px;
 		border: 1px solid #efefef;
 		border-top: 6px solid $violet;
-		padding: 20px 15px;
+		padding: 15px 15px;
 	}
 	&:after {
 		bottom: -22px;
@@ -1341,7 +1341,7 @@ footer {
 	a {
 		border-bottom: 1px solid #efefef;
 		clear: both;
-		@media (max-width: 767px) {
+		/*@media (max-width: 767px) {
 			margin-bottom: 14px;
 			padding-bottom: 14px;
 		}
@@ -1353,13 +1353,13 @@ footer {
 			margin-bottom: 0;
 			padding-bottom: 0;
 			border: 0;
-		}
+		}*/
 	}
 	a, 
 	p {
 		color: #000;
 		display: block;
-		line-height: 1;
+		line-height: 1.1;
 		overflow: hidden;
 		@media (max-width: 767px) {
 			font-size: 16px;
@@ -1391,28 +1391,80 @@ footer {
 		}
 		@media (min-width: 768px) {
 			font-size: 16px;
-			margin-bottom: 23px;
+			margin-bottom: 17px;
 		}
 	}
 	&--info {
+		margin-bottom: 48px;
+		&:after {
+			bottom: -29px;
+		}
 		a {
+			@media (max-width: 767px) {
+				padding: 14px 0;
+			}
+			@media (min-width: 768px) {
+				padding: 5.5px 0;
+			}
 			img {
 				float: left;
 				vertical-align: top;
 				margin-right: 10px;
 			}
+			&:last-child {
+				border: 0;
+			}
 		}
 		> p {
 			text-align: center;
 			img {
-				margin-bottom: 16px;
+				margin-bottom: 13px;
 			}
 		}
 	}
+	&--short {
+		padding: 12px 15px 18px;
+		margin-bottom: 45px;
+		h6 {
+			margin-bottom: 20px;
+		}
+		a {
+			@media (max-width: 767px) {
+				padding: 14px 0;
+			}
+			@media (min-width: 768px) {
+				padding: 5.5px 0;
+			}
+			&:first-child {
+				background-color: #f00;
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		&:after {
+			bottom: -26px;
+		}
+	}
 	&--iar {
+		margin-bottom: 48px;
+		a {
+			@media (max-width: 767px) {
+				padding: 14px 0;
+			}
+			@media (min-width: 768px) {
+				padding: 5.5px 0;
+			}
+			&:last-child {
+				border: 0;
+			}
+		}
 		>p {
 			text-align: center;
 			margin-bottom: 20px;
+		}
+		&:after {
+			bottom: -28px;
 		}
 	}
 	&--rel {
@@ -1475,6 +1527,12 @@ footer {
 			font-style: italic;
 		}
 	}
+	&--rel {
+		a {
+			border: 0;
+			font-size: 14px;
+		}
+	}
 }
 .sidebar-item-img {
 	text-align: center;
@@ -1492,6 +1550,9 @@ footer {
 		&:before {
 			content: none;
 		}
+	}
+	&:after {
+		bottom: -4px;
 	}
 	img {
 		vertical-align: top;
@@ -1514,6 +1575,11 @@ footer {
 	max-width: 280px;
 }
 .sidebar-item--subscribe {
+	padding: 12px 15px 20px;
+	margin-bottom: 45px;
+	&:after {
+		bottom: -27px;
+	}
 	form {
 		position: relative;
 	}
@@ -1722,9 +1788,9 @@ footer {
 			right: 0;
 			height: 6px;
 			bottom: 0;
-			background: url(/img/border.gif) repeat-x;
+			background: url(img/border.gif) repeat-x;
 			@media (min-width: 768px) and (max-width: 1023px) {
-				background: url(/img/border-gray.gif) repeat-x;
+				background: url(img/border-gray.gif) repeat-x;
 			}
 		}
 	}
