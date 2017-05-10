@@ -1,0 +1,13 @@
+header,
+footer,
+.ro-content-right,
+.comments,
+.share, 
+.thema,
+.news-slider,
+.breadcrumbs {
+	display: none;
+}
+.ro-content-inner-left {
+	display: block;
+}

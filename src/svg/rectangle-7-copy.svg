@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291" height="123" viewBox="0 0 291 123">
-    <defs>
-        <path id="a" d="M1029 369h291v123h-291z"/>
-        <mask id="b" width="291" height="123" x="0" y="0" fill="#fff">
-            <use xlink:href="#a"/>
-        </mask>
-    </defs>
-    <use fill="#FFF" fill-rule="evenodd" stroke="#EEE9E1" stroke-width="2" mask="url(#b)" transform="translate(-1029 -369)" xlink:href="#a"/>
-</svg>
