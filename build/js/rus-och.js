@@ -39,13 +39,44 @@ $(function(){
 		]
 	});
 	
-	$('.sub-menu a.active').on('click', function(e) {
+	$.fn.showMenu2level = function() {
+		$('.menu-2level').hide();
+		$('.sub-menu').removeClass('open');
+		$(this).next('.menu-2level').addClass('display-flex');
+		$(this).parent().addClass('open');
+	}
+	$.fn.hideMenu2level = function() {
+		$(this).next('.menu-2level').hide();
+		$(this).parent().removeClass('open');
+	}
+	$('.js-sub-menu-2level a.active').on('click', function(e) {
 		e.preventDefault();
+		if ( $(this).parent().hasClass('open') ) {
+			$(this).hideMenu2level();
+		} else {
+			$(this).showMenu2level();
+		}
 	});
-	$('.sub-menu').on('click', function() {
-		$(this).addClass('open');
-	})
-	
+
+	$.fn.showMenu3level = function() {
+		$('.menu-3level').hide();
+		$('.sub-menu').removeClass('open-3level');
+		$(this).next('.menu-3level').addClass('display-flex');
+		$(this).parent().addClass('open-3level');
+	}
+	$.fn.hideMenu3level = function() {
+		$(this).next('.menu-3level').hide();
+		$(this).parent().removeClass('open-3level');
+	}
+	$('.js-sub-menu-3level a').on('click', function(e) {
+		e.preventDefault();
+		if ( $(this).parent().hasClass('open-3level') ) {
+			$(this).hideMenu3level();
+		} else {
+			$(this).showMenu3level();
+		}
+	});
+
 	$('.js-comments-btn').on('click', function() {
 		$(this).hide();
 		$('.js-comments').show();

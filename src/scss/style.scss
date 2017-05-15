@@ -24,7 +24,13 @@ body {
 	width: 100%;
 	box-sizing: border-box;
 }
-
+.display-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
 @media (min-width: 1200px) {
 	.main-content {
 		min-width: 1180px;
@@ -601,26 +607,6 @@ header {
 				border-right: 1px solid #fff;
 				border-left: 1px solid #fff;
 			}
-			&:hover {
-				border-right: 1px solid $violet;
-				border-left: 1px solid $violet;
-				&:before {
-					-webkit-transform: rotate(0deg);
-					transform: rotate(0deg);
-				}
-				&:after {
-					@media (min-width: 1200px) {
-						background-color: #fff;
-					}
-				}
-				.menu-2level {
-					display: -webkit-flex;
-					display: -moz-flex;
-					display: -ms-flex;
-					display: -o-flex;
-					display: flex;
-				}
-			}
 			&:before {
 				content: '';
 				position: absolute;
@@ -644,6 +630,24 @@ header {
 				height: 1px;
 				bottom: 4px;
 				background-color: transparent;
+			}
+		}
+		&.sub-menu.open {
+			border-right: 1px solid $violet;
+			border-left: 1px solid $violet;
+			&:before {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			&:after {
+				@media (min-width: 1200px) {
+					background-color: #fff;
+				}
+			}
+		}
+		&.open {
+			>a {
+				color: $violet;
 			}
 		}
 	}
@@ -675,11 +679,12 @@ header {
 				display: block;
 				font-size: 14px;
 				line-height: 1;
-				padding: 17px 30px;
 				@media (max-width: 1199px) {
+					padding: 17px 30px;
 					color: #fff;
 				}
 				@media (min-width: 1200px) {
+					padding: 17px 20px;
 					border-top: 1px solid #efefef;
 				}
 			}
@@ -702,18 +707,18 @@ header {
 						background: url(img/sub-menu.svg) 0 0 no-repeat;
 					}
 				}
-				&:hover {
-					&:before {
-						-webkit-transform: rotate(0deg);
-						transform: rotate(0deg);
-					}
-					.menu-3level {
-						display: -webkit-flex;
-						display: -moz-flex;
-						display: -ms-flex;
-						display: -o-flex;
-						display: flex;
-					}
+			}
+			&.sub-menu.open {
+				&:before {
+					-webkit-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+				.menu-3level {
+					display: -webkit-flex;
+					display: -moz-flex;
+					display: -ms-flex;
+					display: -o-flex;
+					display: flex;
 				}
 			}
 		}

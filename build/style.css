@@ -25,6 +25,14 @@ body {
   box-sizing: border-box;
 }
 
+.display-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
 @media (min-width: 1200px) {
   .main-content {
     min-width: 1180px;
@@ -771,30 +779,6 @@ header {
   }
 }
 
-.menu-1level > li.sub-menu:hover {
-  border-right: 1px solid #5016a6;
-  border-left: 1px solid #5016a6;
-}
-
-.menu-1level > li.sub-menu:hover:before {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-@media (min-width: 1200px) {
-  .menu-1level > li.sub-menu:hover:after {
-    background-color: #fff;
-  }
-}
-
-.menu-1level > li.sub-menu:hover .menu-2level {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-}
-
 .menu-1level > li.sub-menu:before {
   content: '';
   position: absolute;
@@ -822,6 +806,26 @@ header {
   height: 1px;
   bottom: 4px;
   background-color: transparent;
+}
+
+.menu-1level > li.sub-menu.open {
+  border-right: 1px solid #5016a6;
+  border-left: 1px solid #5016a6;
+}
+
+.menu-1level > li.sub-menu.open:before {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+@media (min-width: 1200px) {
+  .menu-1level > li.sub-menu.open:after {
+    background-color: #fff;
+  }
+}
+
+.menu-1level > li.open > a {
+  color: #5016a6;
 }
 
 .menu-1level .menu-2level {
@@ -862,17 +866,18 @@ header {
   display: block;
   font-size: 14px;
   line-height: 1;
-  padding: 17px 30px;
 }
 
 @media (max-width: 1199px) {
   .menu-1level .menu-2level > li > a {
+    padding: 17px 30px;
     color: #fff;
   }
 }
 
 @media (min-width: 1200px) {
   .menu-1level .menu-2level > li > a {
+    padding: 17px 20px;
     border-top: 1px solid #efefef;
   }
 }
@@ -903,12 +908,12 @@ header {
   }
 }
 
-.menu-1level .menu-2level > li.sub-menu:hover:before {
+.menu-1level .menu-2level > li.sub-menu.open:before {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
-.menu-1level .menu-2level > li.sub-menu:hover .menu-3level {
+.menu-1level .menu-2level > li.sub-menu.open .menu-3level {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
