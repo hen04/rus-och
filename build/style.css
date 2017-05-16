@@ -26,11 +26,11 @@ body {
 }
 
 .display-flex {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
+  display: -webkit-flex !important;
+  display: -moz-flex !important;
+  display: -ms-flex !important;
+  display: -o-flex !important;
+  display: flex !important;
 }
 
 @media (min-width: 1200px) {
@@ -908,12 +908,12 @@ header {
   }
 }
 
-.menu-1level .menu-2level > li.sub-menu.open:before {
+.menu-1level .menu-2level > li.sub-menu.open:before, .menu-1level .menu-2level > li.sub-menu.open-3level:before {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
-.menu-1level .menu-2level > li.sub-menu.open .menu-3level {
+.menu-1level .menu-2level > li.sub-menu.open .menu-3level, .menu-1level .menu-2level > li.sub-menu.open-3level .menu-3level {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;

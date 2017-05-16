@@ -25,11 +25,11 @@ body {
 	box-sizing: border-box;
 }
 .display-flex {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -ms-flex !important;
+	display: -o-flex !important;
+	display: flex !important;
 }
 @media (min-width: 1200px) {
 	.main-content {
@@ -708,7 +708,8 @@ header {
 					}
 				}
 			}
-			&.sub-menu.open {
+			&.sub-menu.open,
+			&.sub-menu.open-3level {
 				&:before {
 					-webkit-transform: rotate(0deg);
 					transform: rotate(0deg);

@@ -40,13 +40,13 @@ $(function(){
 	});
 	
 	$.fn.showMenu2level = function() {
-		$('.menu-2level').hide();
+		$('.menu-2level').removeClass('display-flex');
 		$('.sub-menu').removeClass('open');
 		$(this).next('.menu-2level').addClass('display-flex');
 		$(this).parent().addClass('open');
 	}
 	$.fn.hideMenu2level = function() {
-		$(this).next('.menu-2level').hide();
+		$(this).next('.menu-2level').removeClass('display-flex');
 		$(this).parent().removeClass('open');
 	}
 	$('.js-sub-menu-2level a.active').on('click', function(e) {
@@ -58,14 +58,22 @@ $(function(){
 		}
 	});
 
+	$(document).mouseup(function (e) {
+		var menu = $('.sub-menu.open');
+		if ( !menu.is(e.target) && menu.has(e.target).length === 0 ) {
+			menu.find('.menu-2level').removeClass('display-flex');
+			menu.removeClass('open');
+		}
+	});
+
 	$.fn.showMenu3level = function() {
-		$('.menu-3level').hide();
+		$('.menu-3level').removeClass('display-flex');
 		$('.sub-menu').removeClass('open-3level');
 		$(this).next('.menu-3level').addClass('display-flex');
 		$(this).parent().addClass('open-3level');
 	}
 	$.fn.hideMenu3level = function() {
-		$(this).next('.menu-3level').hide();
+		$(this).next('.menu-3level').removeClass('display-flex');
 		$(this).parent().removeClass('open-3level');
 	}
 	$('.js-sub-menu-3level a').on('click', function(e) {
