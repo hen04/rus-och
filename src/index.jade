@@ -13,7 +13,7 @@ block content
 				// .ro-content-right
 				.ro-content-left
 					.news
-						a(href="news.html").news__item
+						a(href="news.html").news__item.news__item--main
 							img(src="img/news-sm-1.jpg", alt="")
 							.news__info
 								h5 Русофония 2017: из диссидентства в современность
@@ -47,7 +47,7 @@ block content
 					// .news
 					h2 Мнение
 					.news
-						a(href="").news__item
+						a(href="").news__item.news__item.news__item--main
 							img(src="img/news-sm-6.jpg", alt="")
 							.news__info
 								h5 Как профессия французского полицейского перестала быть «благородной»
@@ -80,7 +80,7 @@ block content
 					// .news
 					h2 Культура
 					.news
-						a(href="").news__item
+						a(href="").news__item.news__item--main
 							img(src="img/news-sm-7.jpg", alt="")
 							.news__info
 								h5 Русский обозреватель вручил премию Изабель Юппер
@@ -137,7 +137,7 @@ block content
 					// .news
 					h2 Зарубежная Россия
 					.news
-						a(href="").news__item
+						a(href="").news__item.news__item--main
 							img(src="img/news-sm-8.jpg", alt="")
 							.news__info
 								h5 Из Астрахани в Париж едут казаки
@@ -170,7 +170,7 @@ block content
 					// .news
 					h2 Жизнь
 					.news
-						a(href="").news__item
+						a(href="").news__item.news__item--main
 							img(src="img/news-sm-9.jpg", alt="")
 							.news__info
 								h5 Долой зависимость от телефона
@@ -203,7 +203,7 @@ block content
 					// .news
 					h2 Мультимедиа
 					.news
-						a(href="").news__item
+						a(href="").news__item.news__item--main
 							img(src="img/news-sm-10.jpg", alt="")
 							.news__info
 								h5 Интерактивные лекции
@@ -232,8 +232,24 @@ block content
 							.news__info
 								h5 Фоторепортаж
 								p Из Астрахани в Париж едут казаки
-								span.date 18 февраля 2017						
+								span.date 18 февраля 2017
 					// .news
+					.wp-pagenavi
+						span.pages Страница 1 из 35
+						a.first(href="http://new2.rusoch.fr/cult/") « Первая
+						a.previouspostslink(rel="prev" href="http://new2.rusoch.fr/cult/page/4") «
+						a.page.larger(href="http://new2.rusoch.fr/cult/page/1") 1
+						a.page.larger(href="http://new2.rusoch.fr/cult/page/2") 2
+						span.current 3
+						a.page.larger(href="http://new2.rusoch.fr/cult/page/4") 4
+						a.page.larger(href="http://new2.rusoch.fr/cult/page/5") 5
+						span.extend ...
+						a.larger.page(href="http://new2.rusoch.fr/cult/page/10") 10
+						a.larger.page(href="http://new2.rusoch.fr/cult/page/20") 20
+						span.extend ...
+						a.larger.page(href="http://new2.rusoch.fr/cult/page/30") 30
+						a.nextpostslink(rel="next" href="http://new2.rusoch.fr/cult/page/2") »
+						a.last(href="http://new2.rusoch.fr/cult/page/35") Последняя »
 				// .ro-content-left
 			// .ro-content-mobile
 		// .ro-content

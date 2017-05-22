@@ -1298,7 +1298,7 @@ header {
   }
 }
 
-.news__item:first-child {
+.news__item--main {
   width: 100%;
   max-width: none;
   position: relative;
@@ -1308,19 +1308,19 @@ header {
 }
 
 @media (max-width: 1199px) {
-  .news__item:first-child img {
+  .news__item--main img {
     display: block;
   }
 }
 
-.news__item:first-child .news__info {
+.news__item--main .news__info {
   box-sizing: border-box;
   box-shadow: none;
   width: 100%;
 }
 
 @media (min-width: 1024px) {
-  .news__item:first-child .news__info {
+  .news__item--main .news__info {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 10px 23px;
@@ -1331,7 +1331,7 @@ header {
 }
 
 @media (max-width: 1023px) {
-  .news__item:first-child .razdel {
+  .news__item--main .razdel {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -1349,12 +1349,12 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .news__item:first-child .razdel {
+  .news__item--main .razdel {
     display: none;
   }
 }
 
-.news__item:first-child h5 {
+.news__item--main h5 {
   text-transform: none;
   font-family: Lora, serif;
   margin: 0 0 12px;
@@ -1363,7 +1363,7 @@ header {
 }
 
 @media (max-width: 1023px) {
-  .news__item:first-child h5 {
+  .news__item--main h5 {
     line-height: 1.25;
     margin-bottom: 15px;
     width: 100%;
@@ -1371,7 +1371,7 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .news__item:first-child h5 {
+  .news__item--main h5 {
     line-height: 1;
     color: #fff;
     font-size: 28px;
@@ -1379,13 +1379,13 @@ header {
 }
 
 @media (max-width: 1023px) {
-  .news__item:first-child p {
+  .news__item--main p {
     display: none;
   }
 }
 
 @media (min-width: 1024px) {
-  .news__item:first-child p {
+  .news__item--main p {
     font-size: 16px;
     line-height: 1.25;
     height: auto;
@@ -1396,12 +1396,12 @@ header {
   }
 }
 
-.news__item:first-child .date {
+.news__item--main .date {
   font-size: 12px;
 }
 
 @media (min-width: 1024px) {
-  .news__item:first-child .date {
+  .news__item--main .date {
     color: #fff;
   }
 }

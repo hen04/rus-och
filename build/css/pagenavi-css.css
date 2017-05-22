@@ -1,0 +1,94 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+	clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	border: 1px solid #BFBFBF;
+	padding: 3px 5px;
+	margin: 2px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #000;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #efefef;
+  position: relative;
+}
+
+.wp-pagenavi a {
+  color: #000;
+}
+
+.wp-pagenavi a:hover {
+  text-decoration: none;
+  border: 1px solid #5016a6;
+  color: #5016a6;
+}
+
+.wp-pagenavi span.current {
+  background-color: #5016a6;
+  color: #fff;
+  border: 1px solid #5016a6;
+  font-weight: 400;
+}
+
+.wp-pagenavi .pages {
+  color: #94a5aa;
+  width: auto;
+  padding: 0 10px;
+}
+
+.wp-pagenavi .nextpostslink:before,
+.wp-pagenavi .previouspostslink:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  background: url("../img/pagenav-arrow.svg") 50% 50% no-repeat;
+}
+
+.wp-pagenavi .nextpostslink:hover:before,
+.wp-pagenavi .previouspostslink:hover:before {
+  background-image: url("../img/pagenav-arrow-hover.svg");
+}
+
+.wp-pagenavi .previouspostslink:before {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.wp-pagenavi .nextpostslink,
+.wp-pagenavi .previouspostslink {
+  font-size: 0;
+}
+
+.wp-pagenavi .first,
+.wp-pagenavi .last {
+  display: none;
+}
+
+.wp-pagenavi .extend {
+  padding: 0;
+  border: 0;
+  width: auto;
+}
