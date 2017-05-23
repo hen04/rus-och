@@ -6,8 +6,13 @@ http://wordpress.org/extend/plugins/wp-pagenavi/
 
 .wp-pagenavi {
 	clear: both;
+  text-align: center;
 }
-
+@media (max-width: 768px) {
+  .wp-pagenavi {
+    margin-bottom: 30px;
+  }
+}
 .wp-pagenavi a, .wp-pagenavi span {
 	text-decoration: none;
 	border: 1px solid #BFBFBF;
@@ -23,7 +28,8 @@ http://wordpress.org/extend/plugins/wp-pagenavi/
 	font-weight: bold;
 }
 .wp-pagenavi a, .wp-pagenavi span {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 40px;
   height: 40px;
   padding: 0;
@@ -91,4 +97,17 @@ http://wordpress.org/extend/plugins/wp-pagenavi/
   padding: 0;
   border: 0;
   width: auto;
+}
+
+@media (max-width: 480px) {
+  .wp-pagenavi .pages {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wp-pagenavi .page,
+  .wp-pagenavi .extend {
+    display: none;
+  }
 }
